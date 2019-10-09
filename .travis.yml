@@ -6,7 +6,7 @@ jobs:
     - stage: yamllint
       name: "Running YAMLlint"
       install: pip install yamllint
-      script: yamlint .
+      script: yamllint .
     - stage: Home Assistant Stable
       before_install:
         - mv ./.stubs/secrets.yaml ./config/secrets.yaml
