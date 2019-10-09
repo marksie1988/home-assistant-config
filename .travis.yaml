@@ -2,7 +2,7 @@ language: python
 python:
   - "3.6"
 before_install:
-  - mv ./.stubs/* ./config/
+  - mv ./.stubs/secrets.yaml ./config/secrets.yaml
   - touch ./config/home-assistant_v2.db
   - touch ./config/home-assistant.log
   - touch ./config/OZW_Log.txt
