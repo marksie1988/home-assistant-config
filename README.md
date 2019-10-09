@@ -71,7 +71,7 @@ Coming Soon...
 [watchers-shield]: https://img.shields.io/github/watchers/marksie1988/home-assistant-config.svg?style=social&label=Watchers
 
 [discord-shield]: https://img.shields.io/discord/330944238910963714.svg
-[discord]: https://discord.gg/c5DvZ4e
+[discord]: https://discord.gg/8JYbyCQ
 
 [buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
 [buymeacoffee]: https://www.buymeacoffee.com/marksie1988
