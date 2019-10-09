@@ -1,0 +1,9 @@
+language: python
+python:
+  - "3.6"
+before_install:
+  - mv .stubs/secrets.yaml config/secrets.yaml
+install:
+  - pip3 install homeassistant
+script:
+  - hass -c . --script check_config
