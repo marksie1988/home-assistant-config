@@ -4,7 +4,6 @@ pipeline {
     stage('Remark') {
       agent {
         docker {
-          args 'remark --no-stdout --color --frail --use preset-lint-recommended .'
           image 'zemanlx/remark-lint'
         }
 
