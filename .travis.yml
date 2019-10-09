@@ -5,10 +5,18 @@ python:
 jobs:
   include:
     - stage: yamllint
-      name: "Running YAMLlint"
+      name: "Checking YAML is Valid"
       install: pip install yamllint
       script: yamllint .
-    - stage: Home Assistant Stable
+    - stage: remark-lint
+      name: "Check Markdown"
+      services: docker
+      before_install:
+        - docker pull pipelinecomponents/remark-lint:latest
+      script:
+        - remark --no-stdout --color --frail --use preset-lint-recommended .
+    - stage: home-assistant-stable
+      name: "Check against Home Assistant Stable"
       before_install:
         - mv ./.stubs/secrets.yaml ./config/secrets.yaml
         - touch ./config/home-assistant_v2.db
