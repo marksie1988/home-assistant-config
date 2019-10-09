@@ -5,7 +5,7 @@ pipeline {
       agent {
         docker {
           args 'remark --no-stdout --color --frail --use preset-lint-recommended .'
-          image 'pipelinecomponents/remark-lint:latest'
+          image 'zemanlx/remark-lint'
         }
 
       }
