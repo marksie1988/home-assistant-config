@@ -60,7 +60,7 @@ Coming Soon...
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2019.svg
 [license-shield]: https://img.shields.io/github/license/frenck/home-assistant-config.svg
 
-[travis-shield]: https://travis-ci.org/marksie1988/home-assistant-config.svg?branch=master
+[travisci-shield]: https://travis-ci.org/marksie1988/home-assistant-config.svg?branch=master
 [travisci]: https://travis-ci.org/marksie1988/home-assistant-config
 [commits-shield]: https://img.shields.io/github/commit-activity/y/marksie1988/home-assistant-config.svg
 [last-commit-shield]: https://img.shields.io/github/last-commit/marksie1988/home-assistant-config.svg
