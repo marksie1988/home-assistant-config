@@ -1,18 +1,7 @@
 pipeline {
   agent none
   stages {
-    stage('Remark') {
-      agent {
-        docker {
-          image 'zemanlx/remark-lint'
-        }
-
-      }
-      steps {
-        sh 'remark --no-stdout --color --frail --use preset-lint-recommended .'
-      }
-    }
-    stage('YAML Check') {
+    stage('YAML') {
       agent {
         docker {
           image 'pipelinecomponents/yamllint:latest'
@@ -21,6 +10,17 @@ pipeline {
       }
       steps {
         sh 'yamllint .'
+      }
+    }
+    stage('Remark') {
+      agent {
+        docker {
+          image 'pipelinecomponents/remark-lint'
+        }
+
+      }
+      steps {
+        sh 'remark --no-stdout --color --frail --use preset-lint-recommended .'
       }
     }
   }
