@@ -2,10 +2,10 @@ language: python
 python:
   - "3.6"
 before_install:
-  - cmv ./.stubs/* ./config
-  - touch ./home-assistant_v2.db
-  - touch ./home-assistant.log
-  - touch ./OZW_Log.txt
+  - mv ./.stubs/* ./config/
+  - touch ./config/home-assistant_v2.db
+  - touch ./config/home-assistant.log
+  - touch ./config/OZW_Log.txt
 install:
   - pip3 install homeassistant
   - hass --version
