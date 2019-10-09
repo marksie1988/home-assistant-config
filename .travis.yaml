@@ -8,6 +8,4 @@ before_install:
   - touch ./config/OZW_Log.txt
 install:
   - pip3 install homeassistant
-script:
-  - hass --version
-  - hass --config ./config/ --script check_config --info all
+script: make test
