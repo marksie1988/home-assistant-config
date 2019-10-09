@@ -2,7 +2,7 @@
 ![Project Maintenance][maintenance-shield]
 [![License][license-shield]](LICENSE.md)
 
-[![Travis CI][gitlabci-shield]][gitlabci]
+[![Travis CI][travisci-shield]][travisci]
 [![GitHub Activity][commits-shield]][commits]
 [![GitHub Last Commit][last-commit-shield]][commits]
 
@@ -51,7 +51,7 @@ Each change that is committed will be tested by Travis-CI to check that the buil
 ## Add-on's
 * [A Better Presence](https://github.com/helto4real/hassio-add-ons/tree/master/presence) for better presence detection
 * [Mosquitto Broker](https://www.home-assistant.io/addons/mosquitto/) for Shelly MQTT
-* [AppDaemon](https://github.com/hassio-addons/addon-appdaemon3) for HADashboard 
+* [AppDaemon](https://github.com/hassio-addons/addon-appdaemon3) for HADashboard
 
 ## Screenshots
 Coming Soon...
