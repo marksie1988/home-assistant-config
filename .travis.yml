@@ -1,13 +1,19 @@
 language: python
 python:
   - "3.6"
-before_install:
-  - mv ./.stubs/secrets.yaml ./config/secrets.yaml
-  - touch ./config/home-assistant_v2.db
-  - touch ./config/home-assistant.log
-  - touch ./config/OZW_Log.txt
-install:
-  - pip3 install homeassistant
-script:
-  - hass --version
-  - hass --config ./config/ --script check_config --info all
+jobs:
+  include:
+    - stage: yamllint
+      name: "Running YAMLlint"
+      install: pip install yamllint
+      script: yamlint .
+    - stage: Home Assistant Stable
+      before_install:
+        - mv ./.stubs/secrets.yaml ./config/secrets.yaml
+        - touch ./config/home-assistant_v2.db
+        - touch ./config/home-assistant.log
+        - touch ./config/OZW_Log.txt
+      install: pip3 install homeassistant
+      script:
+        - hass --version
+        - hass --config ./config/ --script check_config --info all
