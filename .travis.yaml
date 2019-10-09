@@ -9,5 +9,4 @@ before_install:
 install:
   - pip3 install homeassistant
   - hass --version
-script:
-  - hass --config ./config/ --script check_config --info all
+script: hass --config ./config/ --script check_config --info all
