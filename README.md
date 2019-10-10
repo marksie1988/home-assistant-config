@@ -2,7 +2,7 @@
 ![Project Maintenance][maintenance-shield]
 [![License][license-shield]](LICENSE.md)
 
-[![Travis CI][travisci-shield]][travisci]
+[![Build Status][jenkins-shield][jenkins]
 [![GitHub Activity][commits-shield]][commits]
 [![GitHub Last Commit][last-commit-shield]][commits]
 
@@ -61,8 +61,8 @@ Coming Soon...
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2019.svg
 [license-shield]: https://img.shields.io/github/license/frenck/home-assistant-config.svg
 
-[travisci-shield]: https://travis-ci.org/marksie1988/home-assistant-config.svg?branch=master
-[travisci]: https://travis-ci.org/marksie1988/home-assistant-config
+[jenkins-shield]: https://jenkins.marksiesplace.co.uk/buildStatus/icon?job=home-assistant-config%2Fmaster
+[jenkins]: https://jenkins.marksiesplace.co.uk/job/home-assistant-config/job/master/
 [commits-shield]: https://img.shields.io/github/commit-activity/y/marksie1988/home-assistant-config.svg
 [last-commit-shield]: https://img.shields.io/github/last-commit/marksie1988/home-assistant-config.svg
 [commits]: https://github.com/marksie1988/home-assistant-config/commits/master
