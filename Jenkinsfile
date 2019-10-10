@@ -23,7 +23,7 @@ pipeline {
         sh 'remark --no-stdout --color --frail --use preset-lint-recommended .'
       }
     }
-    stage('home_assistant_stable') {
+    stage('Home Assistant Check') {
       parallel {
         stage('home_assistant_stable') {
           agent {
