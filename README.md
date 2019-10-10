@@ -17,26 +17,32 @@
 
 ## About
 
-This repository stores all of my personal Home Assistant configuration, running all my home automations.
+This repository stores my personal Home Assistant configuration.
 
 I started using Home Assistant in 2018 but my config was a real mess!
-This new repository is a fresh slate, I will rebuild all of my configuration and add new features.
+This new repository is a fresh slate, I will rebuild all of my configuration
+and add new features.
 
-Follow me on this journey and be sure to hit the star above to be notified of changes.
+Follow me on this journey and be sure to hit the :star:
 
 ## Host
 
 ### VMware ESXi
 
-I currently run a Dell R620 with ESXi installed, im looking at moving to ProxMox in the future.
+I currently run a Dell R620 with ESXi installed,
+I'm looking at moving to ProxMox in the future.
 
 ### docker
 
-I am running HA as a Docker Container using the advanced Hassio install with CentOS as the host OS. Docker makes it easy to upgrade to the latest HA release, while not having to worry about dependencies and python verions.
+I am running HA as a Docker Container using the advanced Hassio
+install with CentOS as the host OS.
+Docker makes it easy to upgrade to the latest HA release,
+while not having to worry about dependencies and python verions.
 
 ## Hardware
 
-Currently I only have a small amount of devices, however do plan to expand this during this re-write.
+Currently I only have a small amount of devices,
+however do plan to expand this during this re-write.
 
 ### Smart Devices
 
@@ -47,7 +53,10 @@ Currently I only have a small amount of devices, however do plan to expand this 
 
 ### ZigBee
 
-I am currently in the process of getting the Conbee II and will be expanding more once this arrives. I plan on using this with DeCONZ
+I am currently in the process of getting the Conbee II
+and will be expanding more once this arrives.
+
+I plan on using this with DeCONZ
 
 ### Network
 
@@ -55,10 +64,6 @@ I am currently in the process of getting the Conbee II and will be expanding mor
 * [Ubiquiti UAP-AC-PRO](https://www.ui.com/unifi/unifi-ap-ac-pro/)
 * [Ubiquiti US-16-150W](https://www.ui.com/unifi-switching/unifi-switch-16-150w/)
 * [Juniper EX2200](https://www.juniper.net/documentation/en_US/release-independent/junos/topics/topic-map/ex2200-system-overview.html)
-
-## Configuration Testing
-
-Each change that is committed will be tested by Travis-CI to check that the build is successful.
 
 ## Add-on's
 
