@@ -29,6 +29,7 @@ pipeline {
           agent {
             docker {
               image 'homeassistant/home-assistant:stable'
+              args 'python -m homeassistant --version'
             }
 
           }
