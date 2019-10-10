@@ -3,7 +3,7 @@
 ![Project Maintenance][maintenance-shield]
 [![License][license-shield]](LICENSE.md)
 
-[![Build Status][jenkins-shield]][jenkins]
+[![Build Status][gitlab-shield]][gitlab]
 [![GitHub Activity][commits-shield]][commits]
 [![GitHub Last Commit][last-commit-shield]][commits]
 
@@ -49,7 +49,8 @@ however do plan to expand this during this re-write.
 * [Ikea TRÅDFRI](https://www.ikea.com/us/en/catalog/categories/departments/lighting/36812/)
 * [Shelly1](https://shelly.cloud/shelly1-open-source/)
 * [Shelly2.5](https://shelly.cloud/shelly-25-wifi-smart-relay-roller-shutter-home-automation/)
-* [Nest Thermostat](https://store.google.com/gb/product/nest_learning_thermostat_3rd_gen) I do not recommend this thermostat but its all I have (soon the API will be shutdown)
+* [Nest Thermostat](https://store.google.com/gb/product/nest_learning_thermostat_3rd_gen)
+  * I do not recommend this thermostat but its all I have (soon the API will be shutdown)
 
 ### ZigBee
 
@@ -67,9 +68,12 @@ I plan on using this with DeCONZ
 
 ## Add-on's
 
-* [A Better Presence](https://github.com/helto4real/hassio-add-ons/tree/master/presence) for better presence detection
-* [Mosquitto Broker](https://www.home-assistant.io/addons/mosquitto/) for Shelly MQTT
-* [AppDaemon](https://github.com/hassio-addons/addon-appdaemon3) for HADashboard
+* [A Better Presence](https://github.com/helto4real/hassio-add-ons/tree/master/presence)
+  * for better presence detection
+* [Mosquitto Broker](https://www.home-assistant.io/addons/mosquitto/)
+  * for Shelly MQTT
+* [AppDaemon](https://github.com/hassio-addons/addon-appdaemon3)
+  * for HADashboard
 
 ## Screenshots
 
@@ -78,8 +82,8 @@ Coming Soon...
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2019.svg
 [license-shield]: https://img.shields.io/github/license/frenck/home-assistant-config.svg
 
-[jenkins-shield]: https://jenkins.marksiesplace.co.uk/buildStatus/icon?job=home-assistant-config%2Fmaster
-[jenkins]: https://jenkins.marksiesplace.co.uk/job/home-assistant-config/job/master/
+[gitlab-shield]: https://gitlab.com/marksie1988/home-assistant-config/badges/master/pipeline.svg
+[gitlab]: https://gitlab.com/marksie1988/home-assistant-config/pipelines
 [commits-shield]: https://img.shields.io/github/commit-activity/y/marksie1988/home-assistant-config.svg
 [last-commit-shield]: https://img.shields.io/github/last-commit/marksie1988/home-assistant-config.svg
 [commits]: https://github.com/marksie1988/home-assistant-config/commits/master
