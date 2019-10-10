@@ -29,12 +29,12 @@ pipeline {
           agent {
             docker {
               image 'homeassistant/home-assistant:stable'
-              args 'python -m homeassistant --version'
             }
 
           }
           steps {
             sh 'cp -R ./.stubs/* ./config'
+            sh 'python -m homeassistant --version'
             sh 'python -m homeassistant --config ./config/ --script check_config --info all'
           }
         }
