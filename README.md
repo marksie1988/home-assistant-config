@@ -75,7 +75,7 @@ I plan on using this with DeCONZ
 * [AppDaemon](https://github.com/hassio-addons/addon-appdaemon3)
   * for HADashboard
 
-## Screenshots
+## Screenshot
 
 Coming Soon...
 
