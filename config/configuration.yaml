@@ -7,7 +7,7 @@
 # My system is very modular and very differently structured
 # compared to other configurations you'll find online.
 #
-# Basically, each file in the repository does 1 
+# Basically, each file in the repository does 1
 # thing only! Click through it, you'll get it pretty fast.
 #
 # The configuration.yaml is only used to bootstrap the system.
