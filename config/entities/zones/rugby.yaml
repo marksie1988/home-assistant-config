@@ -1,0 +1,12 @@
+---
+#
+# Defines the Home Zone
+#
+# https://www.home-assistant.io/components/zone/
+#
+name: rugby
+latitude: !secret zone_rugby_latitude
+longitude: !secret zone_rugby_latitude
+radius: !secret zone_rugby_radius
+passive: false
+icon: mdi:rugby-ball

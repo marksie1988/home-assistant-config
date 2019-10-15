@@ -1,0 +1,12 @@
+---
+#
+# Defines the Home Zone
+#
+# https://www.home-assistant.io/components/zone/
+#
+name: swimming
+latitude: !secret zone_swimming_latitude
+longitude: !secret zone_swimming_latitude
+radius: !secret zone_swimming_radius
+passive: false
+icon: mdi:swimming-pool
