@@ -1,0 +1,12 @@
+---
+#
+# Defines the Home Zone
+#
+# https://www.home-assistant.io/components/zone/
+#
+name: parents
+latitude: !secret zone_parents_latitude
+longitude: !secret zone_parents_latitude
+radius: !secret zone_parents_radius
+passive: false
+icon: mdi:person-heart

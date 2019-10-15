@@ -1,15 +1,17 @@
 ---
-# Configure a default setup of Home Assistant (frontend, api, etc)
-default_config:
-
-# Uncomment this if you are using SSL/TLS, running in Docker container, etc.
-# http:
-#   base_url: example.duckdns.org:8123
-
-# Text to speech
-tts:
-  - platform: google_translate
-
-group: !include groups.yaml
-automation: !include automations.yaml
-script: !include scripts.yaml
+# Welcome to my Home Assistant configuration!
+#
+# Don't be scared by the size of my configuration file...
+# It is probably the smallest you've ever seen.
+#
+# My system is very modular and very differently structured
+# compared to other configurations you'll find online.
+#
+# Basically, each file in the repository does 1 
+# thing only! Click through it, you'll get it pretty fast.
+#
+# The configuration.yaml is only used to bootstrap the system.
+#
+homeassistant:
+  # Load packages
+  packages: !include_dir_named integrations

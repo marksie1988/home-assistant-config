@@ -1,0 +1,12 @@
+---
+#
+# Defines the Home Zone
+#
+# https://www.home-assistant.io/components/zone/
+#
+name: school
+latitude: !secret zone_school_latitude
+longitude: !secret zone_school_latitude
+radius: !secret zone_school_radius
+passive: false
+icon: mdi:college-outline
