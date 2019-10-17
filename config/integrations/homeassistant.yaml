@@ -16,8 +16,8 @@ homeassistant:
   customize_glob: !include_dir_merge_named ../customizations/globs
 
   auth_providers:
-      # List of trusted networks, consisting of IP addresses or networks,
-      # that are allowed to bypass password protection when accessing
-      # Home Assistant.
+    # List of trusted networks, consisting of IP addresses or networks,
+    # that are allowed to bypass password protection when accessing
+    # Home Assistant.
     - type: trusted_networks
       trusted_networks: !secret http_trusted_networks
