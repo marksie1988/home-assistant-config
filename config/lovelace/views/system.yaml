@@ -39,7 +39,7 @@ cards:
                     show_state: false
                     columns: 2
                     entities:
-                      - entity: sensor.system_cctv_driveway
+                      - sensor.system_cctv_driveway
                     style:
                       left: 50%
                       top: 50%
@@ -121,14 +121,14 @@ cards:
                       --paper-item-icon-color: white
                       border-radius: 5px
                       color: rgb(0, 0, 0)
-            - type: custom:mini-graph-card
-              name: Speed test
-              show:
-                icon: false
-                extrema: true
-                fill: false
-              entities:
-                - sensor.speedtest_download
-                - sensor.speedtest_ping
-                - sensor.speedtest_upload
-              line_color: "#389638"
+              - type: custom:mini-graph-card
+                name: Speed test
+                show:
+                  icon: false
+                  extrema: true
+                  fill: false
+                entities:
+                  - sensor.speedtest_download
+                  - sensor.speedtest_ping
+                  - sensor.speedtest_upload
+                line_color: "#389638"
