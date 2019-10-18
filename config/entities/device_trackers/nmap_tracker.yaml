@@ -5,9 +5,9 @@
 # https://www.home-assistant.io/integrations/nmap_tracker/
 #
 platform: nmap_tracker
-track_new_devices: True
+track_new_devices: true
 interval_seconds: 60
 consider_home: 360
 home_interval: 10
 hosts:
- - !secret subnet_home
+  - !secret subnet_home
