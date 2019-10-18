@@ -1,3 +1,4 @@
+---
 title: Info
 icon: mdi:lan
 path: info
@@ -102,7 +103,7 @@ cards:
                     entities:
                       - entity: sensor.system_unifi_usg
                         name: UniFi USG
-                        - entity: sensor.speedtest_ping
+                      - entity: sensor.speedtest_ping
                         name: Ping
                         icon:
                       - entity: sensor.speedtest_download
@@ -113,7 +114,7 @@ cards:
                         icon: mdi:cloud-upload
 
                       - sensor.system_swi_juniper_loft
-                  style:
+                   style:
                     left: 50%
                     top: 50%
                     width: 100%
