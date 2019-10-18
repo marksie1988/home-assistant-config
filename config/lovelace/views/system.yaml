@@ -93,26 +93,26 @@ cards:
           - break
           - type: vertical-stack
             cards:
-            - type: picture-elements
-              image: /local/lovelace/network_background.jpg
-              elements:
-                - type: custom:hui-glance-card
-                  show_state: false
-                  columns: 4
-                  entities:
-                    - entity: sensor.system_unifi_usg
-                      name: UniFi USG
-                    - entity: sensor.speedtest_ping
-                      name: Ping
-                      icon:
-                    - entity: sensor.speedtest_download
-                      name: Download
-                      icon: mdi:cloud-download
-                    - entity: sensor.speedtest_upload
-                      name: Upload
-                      icon: mdi:cloud-upload
+              - type: picture-elements
+                image: /local/lovelace/network_background.jpg
+                elements:
+                  - type: custom:hui-glance-card
+                    show_state: false
+                    columns: 4
+                    entities:
+                      - entity: sensor.system_unifi_usg
+                        name: UniFi USG
+                        - entity: sensor.speedtest_ping
+                        name: Ping
+                        icon:
+                      - entity: sensor.speedtest_download
+                        name: Download
+                        icon: mdi:cloud-download
+                      - entity: sensor.speedtest_upload
+                        name: Upload
+                        icon: mdi:cloud-upload
 
-                    - sensor.system_swi_juniper_loft
+                      - sensor.system_swi_juniper_loft
                   style:
                     left: 50%
                     top: 50%
@@ -124,9 +124,9 @@ cards:
             - type: custom:mini-graph-card
               name: Speed test
               show:
-                  icon: false
-                  extrema: true
-                  fill: false
+                icon: false
+                extrema: true
+                fill: false
               entities:
                 - sensor.speedtest_download
                 - sensor.speedtest_ping
