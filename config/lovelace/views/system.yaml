@@ -1,0 +1,134 @@
+title: Info
+icon: mdi:lan
+path: info
+panel: true
+cards:
+  - type: vertical-stack
+    cards:
+      - type: custom:layout-card
+        layout: vertical
+        cards:
+          - type: vertical-stack
+            cards:
+              - type: picture-elements
+                image: /local/lovelace/servers_background.jpg
+                elements:
+                  - type: custom:hui-glance-card
+                    show_state: false
+                    columns: 4
+                    entities:
+                      - sensor.system_srv_proxy
+                      - sensor.system_srv_bastion
+                      - sensor.system_srv_invoice_ninja
+                      - sensor.system_srv_cctv
+                      - sensor.system_str_freenas
+                      - sensor.system_str_qnap
+                    style:
+                      left: 50%
+                      top: 50%
+                      width: 100%
+                      --paper-card-background-color: rgba(0, 0, 0, 0.4)
+                      --paper-item-icon-color: white
+                      border-radius: 5px
+                      color: rgb(0, 0, 0)
+              - type: picture-elements
+                image: /local/lovelace/cctv_background.jpg
+                elements:
+                  - type: custom:hui-glance-card
+                    show_state: false
+                    columns: 2
+                    entities:
+                      - entity: sensor.system_cctv_driveway
+                    style:
+                      left: 50%
+                      top: 50%
+                      width: 100%
+                      --paper-card-background-color: rgba(0, 0, 0, 0.4)
+                      --paper-item-icon-color: white
+                      border-radius: 5px
+                      color: rgb(0, 0, 0)
+              - type: custom:group-card
+                card:
+                  type: entities
+                group: group.freenas_monitor
+          - break
+          - type: vertical-stack
+            cards:
+              - type: picture-elements
+                image: /local/lovelace/computers_background.jpg
+                elements:
+                  - type: custom:hui-glance-card
+                    show_state: false
+                    columns: 4
+                    entities:
+                      - sensor.system_steve_computer
+                      - sensor.system_steve_xbox
+                      - sensor.system_ipad
+                      - sensor.system_printer
+                    style:
+                      left: 50%
+                      top: 50%
+                      width: 100%
+                      --paper-card-background-color: rgba(0, 0, 0, 0.4)
+                      --paper-item-icon-color: white
+                      border-radius: 5px
+                      color: rgb(0, 0, 0)
+              - type: picture-elements
+                image: /local/lovelace/tv_background.jpg
+                elements:
+                  - type: custom:hui-glance-card
+                    show_state: false
+                    columns: 3
+                    entities:
+                      - entity: sensor.system_tv_living_room
+                        name: TV
+                    style:
+                      left: 50%
+                      top: 50%
+                      width: 100%
+                      --paper-card-background-color: rgba(0, 0, 0, 0.4)
+                      --paper-item-icon-color: white
+                      border-radius: 5px
+                      color: rgb(0, 0, 0)
+          - break
+          - type: vertical-stack
+            cards:
+            - type: picture-elements
+              image: /local/lovelace/network_background.jpg
+              elements:
+                - type: custom:hui-glance-card
+                  show_state: false
+                  columns: 4
+                  entities:
+                    - entity: sensor.system_unifi_usg
+                      name: UniFi USG
+                    - entity: sensor.speedtest_ping
+                      name: Ping
+                      icon:
+                    - entity: sensor.speedtest_download
+                      name: Download
+                      icon: mdi:cloud-download
+                    - entity: sensor.speedtest_upload
+                      name: Upload
+                      icon: mdi:cloud-upload
+
+                    - sensor.system_swi_juniper_loft
+                  style:
+                    left: 50%
+                    top: 50%
+                    width: 100%
+                    --paper-card-background-color: rgba(0, 0, 0, 0.4)
+                    --paper-item-icon-color: white
+                    border-radius: 5px
+                    color: rgb(0, 0, 0)
+            - type: custom:mini-graph-card
+              name: Speed test
+              show:
+                  icon: false
+                  extrema: true
+                  fill: false
+              entities:
+                - sensor.speedtest_download
+                - sensor.speedtest_ping
+                - sensor.speedtest_upload
+              line_color: "#389638"

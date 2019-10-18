@@ -11,6 +11,7 @@ __pycache__
 config/.cloud
 config/.storage
 config/deps
+config/www/lovelace/home
 
 # Specific file ignores
 config/.config_entries.json
@@ -29,6 +30,7 @@ config/pyozw.sqlite
 config/secrets.yaml
 config/zwcfg_*
 config/zwscene.xml
+
 
 # ESPHome ignores
 config/esphome/secrets.yaml

@@ -1,0 +1,13 @@
+---
+# I use nmap tracker in order to detect if a device is
+# connected to my WiFi
+#
+# https://www.home-assistant.io/integrations/nmap_tracker/
+#
+platform: nmap_tracker
+track_new_devices: True
+interval_seconds: 60
+consider_home: 360
+home_interval: 10
+hosts:
+ - !secret subnet_home
