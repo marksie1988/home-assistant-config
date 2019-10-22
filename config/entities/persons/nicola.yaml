@@ -1,0 +1,6 @@
+---
+name: Nicola
+id: nicola
+user_id: !secret user_id_nicola
+device_trackers:
+  - device_tracker.life360_nicola
