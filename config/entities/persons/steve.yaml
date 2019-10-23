@@ -4,4 +4,4 @@ id: steve
 user_id: !secret user_id_steve
 device_trackers:
   - device_tracker.life360_steve
-  - device_tracker.oneplus_wifi_steve
+  - device_tracker.oneplus_6t_steve
