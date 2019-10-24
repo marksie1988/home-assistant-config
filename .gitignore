@@ -48,3 +48,4 @@ config/notebooks
 
 # Specific keeps
 !.gitkeep
+!config/.storage/hacs.*
