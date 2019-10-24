@@ -69,6 +69,21 @@
             "version_type": "version",
             "version_installed": "0.3.6",
             "version_available": "0.3.6"
+        },
+        "thomasloven/hass-browser_mod": {
+            "version_type": "version",
+            "version_installed": "13",
+            "version_available": "13"
+        },
+        "custom-components/sensor.sonarr_upcoming_media": {
+            "version_type": "version",
+            "version_installed": "0.2.1",
+            "version_available": "0.2.1"
+        },
+        "custom-components/sensor.radarr_upcoming_media": {
+            "version_type": "version",
+            "version_installed": "0.3.0",
+            "version_available": "0.3.0"
         }
     },
     "schema": "5"
