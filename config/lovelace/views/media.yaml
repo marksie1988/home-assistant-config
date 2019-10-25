@@ -1,0 +1,104 @@
+---
+path: media
+title: Media
+icon: mdi:sofa
+panel: true
+cards:
+  - type: vertical-stack
+    cards:
+      - type: custom:layout-card
+        layout: vertical
+        cards:
+          - type: vertical-stack
+            cards:
+              - type: custom:upcoming-media-card
+                title: Upcoming TV
+                entity: sensor.sonarr_upcoming_media
+                date: ddmm
+                clock: 24
+                max: 4
+                image_style: fanart
+                flag: false
+                all_shadows: false
+                title_size: medium
+                icon: none
+                flag_color: "#e5a00d"
+                title_text: "$title"
+                line1_text: "$episode"
+                line2_text: "$number - $studio"
+                line3_text: "$runtime - $rating"
+                line4_text: "Airing: $release"
+          - break
+          - type: vertical-stack
+            cards:
+              - type: custom:upcoming-media-card
+                title: Upcoming Movies
+                entity: sensor.radarr_upcoming_media
+                date: ddmm
+                clock: 24
+                max: 4
+                image_style: fanart
+                flag: false
+                all_shadows: false
+                title_size: medium
+                icon: none
+                flag_color: "#e5a00d"
+                title_text: "$title"
+                line1_text: "$genres"
+                line2_text: "$studio"
+                line3_text: "$runtime - $rating"
+                line4_text: "Airing: $release"
+          - break
+          - type: vertical-stack
+            cards:
+              - type: custom:upcoming-media-card
+                title: Recently Added
+                entity: sensor.plex_recently_added
+                date: ddmm
+                clock: 24
+                max: 4
+                image_style: fanart
+                flag: false
+                all_shadows: false
+                title_size: medium
+                icon: none
+                flag_color: "#e5a00d"
+                title_text: "$title"
+                line1_text: "$number - $episode"
+                line2_text: "$runtime - $rating - $genres"
+                line3_text: "Released: $aired"
+                line4_text: "Added: $release"
+          - break
+          - type: vertical-stack
+            cards:
+              - type: entities
+                entities:
+                  - type: custom:mini-media-player
+                    entity: media_player.media_player_nesthub_livingroom_host
+                    icon: mdi:speaker-wireless
+                    toggle_power: false
+                    group: true
+                    show_source: true
+                    power_color: true
+                    show_progress: true
+                  - type: custom:mini-media-player
+                    name: Office
+                    entity: media_player.media_player_nesthome_office_host
+                    icon: mdi:speaker-wireless
+                    group: true
+                    artwork_border: true
+                    hide_power: true
+                  - type: custom:mini-media-player
+                    name: Kitchen
+                    entity: media_player.media_player_nestmini_kitchen_host
+                    icon: mdi:speaker-wireless
+                    group: true
+                    artwork_border: true
+                    hide_power: true
+                  - type: custom:mini-media-player
+                    name: Master Bedroom
+                    entity: media_player.media_player_nestmini_masterbedroom_host
+                    icon: mdi:speaker-wireless
+                    group: true
+                    artwork_border: true
+                    hide_power: true
