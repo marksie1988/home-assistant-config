@@ -79,6 +79,6 @@ cards:
             cards:
               - type: custom:weather-card
                 entity: weather.dark_sky
-                icons: '/local/lovelace_ui/weather_icons/animated/'
+                icons: '/local/lovelace/weather_icons/animated/'
 
           - break
