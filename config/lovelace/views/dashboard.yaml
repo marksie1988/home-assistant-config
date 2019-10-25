@@ -2,8 +2,7 @@
 path: dashboard
 title: Dashboard
 icon: mdi:home-assistant
-service: browser_mod.popup
-service_data:
+popup_cards:
   device_tracker.steve_presence: &steve_presence_card
     title: Steve
     card:
