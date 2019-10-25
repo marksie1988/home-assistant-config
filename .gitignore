@@ -11,7 +11,7 @@ __pycache__
 config/.cloud
 config/.storage
 config/deps
-config/www/lovelace/home
+config/www/lovelace/persons
 
 # Specific file ignores
 config/.config_entries.json
