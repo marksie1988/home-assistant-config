@@ -4,50 +4,50 @@ title: Dashboard
 icon: mdi:home-assistant
 service: browser_mod.popup
 service_data:
-  device_tracker.steve_presence:
-    title: Steve
-    card:
-      type: entities
-      entities:
-        - entity: sensor.steve_battery
-          type: custom:secondaryinfo-entity-row
-          secondary_info: "[[ sensor.steve_battery.state ]]"
-        - entity: device_tracker.steve_presence
-          name: Steve presence
-          secondary_info: last-changed
-          icon: mdi:map-marker-circle
-        - entity: device_tracker.oneplus_6t_steve
-          name: Steve Wifi
-          icon: mdi:wifi
-          secondary_info: last-changed
-        - entity: proximity.home_steve
-          name: Proximity to home
-        - entity: proximity.home_steve
-          type: custom:state-attribute-element
-          attribute: dir_of_travel
-          prefix: "Direction of travel: "
-  device_tracker.nic_presence:
-    title: Nicola
-    card:
-      type: entities
-      entities:
-        - entity: sensor.nicola_battery
-          type: custom:secondaryinfo-entity-row
-          secondary_info: "[[ sensor.nicola_battery.state ]]"
-        - entity: device_tracker.nicola_presence
-          name: Nic presence
-          secondary_info: last-changed
-          icon: mdi:map-marker-circle
-        - entity: device_tracker.galaxy_s9_nicola
-          name: Nicola Wifi
-          icon: mdi:wifi
-          secondary_info: last-changed
-        - entity: proximity.home_nicola
-          name: Proximity to home
-        - entity: proximity.home_nicola
-          type: custom:state-attribute-element
-          attribute: dir_of_travel
-          prefix: "Direction of travel: "
+  title: Steve
+  card:
+    type: entities
+    entities:
+      - entity: sensor.steve_battery
+        type: custom:secondaryinfo-entity-row
+        secondary_info: "[[ sensor.steve_battery.state ]]"
+      - entity: device_tracker.steve_presence
+        name: Steve presence
+        secondary_info: last-changed
+        icon: mdi:map-marker-circle
+      - entity: device_tracker.oneplus_6t_steve
+        name: Steve Wifi
+        icon: mdi:wifi
+        secondary_info: last-changed
+      - entity: proximity.home_steve
+        name: Proximity to home
+      - entity: proximity.home_steve
+        type: custom:state-attribute-element
+        attribute: dir_of_travel
+        prefix: "Direction of travel: "
+service: browser_mod.popup
+service_data:
+  title: Nicola
+  card:
+    type: entities
+    entities:
+      - entity: sensor.nicola_battery
+        type: custom:secondaryinfo-entity-row
+        secondary_info: "[[ sensor.nicola_battery.state ]]"
+      - entity: device_tracker.nicola_presence
+        name: Nic presence
+        secondary_info: last-changed
+        icon: mdi:map-marker-circle
+      - entity: device_tracker.galaxy_s9_nicola
+        name: Nicola Wifi
+        icon: mdi:wifi
+        secondary_info: last-changed
+      - entity: proximity.home_nicola
+        name: Proximity to home
+      - entity: proximity.home_nicola
+        type: custom:state-attribute-element
+        attribute: dir_of_travel
+        prefix: "Direction of travel: "
 cards:
   - type: vertical-stack
     cards:
