@@ -50,10 +50,6 @@ popup_cards:
 cards:
   - type: vertical-stack
     cards:
-      # - type: custom:compact-custom-header
-      #   voice: false
-      #   clock: "options"
-      #   clock_format: 24
       - type: custom:layout-card
         layout: vertical
         cards:
