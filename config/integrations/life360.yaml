@@ -1,0 +1,18 @@
+---
+life360:
+  accounts:
+    - username: !secret life360_username
+      password: !secret life360_password
+  prefix: life360
+  show_as_state:
+    - driving
+    - moving
+  driving_speed: 18
+  max_gps_accuracy: 200
+  max_update_wait:
+    minutes: 45
+  members:
+    - Steve,
+    - Nicola,
+  warning_threshold: 2
+  error_threshold: 3
