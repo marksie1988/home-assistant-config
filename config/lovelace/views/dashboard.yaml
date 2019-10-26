@@ -55,11 +55,10 @@ cards:
         cards:
           - type: horizontal-stack
             cards:
-              - type: picture-entity
-                primary:
-                  entity: device_tracker.steve_presence
-                secondary:
-                  entity: sensor.battery_steve.state
+              - type: picture-glance
+                entities:
+                  - device_tracker.steve_presence
+                  - sensor.battery_steve.state
                 image: /local/lovelace/persons/ste.jpg
                 show_name: false
                 tap_action:
@@ -68,8 +67,10 @@ cards:
                   service_data:
                     deviceID: this
                     <<: *steve_presence_card
-              - type: picture-entity
-                entity: device_tracker.nicola_presence
+              - type: picture-glance
+                entities:
+                  - device_tracker.nicola_presence
+                  - sensor.battery_nicola.state
                 image: /local/lovelace/persons/nic.jpg
                 show_name: false
                 tap_action:
