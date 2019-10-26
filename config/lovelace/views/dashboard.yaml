@@ -58,7 +58,7 @@ cards:
               - type: picture-glance
                 entities:
                   - device_tracker.steve_presence
-                  - sensor.battery_steve.state
+                  - sensor.battery_steve
                 image: /local/lovelace/persons/ste.jpg
                 show_name: false
                 tap_action:
@@ -70,7 +70,7 @@ cards:
               - type: picture-glance
                 entities:
                   - device_tracker.nicola_presence
-                  - sensor.battery_nicola.state
+                  - sensor.battery_nicola
                 image: /local/lovelace/persons/nic.jpg
                 show_name: false
                 tap_action:
