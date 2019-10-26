@@ -4,4 +4,16 @@
 #
 # https://www.home-assistant.io/integrations/proximity/
 #
-proximity: !include_dir_list ../entities/proximities
+proximity:
+  home_steve:
+    zone: home
+    devices:
+      - device_tracker.life360_steve
+    tolerance: 20
+    unit_of_measurement: mi
+  home_nicola:
+    zone: home
+    devices:
+      - device_tracker.life360_nicola
+    tolerance: 20
+    unit_of_measurement: mi
