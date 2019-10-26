@@ -12,7 +12,8 @@ life360:
   max_update_wait:
     minutes: 45
   members:
-    - Steve
-    - Nicola
+    include:
+      - Steve
+      - Nicola
   warning_threshold: 2
   error_threshold: 3
