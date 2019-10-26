@@ -8,9 +8,9 @@ popup_cards:
     card:
       type: entities
       entities:
-        - entity: sensor.steve_battery
+        - entity: sensor.battery_steve
           type: custom:secondaryinfo-entity-row
-          secondary_info: "[[ sensor.steve_battery.state ]]"
+          secondary_info: "[[ sensor.battery_steve.state ]]"
         - entity: device_tracker.steve_presence
           name: Steve presence
           secondary_info: last-changed
@@ -30,11 +30,11 @@ popup_cards:
     card:
       type: entities
       entities:
-        - entity: sensor.nicola_battery
+        - entity: sensor.battery_nicola
           type: custom:secondaryinfo-entity-row
-          secondary_info: "[[ sensor.nicola_battery.state ]]"
+          secondary_info: "[[ sensor.battery_nicola.state ]]"
         - entity: device_tracker.nicola_presence
-          name: Nic presence
+          name: Nicola presence
           secondary_info: last-changed
           icon: mdi:map-marker-circle
         - entity: device_tracker.galaxy_s9_nicola
