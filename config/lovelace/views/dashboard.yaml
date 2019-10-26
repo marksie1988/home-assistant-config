@@ -56,7 +56,10 @@ cards:
           - type: horizontal-stack
             cards:
               - type: picture-entity
-                entity: device_tracker.steve_presence
+                primary:
+                  entity: device_tracker.steve_presence
+                secondary:
+                  entity: sensor.battery_steve.state
                 image: /local/lovelace/persons/ste.jpg
                 show_name: false
                 tap_action:
