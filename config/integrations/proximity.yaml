@@ -1,0 +1,7 @@
+---
+# The proximity integration allows to monitor the proximity
+# of a device to a zone
+#
+# https://www.home-assistant.io/integrations/proximity/
+#
+proximity: !include_dir_list ../entities/proximities

@@ -1,12 +1,11 @@
 ---
-sensor:
-  - platform: template
-    sensors:
-      battery_steve:
-        value_template: '{{ states.device_tracker.life360_steve.attributes.battery|int }}'
-        friendly_name: 'Steve Battery'
-        unit_of_measurement: '%'
-      battery_nicola:
-        value_template: '{{ states.device_tracker.life360_nicola.attributes.battery|int }}'
-        friendly_name: 'Nicola Battery'
-        unit_of_measurement: '%'
+platform: template
+  sensors:
+    battery_steve:
+      value_template: '{{ states.device_tracker.life360_steve.attributes.battery|int }}'
+      friendly_name: 'Steve Battery'
+      unit_of_measurement: '%'
+    battery_nicola:
+      value_template: '{{ states.device_tracker.life360_nicola.attributes.battery|int }}'
+      friendly_name: 'Nicola Battery'
+      unit_of_measurement: '%'
