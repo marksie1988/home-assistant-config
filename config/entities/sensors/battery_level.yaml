@@ -10,16 +10,3 @@ sensor:
         value_template: '{{ states.device_tracker.life360_nicola.attributes.battery|int }}'
         friendly_name: 'Nicola Battery'
         unit_of_measurement: '%'
-proximity:
-  home_steve:
-    zone: home
-    devices:
-      - device_tracker.life360_steve
-    tolerance: 20
-    unit_of_measurement: mi
-  home_nicola:
-    zone: home
-    devices:
-      - device_tracker.life360_nicola
-    tolerance: 20
-    unit_of_measurement: mi
