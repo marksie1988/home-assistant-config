@@ -55,11 +55,37 @@ cards:
         cards:
           - type: horizontal-stack
             cards:
-              - type: picture-glance
-                entities:
-                  - device_tracker.steve_presence
-                  - sensor.battery_steve
+              - type: picture-elements
                 image: /local/lovelace/persons/ste.jpg
+                elements:
+                  - type: icon
+                    icon: mdi:crosshairs-gps
+                    entity: device_tracker.steve_presence
+                    tap_action: more-info
+                    style:
+                      top: 82%
+                      left: 50%
+                      color: white
+                  - type: state-label
+                    entity: device_tracker.steve_presence
+                    style:
+                      top: 95%
+                      left: 50%
+                      color: white
+                  - type: icon
+                    icon: mdi:battery
+                    entity: sensor.battery_steve
+                    tap_action: more-info
+                    style:
+                      top: 82%
+                      left: 64%
+                      color: white
+                  - type: state-label
+                    entity: sensor.battery_steve
+                    style:
+                      top: 95%
+                      left: 64%
+                      color: white
                 show_name: false
                 tap_action:
                   action: call-service
@@ -67,11 +93,37 @@ cards:
                   service_data:
                     deviceID: this
                     <<: *steve_presence_card
-              - type: picture-glance
-                entities:
-                  - device_tracker.nicola_presence
-                  - sensor.battery_nicola
+              - type: picture-elements
                 image: /local/lovelace/persons/nic.jpg
+                elements:
+                  - type: icon
+                    icon: mdi:crosshairs-gps
+                    entity: device_tracker.nicola_presence
+                    tap_action: more-info
+                    style:
+                      top: 82%
+                      left: 50%
+                      color: white
+                  - type: state-label
+                    entity: device_tracker.nicola_presence
+                    style:
+                      top: 95%
+                      left: 50%
+                      color: white
+                  - type: icon
+                    icon: mdi:battery
+                    entity: sensor.battery_nicola
+                    tap_action: more-info
+                    style:
+                      top: 82%
+                      left: 64%
+                      color: white
+                  - type: state-label
+                    entity: sensor.battery_nicola
+                    style:
+                      top: 95%
+                      left: 64%
+                      color: white
                 show_name: false
                 tap_action:
                   action: call-service
