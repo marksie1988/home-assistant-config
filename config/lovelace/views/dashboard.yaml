@@ -64,13 +64,13 @@ cards:
                     tap_action: more-info
                     style:
                       top: 82%
-                      left: 50%
+                      left: 5%
                       color: white
                   - type: state-label
                     entity: device_tracker.steve_presence
                     style:
                       top: 95%
-                      left: 50%
+                      left: 5%
                       color: white
                   - type: icon
                     icon: mdi:battery
@@ -78,13 +78,13 @@ cards:
                     tap_action: more-info
                     style:
                       top: 82%
-                      left: 64%
+                      left: 90%
                       color: white
                   - type: state-label
                     entity: sensor.battery_steve
                     style:
                       top: 95%
-                      left: 64%
+                      left: 90%
                       color: white
                 show_name: false
                 tap_action:
@@ -102,13 +102,13 @@ cards:
                     tap_action: more-info
                     style:
                       top: 82%
-                      left: 50%
+                      left: 5%
                       color: white
                   - type: state-label
                     entity: device_tracker.nicola_presence
                     style:
                       top: 95%
-                      left: 50%
+                      left: 5%
                       color: white
                   - type: icon
                     icon: mdi:battery
@@ -116,13 +116,13 @@ cards:
                     tap_action: more-info
                     style:
                       top: 82%
-                      left: 64%
+                      left: 90%
                       color: white
                   - type: state-label
                     entity: sensor.battery_nicola
                     style:
                       top: 95%
-                      left: 64%
+                      left: 90%
                       color: white
                 show_name: false
                 tap_action:
