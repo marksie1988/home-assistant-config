@@ -64,13 +64,13 @@ cards:
                     tap_action: more-info
                     style:
                       top: 82%
-                      left: 5%
+                      left: 10%
                       color: white
                   - type: state-label
                     entity: device_tracker.steve_presence
                     style:
                       top: 95%
-                      left: 5%
+                      left: 10%
                       color: white
                   - type: icon
                     icon: mdi:battery
@@ -102,13 +102,13 @@ cards:
                     tap_action: more-info
                     style:
                       top: 82%
-                      left: 5%
+                      left: 10%
                       color: white
                   - type: state-label
                     entity: device_tracker.nicola_presence
                     style:
                       top: 95%
-                      left: 5%
+                      left: 10%
                       color: white
                   - type: icon
                     icon: mdi:battery
