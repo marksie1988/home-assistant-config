@@ -1,0 +1,12 @@
+---
+platform: plex_recently_added
+token: !secret sensor_plex_token
+host: !secret sensor_plex_host
+port: !secret sensor_plex_port
+ssl: false
+ssl_cert: false
+download_images: false
+max: 5
+section_types:
+  - movie
+  - show
