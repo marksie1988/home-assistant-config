@@ -61,7 +61,12 @@ cards:
                   - type: icon
                     icon: mdi:crosshairs-gps
                     entity: device_tracker.steve_presence
-                    tap_action: more-info
+                    tap_action:
+                      action: call-service
+                      service: browser_mod.popup
+                      service_data:
+                        deviceID: this
+                        <<: *steve_presence_card
                     style:
                       top: 82%
                       left: 10%
@@ -75,7 +80,12 @@ cards:
                   - type: icon
                     icon: mdi:battery
                     entity: sensor.battery_steve
-                    tap_action: more-info
+                    tap_action:
+                      action: call-service
+                      service: browser_mod.popup
+                      service_data:
+                        deviceID: this
+                        <<: *steve_presence_card
                     style:
                       top: 82%
                       left: 90%
@@ -99,7 +109,12 @@ cards:
                   - type: icon
                     icon: mdi:crosshairs-gps
                     entity: device_tracker.nicola_presence
-                    tap_action: more-info
+                    tap_action:
+                      action: call-service
+                      service: browser_mod.popup
+                      service_data:
+                        deviceID: this
+                        <<: *nicola_presence_card
                     style:
                       top: 82%
                       left: 10%
@@ -113,7 +128,12 @@ cards:
                   - type: icon
                     icon: mdi:battery
                     entity: sensor.battery_nicola
-                    tap_action: more-info
+                    tap_action:
+                      action: call-service
+                      service: browser_mod.popup
+                      service_data:
+                        deviceID: this
+                        <<: *nicola_presence_card
                     style:
                       top: 82%
                       left: 90%
