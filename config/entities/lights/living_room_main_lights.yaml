@@ -10,12 +10,3 @@
 platform: switch
 name: living_room_main_lights
 entity_id: switch.living_room_main_lights
-
-switch:
-  - platform: mqtt
-    name: "Living Room Main Lights"
-    state_topic: "shellies/shellyswithc-5A4B29/relay/0"
-    command_topic: "shellies/shellyswithc-5A4B29/relay/0/command"
-    payload_off: "off"
-    payload_on: "on"
-    retain: true

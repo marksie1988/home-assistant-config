@@ -1,0 +1,10 @@
+---
+# My offoce light is connected using a shelly1 switch.
+
+platform: mqtt
+name: "Living Room Main Lights"
+state_topic: "shellies/shellyswithc-5A4B29/relay/0"
+command_topic: "shellies/shellyswithc-5A4B29/relay/0/command"
+payload_off: "off"
+payload_on: "on"
+retain: true
