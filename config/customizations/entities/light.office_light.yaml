@@ -1,0 +1,9 @@
+---
+#
+# Customizes the office lights in Home Assistant
+#
+# https://www.home-assistant.io/docs/configuration/customizing-devices/
+#
+switch.office_light:
+  friendly_name: Office Light
+  icon: mdi:ceiling-light

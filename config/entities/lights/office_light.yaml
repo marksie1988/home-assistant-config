@@ -1,0 +1,12 @@
+---
+# My offoce light is connected using a shelly1 switch.
+# This makes the device a "switch" withing Home Assistant and therefore
+# it shows up as a switch in Google Assistant as well.
+#
+# This little light switch solves that issue.
+#
+# https://www.home-assistant.io/components/light.switch/
+#
+platform: switch
+name: office_light
+entity_id: switch.office_light

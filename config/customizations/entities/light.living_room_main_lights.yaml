@@ -1,0 +1,9 @@
+---
+#
+# Customizes the Living room lights in Home Assistant
+#
+# https://www.home-assistant.io/docs/configuration/customizing-devices/
+#
+switch.living_room_main_lights:
+  friendly_name: Living Room Main Lights
+  icon: mdi:ceiling-light
