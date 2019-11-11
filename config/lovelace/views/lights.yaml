@@ -12,7 +12,7 @@ cards:
             title: Downstairs
             cards:
               - type: entities
-                show_header_toggle: true
+                show_header_toggle: false
                 entities:
                   - entity: switch.living_room_main_lights
                     name: Living room main lights
