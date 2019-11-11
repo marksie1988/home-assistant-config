@@ -1,0 +1,27 @@
+---
+platform: darksky
+api_key: !secret darksky_api_key
+scan_interval:
+  minutes: 10
+forecast:
+  - 1
+monitored_conditions:
+  - summary
+  - temperature
+  - apparent_temperature
+  - temperature_low
+  - temperature_high
+  - humidity
+  - precip_probability
+  - precip_intensity
+  - precip_type
+  - precip_intensity_max
+  - wind_speed
+  # - wind_bearing
+  - cloud_cover
+  - nearest_storm_distance
+  # - pressure
+  - icon
+  - daily_summary
+  - hourly_summary
+  - temperature
