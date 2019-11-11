@@ -2,6 +2,7 @@
 path: lights
 title: Lights
 icon: mdi:lightbulb-on
+panel: true
 cards:
   - type: horizontal-stack
     cards:
