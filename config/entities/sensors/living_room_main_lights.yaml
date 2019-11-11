@@ -1,0 +1,9 @@
+---
+# My living room light is connected using a shelly2 switch.
+# This has power monitoring which this sensor is for
+
+sensor:
+  - platform: mqtt
+    state_topic: "shellies/shellyswitch-5A4B29/relay/power"
+    unit_of_measurement: "W"
+    name: "Living Room Main Lights Consumption"

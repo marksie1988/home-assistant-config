@@ -10,3 +10,12 @@
 platform: switch
 name: office_light
 entity_id: switch.office_light
+
+switch:
+  - platform: mqtt
+    name: "Office Light"
+    state_topic: "shellies/shelly1-2C7D6F/relay/0"
+    command_topic: "shellies/shelly1-2C7D6F/relay/0/command"
+    payload_off: "off"
+    payload_on: "on"
+    retain: true
