@@ -77,6 +77,12 @@ cards:
                       top: 95%
                       left: 10%
                       color: white
+                    tap_action:
+                      action: call-service
+                      service: browser_mod.popup
+                      service_data:
+                        deviceID: this
+                        <<: *steve_presence_card
                   - type: icon
                     icon: mdi:battery
                     entity: sensor.battery_steve
@@ -96,6 +102,12 @@ cards:
                       top: 95%
                       left: 90%
                       color: white
+                    tap_action:
+                      action: call-service
+                      service: browser_mod.popup
+                      service_data:
+                        deviceID: this
+                        <<: *steve_presence_card
                 show_name: false
                 tap_action:
                   action: call-service
@@ -125,6 +137,12 @@ cards:
                       top: 95%
                       left: 10%
                       color: white
+                    tap_action:
+                      action: call-service
+                      service: browser_mod.popup
+                      service_data:
+                        deviceID: this
+                        <<: *nicola_presence_card
                   - type: icon
                     icon: mdi:battery
                     entity: sensor.battery_nicola
@@ -144,6 +162,12 @@ cards:
                       top: 95%
                       left: 90%
                       color: white
+                    tap_action:
+                      action: call-service
+                      service: browser_mod.popup
+                      service_data:
+                        deviceID: this
+                        <<: *nicola_presence_card
                 show_name: false
                 tap_action:
                   action: call-service
