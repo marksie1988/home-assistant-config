@@ -3,7 +3,7 @@ path: lights
 title: Lights
 icon: mdi:lightbulb-on
 cards:
-  - type: vertival-stack
+  - type: vertical-stack
     cards:
       - type: horizontal-stack
         cards:
