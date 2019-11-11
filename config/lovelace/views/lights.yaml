@@ -3,28 +3,30 @@ path: lights
 title: Lights
 icon: mdi:lightbulb-on
 cards:
-  - type: vertical-stack
+  - type: horizontal-stack
     cards:
-      - type: horizontal-stack
-        title: Downstairs
+      - type: vertical-stack
         cards:
-          - type: switch
-            entity: switch.living_room_main_lights
-            name: Living Room Main Lights
-            toggle: true
-            hide_when_off: false
-          - type: light
-            entity: light.living_room_lamp
-            name: Living Room Lamp
-            hide_when_off: false
+          - type: horizontal-stack
+            title: Downstairs
+            cards:
+              - type: switch
+                entity: switch.living_room_main_lights
+                name: Living Room Main Lights
+                toggle: true
+                hide_when_off: false
+              - type: light
+                entity: light.living_room_lamp
+                name: Living Room Lamp
+                hide_when_off: false
 
-  - type: vertical-stack
-    cards:
-      - type: horizontal-stack
-        title: Upstairs
+      - type: vertical-stack
         cards:
-          - type: switch
-            entity: switch.office_light
-            name: Office Light
-            toggle: true
-            hide_when_off: false
+          - type: horizontal-stack
+            title: Upstairs
+            cards:
+              - type: switch
+                entity: switch.office_light
+                name: Office Light
+                toggle: true
+                hide_when_off: false
