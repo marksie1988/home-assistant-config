@@ -1,0 +1,56 @@
+---
+
+platform: rest
+name: freenas_media_report
+json_attributes:
+  - name
+  - status
+  - used_pct
+  - is_decrypted
+resource: !secret sensor_freenas_media
+value_template: '{{ value_json.status }}'
+username: !secret sensor_freenas_user
+password: !secret sensor_freenas_password
+authentication: basic
+headers:
+  Content-Type: application/json
+
+platform: template
+sensors:
+  freenas_media_pct_used:
+    value_template: '{{ states.sensor.freenas_media_report.attributes["used_pct"].title() }}'
+    entity_id: sensor.freenas_media_report
+
+platform: rest
+name: freenas_alert_level
+resource: !secret sensor_freenas_alert
+value_template: '{{ value_json.objects[0].level }}'
+username: !secret sensor_freenas_user
+password: !secret sensor_freenas_password
+authentication: basic
+headers:
+  Content-Type: application/json
+
+platform: rest
+name: freenas_alert_message
+resource: !secret sensor_freenas_alert
+value_template: '{{ value_json.objects[0].message }}'
+username: !secret sensor_freenas_user
+password: !secret sensor_freenas_password
+authentication: basic
+headers:
+  Content-Type: application/json
+
+platform: rest
+name: freenas_version
+json_attributes:
+  - fullversion
+  - name
+  - version
+resource: !secret sensor_freenas_version
+value_template: '{{ value_json.fullversion }}'
+username: !secret sensor_freenas_user
+password: !secret sensor_freenas_password
+authentication: basic
+headers:
+  Content-Type: application/json
