@@ -1,0 +1,9 @@
+---
+
+google_assistant:
+  project_id: !secret google_assistant_pid
+  api_key: !secret google_assistant_api
+  exposed_domains:
+    – switch
+    – light
+    – group
