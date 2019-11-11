@@ -1,7 +1,7 @@
 ---
 platform: template
-  sensors:
-    server_bastion:
-      friendly_name: 'Bastion'
-      entity_id: "device_tracker.server_bastion"
-      value_template: "{{ 'Online' if is_state('device_tracker.server_bastion', 'home') else 'Offline' }}"
+sensors:
+  server_bastion:
+    friendly_name: 'Bastion'
+    entity_id: "device_tracker.server_bastion"
+    value_template: "{{ 'Online' if is_state('device_tracker.server_bastion', 'home') else 'Offline' }}"

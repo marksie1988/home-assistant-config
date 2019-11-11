@@ -1,7 +1,7 @@
 ---
 platform: template
-  sensors:
-    system_swi_juniper_loft:
-      friendly_name: 'Juniper EX2200'
-      entity_id: "device_tracker.juniper_ex2200"
-      value_template: "{{ 'Online' if is_state('device_tracker.juniper_ex2200', 'home') else 'Offline' }}"
+sensors:
+  system_swi_juniper_loft:
+    friendly_name: 'Juniper EX2200'
+    entity_id: "device_tracker.juniper_ex2200"
+    value_template: "{{ 'Online' if is_state('device_tracker.juniper_ex2200', 'home') else 'Offline' }}"
