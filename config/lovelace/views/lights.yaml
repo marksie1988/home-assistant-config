@@ -30,7 +30,7 @@ cards:
               - type: entities
                 show_header_toggle: false
                 entities:
-                  entity: switch.office_light
-                  name: Office light
-                  toggle: true
-                  hide_when_off: false
+                  - entity: switch.office_light
+                    name: Office light
+                    toggle: true
+                    hide_when_off: false
