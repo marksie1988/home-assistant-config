@@ -1,0 +1,5 @@
+---
+server_proxy:
+  friendly_name: 'Rev Proxy'
+  entity_id: "device_tracker.server_proxy"
+  value_template: "{{ 'Online' if is_state('device_tracker.server_proxy', 'home') else 'Offline' }}"
