@@ -15,9 +15,10 @@ cards:
                 name: Living Room Main Lights
                 toggle: true
                 hide_when_off: false
-              - entity: light.living_room_lamp
-                name: Living Room Lamp
-                hide_when_off: false
+          - type: light
+            entity: light.living_room_lamp
+            name: Living Room Lamp
+            hide_when_off: false
           - type: entities
             title: upstairs
             show_header_toggle: false
