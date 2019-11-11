@@ -1,0 +1,5 @@
+upstairs_speakers:
+  name: Upstairs Speakers
+  entities:
+    - media_player.office_speaker
+    - media_player.master_bedroom_speaker

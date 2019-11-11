@@ -1,0 +1,10 @@
+---
+
+FreeNAS Monitor:
+  view: no
+  entities:
+    - sensor.freenas_version
+    - sensor.freenas_alert_level
+    - sensor.freenas_alert_message
+    - sensor.freenas_media_report
+    - sensor.freenas_media_pct_used

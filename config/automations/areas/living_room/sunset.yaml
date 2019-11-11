@@ -1,0 +1,13 @@
+---
+# When it is getting dark outside...
+#
+alias: living_room_sunset
+trigger:
+  platform: sun
+  event: sunset
+  offset: '-00:15:00'
+action:
+  - service: light.turn_on
+    data:
+      entity_id: light.living_room_lamp
+      brightness_pct: 50

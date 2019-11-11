@@ -1,0 +1,7 @@
+---
+
+downstairs_speakers:
+  name: Downstairs Speakers
+  entities:
+    - media_player.kitchen_speaker
+    - media_player.living_room_display
