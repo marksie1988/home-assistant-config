@@ -1,0 +1,11 @@
+---
+# When it is bed time...
+#
+alias: living_room_lamp_off
+trigger:
+  platform: time
+  at: '23:00:00'
+action:
+  - service: light.turn_off
+    data:
+      entity_id: light.living_room_lamp
