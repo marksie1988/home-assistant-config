@@ -1,6 +1,6 @@
 ---
 name: Steve
-id: marksie1988
+id: steve
 user_id: !secret user_id_steve
 device_trackers:
   - device_tracker.life360_steve
