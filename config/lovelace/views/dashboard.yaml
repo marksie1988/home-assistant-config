@@ -182,7 +182,7 @@ cards:
                 icons: '/local/lovelace/weather_icons/animated/'
 
           - break
-          
+
           - type: vertical-stack
             cards:
               - type: thermostat

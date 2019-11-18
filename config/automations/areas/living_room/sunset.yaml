@@ -1,7 +1,7 @@
 ---
 # When it is getting dark outside...
 #
-alias: [lights] living_room_sunset
+alias: '[lights] living_room_sunset'
 trigger:
   platform: sun
   event: sunset

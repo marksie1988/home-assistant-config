@@ -4,7 +4,7 @@
 # This, of course, only affects machine that do not
 # have a theme set.
 #
-alias: system_default_theme
+alias: '[system] system_default_theme'
 trigger:
   platform: homeassistant
   event: start
