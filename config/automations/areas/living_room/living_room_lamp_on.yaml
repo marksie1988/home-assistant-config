@@ -1,7 +1,7 @@
 ---
 # When it is bed time...
 #
-alias: living_room_lamp_off
+alias: [lights] living_room_lamp_off
 trigger:
   platform: time
   at: '23:00:00'
