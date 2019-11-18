@@ -15,7 +15,7 @@ condition:
     - thu
     - fri
 action:
-  - service: light.turn_on
+  - service: switch.turn_on
     data:
-      entity_id: light.office_light
+      entity_id: switch.office_light
       brightness_pct: 50

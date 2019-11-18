@@ -14,6 +14,6 @@ condition:
     - thu
     - fri
 action:
-  - service: light.turn_off
+  - service: switch.turn_off
     data:
-      entity_id: light.office_light
+      entity_id: switch.office_light
