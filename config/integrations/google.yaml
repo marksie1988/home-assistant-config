@@ -1,0 +1,10 @@
+---
+# The google calendar integration allows you to access your
+# google calendar through home assistant, linked with the
+# Atomic Calendar you can show this on lovelace
+#
+# https://www.home-assistant.io/integrations/calendar.google
+#
+google:
+  client_id: !secret google_client_id
+  client_secret: !secret google_client_secret
