@@ -54,10 +54,9 @@ however do plan to expand this during this re-write.
 
 ### ZigBee
 
-I am currently in the process of getting the Conbee II
-and will be expanding more once this arrives.
-
-I plan on using this with DeCONZ
+I have just redeployed Hassio with the Conbee II attached,
+I have setup DeConz for connecting the devices to HA.
+This currently controls my Ikea TRÅDFRI lights
 
 ### Network
 
