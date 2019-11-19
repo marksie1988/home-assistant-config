@@ -182,13 +182,13 @@ cards:
                 icons: '/local/lovelace/weather_icons/animated/'
 
           - break
-          
+
           - type: vertical-stack
             cards:
               - type: custom:atomic_calendar
-              title: Calendar
-              showProgressBar: true
-              progressBarColor: blue
-              entities:
-                - calendar.family
-                - calendar.dutysheet_duties
+                title: Calendar
+                showProgressBar: true
+                progressBarColor: blue
+                entities:
+                  - calendar.family
+                  - calendar.dutysheet_duties
