@@ -19,10 +19,10 @@ cards:
                     name: Living room main lights
                     toggle: true
                     hide_when_off: false
-                  - type: light
-                    entity: light.living_room_lamp
-                    name: Living room lamp
-                    hide_when_off: false
+              - type: light
+                entity: light.living_room_lamp
+                name: Living room lamp
+                hide_when_off: false
           - break
           - type: vertical-stack
             title: Upstairs
