@@ -9,7 +9,7 @@ __pycache__
 
 # Directory (contents) ignores
 config/.cloud
-config/.storage
+config/.storage/*
 config/deps
 config/www/lovelace/persons
 
@@ -48,5 +48,4 @@ config/notebooks
 
 # Specific keeps
 !.gitkeep
-!config/.storage/
-!config/.storage/hacs.*
+!config/.storage/hacs.repositories

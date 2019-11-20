@@ -1,1 +1,5 @@
 ---
+path: security
+title: Security
+icon: mdi:camera
+panel: true
