@@ -6,28 +6,31 @@ panel: true
 cards:
   - type: vertical-stack
     cards:
-      - type: horizontal-stack
-        title: Downstairs
+      - type: custom:layout-card
+        layout: vertical
         cards:
-          - type: entities
-            show_header_toggle: false
-            entities:
-              - entity: switch.living_room_main_lights
-                name: Living room main lights
-                toggle: true
-                hide_when_off: false
-          - type: light
-            entity: light.living_room_lamp
-            name: Living room lamp
-            hide_when_off: false
-  - break
-  - type: vertical-stack
-    title: Upstairs
-    cards:
-      - type: entities
-        show_header_toggle: false
-        entities:
-          - entity: switch.office_light
-            name: Office light
-            toggle: true
-            hide_when_off: false
+          - type: horizontal-stack
+            title: Downstairs
+            cards:
+              - type: entities
+                show_header_toggle: false
+                entities:
+                  - entity: switch.living_room_main_lights
+                    name: Living room main lights
+                    toggle: true
+                    hide_when_off: false
+                  - type: light
+                    entity: light.living_room_lamp
+                    name: Living room lamp
+                    hide_when_off: false
+          - break
+          - type: vertical-stack
+            title: Upstairs
+            cards:
+              - type: entities
+                show_header_toggle: false
+                entities:
+                  - entity: switch.office_light
+                    name: Office light
+                    toggle: true
+                    hide_when_off: false
