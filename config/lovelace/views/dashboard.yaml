@@ -2,6 +2,7 @@
 path: dashboard
 title: Dashboard
 icon: mdi:home-assistant
+panel: true
 popup_cards:
   device_tracker.steve_presence: &steve_presence_card
     title: Steve
