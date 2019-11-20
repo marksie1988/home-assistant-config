@@ -1,1 +1,75 @@
 ---
+title: Settings
+icon: mdi:cogs
+path: settings
+panel: true
+cards:
+  - type: custom:layout-card
+    layout: horizontal
+    cards:
+      - type: vertical-stack
+        cards:
+          - type: custom:home-setter
+            pages:
+              - name: Default
+                path: lovelace/home
+              - name: Dashboard
+                path: lovelace/dashboard
+          - type: custom:tracker-card
+            title:
+            trackers:
+              - sensor.custom_card_tracker
+              - sensor.custom_component_tracker
+
+          #- !include links_card.yaml
+
+          - type: custom:auto-entities
+            card:
+              type: entities
+              title: Battery warning
+            filter:
+              include:
+                - domain: device_tracker
+                  options:
+                    secondary_info: last-changed
+                  attributes:
+                    battery: "< 50"
+                    source_type: gps
+      - type: vertical-stack
+        cards:
+          - type: custom:monster-card
+            show_empty: false
+            card:
+              type: entities
+              title: Batteries
+              show_header_toggle: false
+            filter:
+              include:
+                - entity_id: "*battery*"
+
+                - attributes:
+                    battery: '< 50'
+                - attributes:
+                    battery_level: '< 50'
+              exclude:
+                - domain: alert
+                - domain: automation
+                - domain: group
+
+
+      - type: vertical-stack
+        cards:
+          - type: custom:monster-card
+            show_empty: false
+            card:
+              type: entities
+              title: Things that are probably broken
+              show_header_toggle: false
+            filter:
+              include:
+                - state: "unknown"
+                - state: "unavailable"
+              exclude:
+                - domain: group
+                - domain: input_text
+                - domain: history_graph
