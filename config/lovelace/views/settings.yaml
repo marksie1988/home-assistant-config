@@ -21,7 +21,7 @@ cards:
               - sensor.custom_card_tracker
               - sensor.custom_component_tracker
 
-          #- !include links_card.yaml
+          # !include links_card.yaml
 
           - type: custom:auto-entities
             card:
@@ -55,7 +55,6 @@ cards:
                 - domain: alert
                 - domain: automation
                 - domain: group
-
 
       - type: vertical-stack
         cards:
