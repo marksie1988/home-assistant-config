@@ -4,34 +4,30 @@ title: Lights
 icon: mdi:lightbulb-on
 panel: true
 cards:
-  - type: horizontal-stack
+  - type: vertical-stack
     cards:
-      - type: vertical-stack
+      - type: horizontal-stack
+        title: Downstairs
         cards:
-          - type: horizontal-stack
-            title: Downstairs
-            cards:
-              - type: entities
-                show_header_toggle: false
-                entities:
-                  - entity: switch.living_room_main_lights
-                    name: Living room main lights
-                    toggle: true
-                    hide_when_off: false
-              - type: light
-                entity: light.living_room_lamp
-                name: Living room lamp
+          - type: entities
+            show_header_toggle: false
+            entities:
+              - entity: switch.living_room_main_lights
+                name: Living room main lights
+                toggle: true
                 hide_when_off: false
-
-      - type: vertical-stack
-        cards:
-          - type: horizontal-stack
-            title: Upstairs
-            cards:
-              - type: entities
-                show_header_toggle: false
-                entities:
-                  - entity: switch.office_light
-                    name: Office light
-                    toggle: true
-                    hide_when_off: false
+          - type: light
+            entity: light.living_room_lamp
+            name: Living room lamp
+            hide_when_off: false
+  - break
+  - type: vertical-stack
+    title: Upstairs
+    cards:
+      - type: entities
+        show_header_toggle: false
+        entities:
+          - entity: switch.office_light
+            name: Office light
+            toggle: true
+            hide_when_off: false
