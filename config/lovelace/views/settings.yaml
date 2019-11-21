@@ -37,7 +37,7 @@ cards:
                     source_type: gps
       - type: vertical-stack
         cards:
-          - type: custom:monster-card
+          - type: custom:auto-entities
             show_empty: false
             card:
               type: entities
@@ -58,7 +58,7 @@ cards:
 
       - type: vertical-stack
         cards:
-          - type: custom:monster-card
+          - type: custom:auto-entities
             show_empty: false
             card:
               type: entities
