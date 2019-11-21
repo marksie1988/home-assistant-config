@@ -15,11 +15,6 @@ cards:
                 path: lovelace/home
               - name: Dashboard
                 path: lovelace/dashboard
-          - type: custom:tracker-card
-            title:
-            trackers:
-              - sensor.custom_card_tracker
-              - sensor.custom_component_tracker
 
           # !include links_card.yaml
 
