@@ -2287,7 +2287,7 @@
             "full_name": "hacs/integration",
             "hide": false,
             "installed": true,
-            "installed_commit": null,
+            "installed_commit": "7b332a4",
             "last_commit": "7b332a4",
             "last_release_tag": "0.17.4",
             "name": "HACS (Home Assistant Community Store)",
@@ -2307,7 +2307,7 @@
                 "package-manager",
                 "python"
             ],
-            "version_installed": "0.17.3"
+            "version_installed": "0.17.4"
         },
         "172800356": {
             "authors": [
@@ -3375,17 +3375,17 @@
             "description": "",
             "full_name": "custom-cards/home-setter",
             "hide": false,
-            "installed": false,
-            "installed_commit": null,
+            "installed": true,
+            "installed_commit": "41cf173",
             "last_commit": "41cf173",
             "last_release_tag": "0.0.2",
             "name": "home-setter",
-            "new": true,
+            "new": false,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
             "topics": [],
-            "version_installed": null
+            "version_installed": "0.0.2"
         },
         "187247927": {
             "authors": [],
