@@ -2,7 +2,7 @@
 # This alerts me on via Telegram when a new release
 # of Home Assistant for Hass.io is released.
 #
-alias: [system] system_upgrade_alert
+alias: '[system] system_upgrade_alert'
 trigger:
   platform: state
   entity_id: sensor.version_available

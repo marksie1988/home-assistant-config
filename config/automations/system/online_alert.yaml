@@ -1,0 +1,9 @@
+alias: '[System] Hass Started'
+initial_state: 'on'
+trigger:
+  platform: homeassistant
+  event: start
+action:
+  - service: telegram_bot.send_message
+    data:
+      message: "Hass.io Online"
