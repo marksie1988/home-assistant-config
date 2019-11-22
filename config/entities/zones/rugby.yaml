@@ -6,7 +6,7 @@
 #
 name: rugby
 latitude: !secret zone_rugby_latitude
-longitude: !secret zone_rugby_latitude
+longitude: !secret zone_rugby_longitude
 radius: !secret zone_rugby_radius
 passive: false
 icon: mdi:rugby-ball

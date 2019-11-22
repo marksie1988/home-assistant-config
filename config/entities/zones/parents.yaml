@@ -6,7 +6,7 @@
 #
 name: parents
 latitude: !secret zone_parents_latitude
-longitude: !secret zone_parents_latitude
+longitude: !secret zone_parents_longitude
 radius: !secret zone_parents_radius
 passive: false
 icon: mdi:person-heart

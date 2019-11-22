@@ -6,7 +6,7 @@
 #
 name: swimming
 latitude: !secret zone_swimming_latitude
-longitude: !secret zone_swimming_latitude
+longitude: !secret zone_swimming_longitude
 radius: !secret zone_swimming_radius
 passive: false
 icon: mdi:swimming-pool

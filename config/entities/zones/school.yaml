@@ -6,7 +6,7 @@
 #
 name: school
 latitude: !secret zone_school_latitude
-longitude: !secret zone_school_latitude
+longitude: !secret zone_school_longitude
 radius: !secret zone_school_radius
 passive: false
 icon: mdi:college-outline
