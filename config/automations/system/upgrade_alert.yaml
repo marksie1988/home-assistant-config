@@ -27,4 +27,5 @@ action:
       message: >-
         There is a Home Assistant upgrade for Hass.io pending!
         Version {{ states('sensor.version_available') }} just got released!
+        Rel Notes: https://www.home-assistant.io/latest-release-notes/
       notification_id: hassio_upgrade
