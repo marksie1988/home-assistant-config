@@ -1,3 +1,4 @@
+---
 alias: '[System] Hass Started'
 initial_state: 'on'
 trigger:
