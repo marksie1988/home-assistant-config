@@ -1,6 +1,12 @@
 ---
-
 platform: sonarr
 api_key: !secret sensor_sonarr_apikey
 host: !secret sensor_sonarr_host
+monitored_conditions:
+  - diskspace
+  - queue
+  - upcoming
+  - wanted
+  - commands
+  - status
 unit: TB
