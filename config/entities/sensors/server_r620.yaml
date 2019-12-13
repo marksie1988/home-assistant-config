@@ -2,4 +2,4 @@
 platform: command_line
 name: r620_power_state
 friendly_name: "R620 Power State"
-command: ipmitool -I lanplus -H 192.168.88.46 -U marksie1988 -P Lak991-=1 power status | cut -d " " -f 4
+command: !secret ipmi_r620_power_state
