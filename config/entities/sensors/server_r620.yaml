@@ -1,5 +1,4 @@
 ---
 platform: command_line
 name: r620_power_state
-friendly_name: "R620 Power State"
 command: !secret ipmi_r620_power_state
