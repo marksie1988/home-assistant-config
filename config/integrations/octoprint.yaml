@@ -1,0 +1,16 @@
+---
+# The octoprint integration.
+#
+# https://www.home-assistant.io/integrations/octoprint/
+#
+octoprint:
+  host: !secret octoprint_host
+  api_key: !secret octoprint_api_key
+  number_of_tools: 1
+  sensors:
+    monitored_conditions:
+      - 'Current State'
+      - 'Job Percentage'
+      - 'Temperatures'
+      - 'Time Elapsed'
+      - 'Time Remaining'
