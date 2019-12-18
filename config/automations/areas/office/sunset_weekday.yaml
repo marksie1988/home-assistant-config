@@ -18,4 +18,3 @@ action:
   - service: switch.turn_on
     data:
       entity_id: switch.office_light
-      brightness_pct: 50
