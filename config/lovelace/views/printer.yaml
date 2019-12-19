@@ -1,0 +1,53 @@
+---
+title: Printer
+icon: mdi:printer
+path: printer
+panel: true
+cards:
+  - type: vertical-stack
+    cards:
+      - type: custom:layout-card
+        layout: vertical
+        cards:
+          - type: vertical-stack
+            cards:
+              - type: custom:mini-graph-card
+                name: Printer Temp Stats
+                show:
+                  icon: false
+                  extrema: true
+                  fill: false
+                entities:
+                  - sensor.octoprint_actual_tool0_temp
+                  - sensor.octoprint_target_tool0_temp
+                  - sensor.octoprint_actual_bed_temp
+                  - sensor.octoprint_target_bed_temp
+                line_color: "#389638"
+          - break
+          - type: vertical-stack
+            cards:
+              - type: custom:layout-card
+                layout: vertical
+                cards:
+                  - type: horizontal-stack
+                    cards:
+                      - type: gauge
+                        entity: sensor.octoprint_job_percentage
+                        unit: '%'
+                        name: Job Completion
+                  - type: horizontal-stack
+                    cards:
+                      - type: custom:bignumber-card
+                        title: Time Elapsed
+                        entities:
+                          - sensor.octoprint_time_elapsed
+                      - type: custom:bignumber-card
+                        title: Time Remaining
+                        entities:
+                          - sensor.octoprint_time_remaining
+          - break
+          - type: vertical-stack
+            cards:
+              - type: picture-entity
+                entity: camera.octoprint
+                camera_view: live
