@@ -50,4 +50,3 @@ config/notebooks
 !.gitkeep
 !config/.storage/*
 !config/.storage/hacs.repositories
-!config/.storage/hacs.installed
