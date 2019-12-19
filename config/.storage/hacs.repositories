@@ -15,7 +15,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 3,
             "topics": [
                 "home-assistant",
                 "home-assistant-component",
@@ -43,7 +43,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 5,
             "topics": [
                 "homeassistant",
                 "homeassistant-components"
@@ -67,7 +67,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 26,
             "topics": [],
             "version_installed": null
         },
@@ -105,7 +105,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 5,
             "topics": [],
             "version_installed": null
         },
@@ -127,7 +127,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 20,
             "topics": [],
             "version_installed": null
         },
@@ -148,7 +148,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 30,
             "topics": [
                 "elasticsearch",
                 "hass",
@@ -175,7 +175,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 15,
             "topics": [
                 "computer-vision",
                 "deep-neural-networks",
@@ -202,7 +202,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 13,
             "topics": [],
             "version_installed": null
         },
@@ -223,7 +223,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 19,
             "topics": [
                 "computer-vision",
                 "home-assistant"
@@ -240,14 +240,14 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "b75ad31",
+            "last_commit": "6dcec2f",
             "last_release_tag": null,
             "name": "ZiGate",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 36,
             "topics": [],
             "version_installed": null
         },
@@ -280,7 +280,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 358,
             "topics": [],
             "version_installed": null
         },
@@ -301,7 +301,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [
                 "api",
                 "brewdog",
@@ -330,7 +330,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 15,
             "topics": [
                 "custom-components",
                 "home-assistant",
@@ -356,7 +356,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 7,
             "topics": [
                 "custom-components",
                 "home-assistant",
@@ -380,7 +380,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 56,
             "topics": [
                 "community-driven",
                 "component",
@@ -409,7 +409,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 18,
             "topics": [
                 "automations",
                 "badges",
@@ -438,7 +438,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 34,
             "topics": [
                 "custom-components",
                 "home-assistant",
@@ -464,7 +464,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 26,
             "topics": [],
             "version_installed": null
         },
@@ -483,7 +483,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 4,
             "topics": [],
             "version_installed": null
         },
@@ -502,7 +502,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 42,
             "topics": [],
             "version_installed": null
         },
@@ -540,7 +540,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 289,
+            "stars": 291,
             "topics": [
                 "homeassistant",
                 "lovelace",
@@ -563,7 +563,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [],
             "version_installed": null
         },
@@ -582,7 +582,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 36,
             "topics": [],
             "version_installed": null
         },
@@ -611,7 +611,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 7,
             "topics": [
                 "atag",
                 "custom-components",
@@ -639,7 +639,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 4,
             "topics": [
                 "camera",
                 "home-assistant",
@@ -666,7 +666,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 10,
             "topics": [],
             "version_installed": null
         },
@@ -689,7 +689,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 35,
             "topics": [],
             "version_installed": null
         },
@@ -727,7 +727,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 9,
             "topics": [],
             "version_installed": null
         },
@@ -749,7 +749,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 220,
             "topics": [],
             "version_installed": null
         },
@@ -768,7 +768,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 4,
             "topics": [],
             "version_installed": null
         },
@@ -791,7 +791,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 15,
             "topics": [],
             "version_installed": null
         },
@@ -831,7 +831,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 19,
             "topics": [],
             "version_installed": null
         },
@@ -852,7 +852,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 5,
             "topics": [],
             "version_installed": null
         },
@@ -871,7 +871,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 298,
             "topics": [
                 "home-assistant",
                 "home-assistant-custom",
@@ -896,7 +896,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 2,
             "topics": [],
             "version_installed": null
         },
@@ -917,7 +917,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 27,
             "topics": [],
             "version_installed": null
         },
@@ -938,7 +938,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 3,
             "topics": [
                 "e-thermostaat",
                 "home-assistant",
@@ -963,7 +963,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 33,
             "topics": [
                 "bravia",
                 "home-assistant",
@@ -1048,7 +1048,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 61,
             "topics": [],
             "version_installed": null
         },
@@ -1070,7 +1070,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 13,
             "topics": [],
             "version_installed": null
         },
@@ -1089,7 +1089,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 477,
+            "stars": 478,
             "topics": [
                 "automation",
                 "custom",
@@ -1120,7 +1120,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 108,
             "topics": [],
             "version_installed": null
         },
@@ -1139,7 +1139,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 567,
+            "stars": 572,
             "topics": [
                 "automation",
                 "custom",
@@ -1167,7 +1167,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 12,
             "topics": [],
             "version_installed": null
         },
@@ -1203,7 +1203,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 25,
             "topics": [
                 "buttons",
                 "entity-row",
@@ -1229,7 +1229,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 3,
             "topics": [],
             "version_installed": null
         },
@@ -1250,7 +1250,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 29,
             "topics": [],
             "version_installed": null
         },
@@ -1275,7 +1275,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 67,
             "topics": [],
             "version_installed": null
         },
@@ -1296,7 +1296,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 4,
             "topics": [],
             "version_installed": null
         },
@@ -1315,7 +1315,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 55,
             "topics": [
                 "home-automation",
                 "homeassistant",
@@ -1341,7 +1341,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 9,
             "topics": [],
             "version_installed": null
         },
@@ -1362,7 +1362,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 20,
+            "stars": 21,
             "topics": [],
             "version_installed": "0.2.9"
         },
@@ -1381,7 +1381,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 29,
             "topics": [
                 "data-table",
                 "data-visualization",
@@ -1436,7 +1436,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 69,
             "topics": [],
             "version_installed": null
         },
@@ -1455,7 +1455,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 11,
             "topics": [
                 "air-quality",
                 "air-visual",
@@ -1481,7 +1481,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 14,
             "topics": [
                 "ha-sensor-sl",
                 "homeassistant",
@@ -1501,7 +1501,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "86878f7",
+            "last_commit": "302b25d",
             "last_release_tag": null,
             "name": "Entity Contoller",
             "new": true,
@@ -1511,7 +1511,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 72,
             "topics": [
                 "finite-state-machine",
                 "hass",
@@ -1541,7 +1541,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 167,
             "topics": [
                 "hassio",
                 "home-assistant",
@@ -1570,7 +1570,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 52,
             "topics": [],
             "version_installed": null
         },
@@ -1600,7 +1600,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 2,
             "topics": [],
             "version_installed": null
         },
@@ -1621,7 +1621,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 10,
             "topics": [
                 "aemet",
                 "hacs",
@@ -1641,14 +1641,14 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "92c61fd",
-            "last_release_tag": "1.5.1",
+            "last_commit": "e4f2d9e",
+            "last_release_tag": "1.6",
             "name": "Wiser Heating Component for Home Assistant",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 16,
             "topics": [],
             "version_installed": null
         },
@@ -1688,7 +1688,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 21,
             "topics": [
                 "home-assistant",
                 "rekognition"
@@ -1712,7 +1712,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 36,
             "topics": [
                 "custom-card",
                 "energy",
@@ -1748,7 +1748,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 66,
             "topics": [
                 "hacs",
                 "homeassistant",
@@ -1774,7 +1774,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [],
             "version_installed": null
         },
@@ -1795,7 +1795,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 93,
+            "stars": 94,
             "topics": [],
             "version_installed": "2.3"
         },
@@ -1817,7 +1817,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 68,
             "topics": [],
             "version_installed": null
         },
@@ -1836,7 +1836,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 41,
             "topics": [],
             "version_installed": null
         },
@@ -1859,7 +1859,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 8,
             "topics": [
                 "home-assistant",
                 "home-automation",
@@ -1893,7 +1893,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 6,
             "topics": [],
             "version_installed": null
         },
@@ -1912,7 +1912,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 72,
             "topics": [],
             "version_installed": null
         },
@@ -1931,7 +1931,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 22,
             "topics": [],
             "version_installed": null
         },
@@ -1950,7 +1950,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 25,
             "topics": [],
             "version_installed": null
         },
@@ -1971,7 +1971,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 8,
             "topics": [],
             "version_installed": null
         },
@@ -1992,7 +1992,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 106,
             "topics": [],
             "version_installed": null
         },
@@ -2004,7 +2004,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "4e14eea",
+            "last_commit": "fe96198",
             "last_release_tag": "1.0.9",
             "name": "roku-card",
             "new": true,
@@ -2014,7 +2014,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 32,
             "topics": [
                 "custom-card",
                 "home-assistant",
@@ -2040,7 +2040,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 16,
             "topics": [],
             "version_installed": null
         },
@@ -2059,7 +2059,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 3,
             "topics": [],
             "version_installed": null
         },
@@ -2078,7 +2078,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 4,
             "topics": [],
             "version_installed": null
         },
@@ -2099,7 +2099,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 2,
             "topics": [],
             "version_installed": null
         },
@@ -2120,7 +2120,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 97,
             "topics": [
                 "facial-recognition",
                 "home-assistant"
@@ -2144,7 +2144,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 21,
             "topics": [],
             "version_installed": null
         },
@@ -2165,7 +2165,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 6,
             "topics": [
                 "home-assistant",
                 "kodi"
@@ -2190,7 +2190,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 115,
+            "stars": 117,
             "topics": [],
             "version_installed": "1.9"
         },
@@ -2211,7 +2211,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 70,
             "topics": [],
             "version_installed": null
         },
@@ -2230,7 +2230,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 12,
             "topics": [],
             "version_installed": null
         },
@@ -2252,7 +2252,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 42,
             "topics": [],
             "version_installed": null
         },
@@ -2273,7 +2273,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 3,
             "topics": [],
             "version_installed": null
         },
@@ -2294,7 +2294,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 33,
             "topics": [],
             "version_installed": null
         },
@@ -2313,7 +2313,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 71,
+            "stars": 72,
             "topics": [],
             "version_installed": "v0.8.9"
         },
@@ -2332,7 +2332,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 6,
             "topics": [],
             "version_installed": null
         },
@@ -2374,7 +2374,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 6,
             "topics": [
                 "custom-components",
                 "customcomponents",
@@ -2403,7 +2403,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 69,
             "topics": [],
             "version_installed": null
         },
@@ -2432,7 +2432,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 19,
             "topics": [],
             "version_installed": null
         },
@@ -2446,8 +2446,8 @@
             "hide": false,
             "installed": true,
             "installed_commit": null,
-            "last_commit": "ba1652c",
-            "last_release_tag": "0.18.2",
+            "last_commit": "9673f4f",
+            "last_release_tag": "0.19.0",
             "name": "HACS (Home Assistant Community Store)",
             "new": false,
             "repository_manifest": {
@@ -2466,7 +2466,7 @@
                 "package-manager",
                 "python"
             ],
-            "version_installed": "0.18.2"
+            "version_installed": "0.19.0"
         },
         "172800356": {
             "authors": [
@@ -2485,7 +2485,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 4,
             "topics": [
                 "check",
                 "config",
@@ -2511,7 +2511,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 65,
             "topics": [
                 "home-assistant",
                 "home-automation",
@@ -2539,7 +2539,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 10,
             "topics": [],
             "version_installed": null
         },
@@ -2558,7 +2558,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 6,
             "topics": [],
             "version_installed": null
         },
@@ -2577,7 +2577,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 11,
             "topics": [],
             "version_installed": null
         },
@@ -2596,7 +2596,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 4,
             "topics": [],
             "version_installed": null
         },
@@ -2608,14 +2608,14 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "dbbda9c",
-            "last_release_tag": "v1.9",
+            "last_commit": "bb28a41",
+            "last_release_tag": "v1.10",
             "name": "spotify-card",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 69,
             "topics": [],
             "version_installed": null
         },
@@ -2634,7 +2634,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 55,
             "topics": [],
             "version_installed": null
         },
@@ -2655,7 +2655,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 4,
             "topics": [],
             "version_installed": null
         },
@@ -2690,14 +2690,21 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": null,
+            "last_commit": "2001696",
             "last_release_tag": "V0.1.10",
             "name": "WeatherFlow Smart Weather Component for Home Assistant",
             "new": true,
-            "repository_manifest": {},
+            "repository_manifest": {
+                "domains": [
+                    "binary_sensor",
+                    "sensor",
+                    "weather"
+                ],
+                "name": "WeatherFlow Smart Weather Component for Home Assistant"
+            },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 21,
             "topics": [
                 "darksky",
                 "home-assistant",
@@ -2721,7 +2728,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 4,
             "topics": [],
             "version_installed": null
         },
@@ -2743,7 +2750,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 11,
             "topics": [],
             "version_installed": null
         },
@@ -2764,7 +2771,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 5,
             "topics": [],
             "version_installed": null
         },
@@ -2786,7 +2793,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 133,
             "topics": [],
             "version_installed": null
         },
@@ -2807,7 +2814,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 13,
             "topics": [
                 "airthings-wave",
                 "home-assistant-custom",
@@ -2831,7 +2838,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 57,
             "topics": [
                 "attribute",
                 "entity",
@@ -2861,7 +2868,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 111,
             "topics": [],
             "version_installed": null
         },
@@ -2880,7 +2887,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 14,
             "topics": [],
             "version_installed": null
         },
@@ -2899,7 +2906,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 16,
             "topics": [],
             "version_installed": null
         },
@@ -2920,7 +2927,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 4,
             "topics": [
                 "home-assistant",
                 "water-sensor"
@@ -2942,7 +2949,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 4,
             "topics": [],
             "version_installed": null
         },
@@ -2964,7 +2971,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 3,
             "topics": [],
             "version_installed": null
         },
@@ -2983,7 +2990,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 43,
             "topics": [
                 "home-assistant",
                 "home-assistant-frontend",
@@ -3006,7 +3013,7 @@
             "hide": false,
             "installed": true,
             "installed_commit": "b557c99",
-            "last_commit": "b557c99",
+            "last_commit": "6c2e94d",
             "last_release_tag": "0.3.6",
             "name": "Breaking Changes",
             "new": false,
@@ -3038,7 +3045,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 8,
             "topics": [],
             "version_installed": null
         },
@@ -3060,7 +3067,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 12,
             "topics": [],
             "version_installed": null
         },
@@ -3081,7 +3088,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 3,
             "topics": [
                 "api",
                 "custom-component",
@@ -3108,7 +3115,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 27,
             "topics": [],
             "version_installed": null
         },
@@ -3129,7 +3136,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 7,
             "topics": [],
             "version_installed": null
         },
@@ -3150,7 +3157,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [
                 "brematic",
                 "brennenstuhl",
@@ -3176,7 +3183,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 4,
             "topics": [],
             "version_installed": null
         },
@@ -3206,7 +3213,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 7,
             "topics": [],
             "version_installed": null
         },
@@ -3227,7 +3234,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 11,
             "topics": [],
             "version_installed": null
         },
@@ -3248,7 +3255,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 52,
             "topics": [],
             "version_installed": null
         },
@@ -3270,7 +3277,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 19,
             "topics": [
                 "home-assistant",
                 "lovelace",
@@ -3302,7 +3309,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 13,
             "topics": [
                 "custom-component",
                 "home-assistant",
@@ -3326,7 +3333,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 2,
             "topics": [],
             "version_installed": null
         },
@@ -3349,7 +3356,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 12,
             "topics": [],
             "version_installed": null
         },
@@ -3368,7 +3375,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 29,
             "topics": [],
             "version_installed": null
         },
@@ -3387,7 +3394,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 14,
             "topics": [],
             "version_installed": null
         },
@@ -3427,7 +3434,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 4,
             "topics": [
                 "entity",
                 "github",
@@ -3454,7 +3461,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [],
             "version_installed": null
         },
@@ -3482,7 +3489,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 7,
             "topics": [
                 "custom-component",
                 "home-assistant",
@@ -3506,7 +3513,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 128,
             "topics": [
                 "custom-cards",
                 "hassio",
@@ -3533,7 +3540,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 5,
             "topics": [],
             "version_installed": null
         },
@@ -3543,8 +3550,8 @@
             "description": "",
             "full_name": "custom-cards/bignumber-card",
             "hide": false,
-            "installed": false,
-            "installed_commit": null,
+            "installed": true,
+            "installed_commit": "b4b4598",
             "last_commit": "b4b4598",
             "last_release_tag": "0.0.2",
             "name": "bignumber-card",
@@ -3552,9 +3559,9 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 12,
             "topics": [],
-            "version_installed": null
+            "version_installed": "0.0.2"
         },
         "187245461": {
             "authors": [],
@@ -3571,7 +3578,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 10,
             "topics": [],
             "version_installed": null
         },
@@ -3590,7 +3597,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 5,
             "topics": [],
             "version_installed": null
         },
@@ -3647,7 +3654,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 7,
             "topics": [],
             "version_installed": null
         },
@@ -3666,7 +3673,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 36,
             "topics": [
                 "custom-cards",
                 "home-assistant",
@@ -3711,7 +3718,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [],
             "version_installed": null
         },
@@ -3732,7 +3739,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 2,
             "topics": [],
             "version_installed": null
         },
@@ -3753,7 +3760,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 6,
             "topics": [],
             "version_installed": null
         },
@@ -3796,7 +3803,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 10,
             "topics": [],
             "version_installed": null
         },
@@ -3817,7 +3824,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 3,
             "topics": [],
             "version_installed": null
         },
@@ -3841,7 +3848,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 18,
             "topics": [
                 "custom-card",
                 "home-assistant",
@@ -3869,7 +3876,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 9,
             "topics": [],
             "version_installed": null
         },
@@ -3890,7 +3897,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 43,
             "topics": [],
             "version_installed": null
         },
@@ -3930,7 +3937,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 15,
             "topics": [
                 "custom-component",
                 "hacs",
@@ -3963,7 +3970,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 2,
             "topics": [
                 "bosch-mower",
                 "home-assistant",
@@ -3989,7 +3996,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 38,
+            "stars": 40,
             "topics": [],
             "version_installed": "v1.4.1"
         },
@@ -4008,7 +4015,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [],
             "version_installed": null
         },
@@ -4027,7 +4034,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 48,
             "topics": [],
             "version_installed": null
         },
@@ -4076,7 +4083,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [
                 "custom-component",
                 "home-assistant",
@@ -4111,7 +4118,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 7,
             "topics": [
                 "custom-component",
                 "home-assistant",
@@ -4143,7 +4150,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [
                 "air-quality",
                 "custom-component",
@@ -4175,7 +4182,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 3,
             "topics": [
                 "custom-component",
                 "energy-monitor",
@@ -4199,7 +4206,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 193,
             "topics": [
                 "home-assistant",
                 "lovelace-card",
@@ -4223,7 +4230,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 2,
             "topics": [
                 "home-assistant",
                 "lovelace-card"
@@ -4253,7 +4260,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [
                 "custom-component",
                 "home-assistant",
@@ -4312,7 +4319,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 4,
             "topics": [],
             "version_installed": null
         },
@@ -4333,7 +4340,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 6,
             "topics": [],
             "version_installed": null
         },
@@ -4352,7 +4359,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [],
             "version_installed": null
         },
@@ -4371,12 +4378,12 @@
             "name": "Philips AirPurifier",
             "new": true,
             "repository_manifest": {
-                "name": "\ud83c\udfde Philips AirPurifier",
+                "name": "Philips AirPurifier",
                 "render_readme": "true"
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 11,
             "topics": [],
             "version_installed": null
         },
@@ -4417,7 +4424,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 24,
             "topics": [
                 "discovery",
                 "home-assistant",
@@ -4445,7 +4452,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 2,
             "topics": [
                 "home-assistant",
                 "python",
@@ -4475,7 +4482,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 12,
             "topics": [
                 "air-quality",
                 "airly",
@@ -4501,7 +4508,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [],
             "version_installed": null
         },
@@ -4522,7 +4529,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 10,
             "topics": [],
             "version_installed": null
         },
@@ -4574,7 +4581,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 7,
             "topics": [],
             "version_installed": null
         },
@@ -4595,7 +4602,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 3,
             "topics": [],
             "version_installed": null
         },
@@ -4614,7 +4621,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 4,
             "topics": [],
             "version_installed": null
         },
@@ -4652,7 +4659,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 5,
             "topics": [],
             "version_installed": null
         },
@@ -4687,14 +4694,14 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "630acf4",
-            "last_release_tag": "0.1.3",
+            "last_commit": "9f46cbd",
+            "last_release_tag": "0.1.5",
             "name": "lovelace-grocy-chores-card",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 13,
             "topics": [],
             "version_installed": null
         },
@@ -4737,7 +4744,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [
                 "clientraw",
                 "davis",
@@ -4765,7 +4772,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 11,
             "topics": [
                 "attributes",
                 "breakout",
@@ -4793,7 +4800,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 2,
             "topics": [
                 "api",
                 "hacs",
@@ -4841,7 +4848,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 4,
             "topics": [],
             "version_installed": null
         },
@@ -4882,7 +4889,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 33,
             "topics": [
                 "hacs",
                 "home-assistant",
@@ -4907,7 +4914,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 5,
             "topics": [
                 "emfit",
                 "emfitqs",
@@ -4939,7 +4946,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 14,
             "topics": [
                 "computer-vision",
                 "deep-learning",
@@ -4967,7 +4974,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 5,
             "topics": [
                 "air-quality",
                 "gios",
@@ -4991,7 +4998,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 5,
             "topics": [],
             "version_installed": null
         },
@@ -5013,7 +5020,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 5,
             "topics": [],
             "version_installed": null
         },
@@ -5051,7 +5058,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 11,
             "topics": [],
             "version_installed": null
         },
@@ -5072,7 +5079,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 10,
             "topics": [
                 "hacs",
                 "home-assistant-custom",
@@ -5097,7 +5104,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 10,
             "topics": [],
             "version_installed": null
         },
@@ -5116,7 +5123,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 3,
             "topics": [],
             "version_installed": null
         },
@@ -5135,7 +5142,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 4,
             "topics": [],
             "version_installed": null
         },
@@ -5156,7 +5163,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [
                 "denkovi",
                 "homeassistant",
@@ -5179,7 +5186,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [
                 "home-assistant",
                 "lovelace-ui"
@@ -5201,7 +5208,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 5,
             "topics": [
                 "hacs",
                 "home-assistant",
@@ -5229,7 +5236,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 7,
             "topics": [],
             "version_installed": null
         },
@@ -5250,7 +5257,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [],
             "version_installed": null
         },
@@ -5277,7 +5284,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [],
             "version_installed": null
         },
@@ -5304,7 +5311,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 2,
             "topics": [],
             "version_installed": null
         },
@@ -5334,7 +5341,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 2,
             "topics": [
                 "beward",
                 "camera",
@@ -5368,7 +5375,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 16,
             "topics": [],
             "version_installed": null
         },
@@ -5387,7 +5394,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 10,
             "topics": [
                 "home-assistant",
                 "lovelace-card"
@@ -5411,7 +5418,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 9,
             "topics": [
                 "custom-component",
                 "home-assistant",
@@ -5437,7 +5444,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 6,
             "topics": [
                 "custom",
                 "homeassistant",
@@ -5470,7 +5477,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 5,
             "topics": [],
             "version_installed": null
         },
@@ -5489,7 +5496,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 6,
             "topics": [],
             "version_installed": null
         },
@@ -5529,7 +5536,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [
                 "bkk",
                 "budapest",
@@ -5559,7 +5566,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 3,
             "topics": [],
             "version_installed": null
         },
@@ -5578,7 +5585,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 23,
             "topics": [],
             "version_installed": null
         },
@@ -5600,7 +5607,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 39,
             "topics": [
                 "home-assistant",
                 "zigbee2mqtt"
@@ -5626,7 +5633,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 2,
             "topics": [
                 "acv-groep",
                 "component",
@@ -5658,7 +5665,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [
                 "media-card",
                 "mylar",
@@ -5683,7 +5690,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 6,
             "topics": [],
             "version_installed": null
         },
@@ -5704,7 +5711,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 4,
             "topics": [
                 "automation",
                 "home-assistant",
@@ -5730,7 +5737,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 10,
             "topics": [],
             "version_installed": null
         },
@@ -5751,7 +5758,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 4,
             "topics": [
                 "api-client",
                 "healthchecksio",
@@ -5774,7 +5781,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 48,
             "topics": [
                 "css",
                 "home-assistant",
@@ -5799,7 +5806,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 9,
             "topics": [],
             "version_installed": null
         },
@@ -5858,7 +5865,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 9,
             "topics": [],
             "version_installed": null
         },
@@ -5877,7 +5884,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 24,
             "topics": [],
             "version_installed": null
         },
@@ -5896,7 +5903,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 3,
             "topics": [],
             "version_installed": null
         },
@@ -5917,7 +5924,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 2,
             "topics": [],
             "version_installed": null
         },
@@ -5947,7 +5954,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 5,
             "topics": [
                 "home-assistant",
                 "node-red"
@@ -5981,7 +5988,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [
                 "chaps",
                 "crws",
@@ -6011,7 +6018,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 30,
             "topics": [],
             "version_installed": null
         },
@@ -6054,7 +6061,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 10,
             "topics": [],
             "version_installed": null
         },
@@ -6076,7 +6083,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [],
             "version_installed": null
         },
@@ -6102,7 +6109,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 11,
             "topics": [
                 "average",
                 "home-assistant",
@@ -6136,7 +6143,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 28,
             "topics": [
                 "garbage-collection",
                 "schedule",
@@ -6164,7 +6171,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 3,
             "topics": [],
             "version_installed": null
         },
@@ -6186,7 +6193,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 3,
             "topics": [
                 "home-assistant",
                 "jinja2",
@@ -6206,7 +6213,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "b464d01",
+            "last_commit": "b491889",
             "last_release_tag": "v0.2.2",
             "name": "Sia",
             "new": true,
@@ -6218,7 +6225,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 8,
             "topics": [],
             "version_installed": null
         },
@@ -6245,7 +6252,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 9,
             "topics": [
                 "forecast",
                 "gismeteo",
@@ -6273,7 +6280,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 4,
             "topics": [
                 "homeassistant",
                 "lovelace-custom-card"
@@ -6307,7 +6314,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 5,
             "topics": [],
             "version_installed": null
         },
@@ -6330,7 +6337,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 26,
             "topics": [
                 "home-assistant",
                 "home-assistant-custom",
@@ -6366,7 +6373,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 3,
             "topics": [
                 "dpc",
                 "hacs",
@@ -6397,7 +6404,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 3,
             "topics": [],
             "version_installed": null
         },
@@ -6419,7 +6426,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [],
             "version_installed": null
         },
@@ -6449,7 +6456,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 8,
             "topics": [
                 "anniversaries",
                 "home-assistant",
@@ -6474,11 +6481,11 @@
                 "domains": [
                     "sensor"
                 ],
-                "name": "Integration for bin/waste collection by Area Reiniging"
+                "name": "Afvalkalender voor Area Reiniging"
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 4,
             "topics": [],
             "version_installed": null
         },
@@ -6492,7 +6499,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "aca86ef",
+            "last_commit": "32dbf21",
             "last_release_tag": "1.5.1",
             "name": "FRITZ!Box Tools",
             "new": true,
@@ -6504,7 +6511,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 13,
             "topics": [
                 "home-assistant",
                 "home-automation",
@@ -6639,7 +6646,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 7,
             "topics": [
                 "hacs",
                 "home-assistant",
@@ -6700,7 +6707,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 7,
             "topics": [
                 "binary-sensor",
                 "car",
@@ -6766,7 +6773,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [],
             "version_installed": null
         },
@@ -6785,7 +6792,7 @@
             "name": "Minecraft Version",
             "new": true,
             "repository_manifest": {
-                "name": "\u26cf\ufe0f Minecraft Version",
+                "name": "Minecraft Version",
                 "render_readme": "true"
             },
             "selected_tag": null,
@@ -6816,7 +6823,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 3,
             "topics": [],
             "version_installed": null
         },
@@ -6837,7 +6844,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 33,
             "topics": [],
             "version_installed": null
         },
@@ -6889,7 +6896,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 9,
             "topics": [],
             "version_installed": null
         },
@@ -6901,14 +6908,17 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": null,
+            "last_commit": "253a68f",
             "last_release_tag": "v1.1.1",
             "name": "lovelace-starline-card",
             "new": true,
-            "repository_manifest": {},
+            "repository_manifest": {
+                "homeassistant": "0.103.0",
+                "name": "StarLine Card"
+            },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 3,
             "topics": [],
             "version_installed": null
         },
@@ -6929,7 +6939,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 14,
             "topics": [
                 "hacs",
                 "home-assistant",
@@ -6955,7 +6965,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 5,
             "topics": [],
             "version_installed": null
         },
@@ -6976,7 +6986,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 2,
             "topics": [
                 "hacs",
                 "home-assistant",
@@ -7004,7 +7014,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 2,
             "topics": [
                 "hacs",
                 "home-assistant",
@@ -7030,7 +7040,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [
                 "hacs",
                 "home-assistant",
@@ -7055,7 +7065,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [
                 "hacs",
                 "home-assistant",
@@ -7086,7 +7096,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 19,
             "topics": [
                 "home-assistant",
                 "lovelace",
@@ -7113,7 +7123,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 13,
             "topics": [
                 "custom-card",
                 "home-assistant",
@@ -7141,7 +7151,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 6,
             "topics": [],
             "version_installed": null
         },
@@ -7162,7 +7172,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 2,
             "topics": [
                 "hacs",
                 "home-assistant",
@@ -7187,7 +7197,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [
                 "hacs",
                 "home-assistant",
@@ -7212,7 +7222,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [
                 "hacs",
                 "home-assistant",
@@ -7237,7 +7247,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [
                 "hacs",
                 "home-assistant",
@@ -7262,7 +7272,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [
                 "hacs",
                 "home-assistant",
@@ -7287,7 +7297,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [
                 "hacs",
                 "home-assistant",
@@ -7319,7 +7329,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 2,
             "topics": [],
             "version_installed": null
         },
@@ -7341,7 +7351,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [
                 "home-assistant",
                 "lovelace-card"
@@ -7377,7 +7387,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [],
             "version_installed": null
         },
@@ -7388,9 +7398,9 @@
             "full_name": "maykar/custom-header",
             "hide": false,
             "installed": true,
-            "installed_commit": "7a6bb71",
-            "last_commit": "7a6bb71",
-            "last_release_tag": "1.0.4",
+            "installed_commit": "6dd8bdd",
+            "last_commit": "6dd8bdd",
+            "last_release_tag": "1.0.9",
             "name": "custom-header",
             "new": false,
             "repository_manifest": {
@@ -7400,9 +7410,9 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 16,
+            "stars": 19,
             "topics": [],
-            "version_installed": "1.0.4"
+            "version_installed": "1.0.9"
         },
         "219363790": {
             "authors": [],
@@ -7424,7 +7434,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 5,
             "topics": [
                 "homeassistant",
                 "tv4",
@@ -7449,7 +7459,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [
                 "hacs",
                 "home-assistant",
@@ -7542,7 +7552,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [
                 "departures",
                 "hasl",
@@ -7573,7 +7583,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [
                 "hasl",
                 "sl",
@@ -7605,7 +7615,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [
                 "google-maps",
                 "google-places-api",
@@ -7631,7 +7641,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 4,
             "topics": [],
             "version_installed": null
         },
@@ -7653,7 +7663,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 2,
             "topics": [],
             "version_installed": null
         },
@@ -7676,7 +7686,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 3,
             "topics": [
                 "auto-purge",
                 "generational-backups",
@@ -7709,7 +7719,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 17,
             "topics": [
                 "device-tracker",
                 "icloud",
@@ -7737,7 +7747,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 45,
             "topics": [
                 "dark-mode",
                 "darkmode",
@@ -7766,7 +7776,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [],
             "version_installed": null
         },
@@ -7787,7 +7797,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [
                 "hacs",
                 "home-assistant",
@@ -7817,7 +7827,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 17,
             "topics": [],
             "version_installed": null
         },
@@ -7915,7 +7925,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 2,
             "topics": [],
             "version_installed": null
         },
@@ -7941,7 +7951,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 2,
             "topics": [],
             "version_installed": null
         },
@@ -7973,7 +7983,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 2,
             "topics": [
                 "hassio",
                 "hassio-integration",
@@ -8006,7 +8016,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [],
             "version_installed": null
         },
@@ -8027,7 +8037,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [
                 "hacs",
                 "home-assistant",
@@ -8075,7 +8085,14 @@
             "last_release_tag": "V1.0.4",
             "name": "Meteobridge Weather",
             "new": true,
-            "repository_manifest": {},
+            "repository_manifest": {
+                "domains": [
+                    "binary_sensor",
+                    "sensor",
+                    "weather"
+                ],
+                "name": "Meteobridge Weather"
+            },
             "selected_tag": null,
             "show_beta": false,
             "stars": 0,
@@ -8096,7 +8113,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "4bf3bdb",
+            "last_commit": "2c42d7b",
             "last_release_tag": null,
             "name": "sweetpink",
             "new": true,
@@ -8106,13 +8123,40 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 2,
             "topics": [
                 "home-assistant",
                 "lovelace",
                 "lovelace-theme",
                 "lovelace-ui"
             ],
+            "version_installed": null
+        },
+        "229014136": {
+            "authors": [
+                "doudz"
+            ],
+            "category": "integration",
+            "description": "myjdownloader integration for home assistant",
+            "full_name": "doudz/homeassistant-myjdownloader",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": null,
+            "last_release_tag": null,
+            "name": "MyJDownloader",
+            "new": true,
+            "repository_manifest": {
+                "domains": [
+                    "sensor"
+                ],
+                "name": "MyJDownloader",
+                "render_readme": true
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 0,
+            "topics": [],
             "version_installed": null
         },
         "76125161": {
@@ -8132,7 +8176,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 13,
             "topics": [],
             "version_installed": null
         },
@@ -8161,7 +8205,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 301,
             "topics": [
                 "home-assistant",
                 "hue",
