@@ -4,7 +4,7 @@ sensors:
   octoprint_time_elapsed_friendly:
     friendly_name: "Octoprint time elapsed"
     value_template: >-
-      {% set etime = states.sensor.octoprint_time_remaining.state | int %}
+      {% set etime = states.sensor.octoprint_time_elapsed.state | int %}
       {% set s = etime % 60 %}
       {% set m = ((etime % 3600) / 60) | int %}
       {% set h = ((etime % 86400) / 3600) | int %}
