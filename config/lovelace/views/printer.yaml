@@ -34,23 +34,17 @@ cards:
           - break
           - type: vertical-stack
             cards:
-              - type: custom:layout-card
-                layout: vertical
-                cards:
-                  - type: horizontal-stack
-                    cards:
-                      - type: gauge
-                        entity: sensor.octoprint_job_percentage
-                        unit: '%'
-                        name: Job Completion
-                  - type: horizontal-stack
-                    cards:
-                      - type: custom:bignumber-card
-                        title: Time Elapsed
-                        entity: sensor.octoprint_time_elapsed_friendly
-                      - type: custom:bignumber-card
-                        title: Time Remaining
-                        entity: sensor.octoprint_time_remaining_friendly
+              - type: custom:bignumber-card
+                title: Remaining
+                entity: sensor.octoprint_time_remaining_friendly
+              - type: gauge
+                entity: sensor.octoprint_job_percentage
+                unit: '%'
+                name: Job Completion
+              - type: custom:bignumber-card
+                title: Elapsed
+                entity: sensor.octoprint_time_elapsed_friendly
+
           - break
           - type: vertical-stack
             cards:
