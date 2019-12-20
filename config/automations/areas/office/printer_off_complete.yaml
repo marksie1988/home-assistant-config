@@ -1,0 +1,17 @@
+---
+# When the print finishes, turn off the printer
+#
+
+alias: '[printer] printer_off'
+trigger:
+  - platform: state
+    entity_id: binary_sensor.octoprint_printing
+    to: 'off'
+    for:
+      hours: 0
+      minutes: 10
+      seconfs: 0
+action:
+  - service: switch.turn_off
+    data:
+      entity_id: switch.printer

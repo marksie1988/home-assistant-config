@@ -1,0 +1,4 @@
+---
+tplink:
+  switch:
+    - host: !secret tplink_printer_host
