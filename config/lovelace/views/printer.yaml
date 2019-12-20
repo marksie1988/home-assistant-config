@@ -9,7 +9,7 @@ cards:
       - type: custom:layout-card
         layout: vertical
         cards:
-          - type: vertical-stack
+          - type: horizontal-stackk
             cards:
               - type: custom:mini-graph-card
                 name: Printer Tool Temp
