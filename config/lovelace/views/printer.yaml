@@ -39,12 +39,10 @@ cards:
                     cards:
                       - type: custom:bignumber-card
                         title: Time Elapsed
-                        entities:
-                          - sensor.octoprint_time_elapsed
+                        entity: sensor.octoprint_time_elapsed
                       - type: custom:bignumber-card
                         title: Time Remaining
-                        entities:
-                          - sensor.octoprint_time_remaining
+                        entity: sensor.octoprint_time_remaining
           - break
           - type: vertical-stack
             cards:
