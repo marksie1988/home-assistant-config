@@ -12,7 +12,7 @@ cards:
           - type: vertical-stack
             cards:
               - type: custom:mini-graph-card
-                name: Printer Temp Stats
+                name: Printer Tool Temp
                 show:
                   icon: false
                   extrema: true
@@ -20,6 +20,14 @@ cards:
                 entities:
                   - sensor.octoprint_actual_tool0_temp
                   - sensor.octoprint_target_tool0_temp
+                line_color: "#389638"
+              - type: custom:mini-graph-card
+                name: Printer Bed Temp
+                show:
+                  icon: false
+                  extrema: true
+                  fill: false
+                entities:
                   - sensor.octoprint_actual_bed_temp
                   - sensor.octoprint_target_bed_temp
                 line_color: "#389638"
@@ -39,10 +47,10 @@ cards:
                     cards:
                       - type: custom:bignumber-card
                         title: Time Elapsed
-                        entity: sensor.octoprint_time_elapsed
+                        entity: sensor.octoprint_time_elapsed_friendly
                       - type: custom:bignumber-card
                         title: Time Remaining
-                        entity: sensor.octoprint_time_remaining
+                        entity: sensor.octoprint_time_remaining_friendly
           - break
           - type: vertical-stack
             cards:
