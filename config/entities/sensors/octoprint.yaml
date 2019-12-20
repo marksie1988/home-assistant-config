@@ -1,39 +1,40 @@
 ---
 platform: template
 sensors:
- octoprint_time_elapsed_friendly:
-  friendly_name: "Octoprint time elapsed"
-  value_template: "{{ states('sensor.octoprint_time_elapsed') | int | timestamp_custom('%H:%M:%S', 0) }}"
+  octoprint_time_elapsed_friendly:
+    friendly_name: "Octoprint time elapsed"
+    value_template: "{{ states('sensor.octoprint_time_elapsed') | int | timestamp_custom('%H:%M:%S', 0) }}"
+
 platform: template
 sensors:
- octoprint_time_remaining_friendly:
-  friendly_name: "Octoprint time remaining"
-  value_template: >-
-    {% set etime = states.sensor.octoprint_time_remaining.state | int %}
-    {% set seconds = etime % 60 %}
-    {% set minutes = ((etime % 3600) / 60) | int %}
-    {% set hours = ((etime % 86400) / 3600) | int %}
-    {% set days = (etime / 86400) | int %}
-    {%- if days > 0 -%}
-      {%- if days == 1 -%}
-        1 day
-      {%- else -%}
-        {{ days }} days
+  octoprint_time_remaining_friendly:
+    friendly_name: "Octoprint time remaining"
+    value_template: >-
+      {% set etime = states.sensor.octoprint_time_remaining.state | int %}
+      {% set s = etime % 60 %}
+      {% set m = ((etime % 3600) / 60) | int %}
+      {% set h = ((etime % 86400) / 3600) | int %}
+      {% set d = (etime / 86400) | int %}
+      {%- if d > 0 -%}
+        {%- if d == 1 -%}
+          1 d
+        {%- else -%}
+          {{ days }} d
+        {%- endif -%}
+        {{ ', ' }}
       {%- endif -%}
-      {{ ', ' }}
-    {%- endif -%}
-    {%- if hours > 0 -%}
-      {%- if hours == 1 -%}
-        1 hour
-      {%- else -%}
-        {{ hours }} hours
+      {%- if h > 0 -%}
+        {%- if h == 1 -%}
+          1 h
+        {%- else -%}
+          {{ h }} h
+        {%- endif -%}
+        {{ ', ' }}
       {%- endif -%}
-      {{ ', ' }}
-    {%- endif -%}
-    {%- if minutes > 0 -%}
-      {%- if minutes == 1 -%}
-        1 minute
-      {%- else -%}
-        {{ minutes }} minutes
+      {%- if m > 0 -%}
+        {%- if m == 1 -%}
+          1 m
+        {%- else -%}
+          {{ m }} m
+        {%- endif -%}
       {%- endif -%}
-    {%- endif -%}
