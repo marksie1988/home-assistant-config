@@ -1,10 +1,14 @@
 ---
 menu: show
 notifications: clock
-voice: hide
 options: show
 clock_format: 24
 clock_am_pm: false
 clock_date: false
 date_locale: en-GB
 swipe: true
+compact_mode: true
+voice_hide: true
+hide_header: true
+hide_help: true
+hide_config: true
