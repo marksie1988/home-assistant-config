@@ -1,12 +1,7 @@
 ---
 header_text: '{{ time }}<br>{{ date }}'
 menu: show
-options: show
+options: hide
 date_locale: en-GB
 swipe: true
 compact_mode: true
-voice_hide: true
-hide_help: true
-hide_config: true
-hide_unused: true
-hide_refresh: true
