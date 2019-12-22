@@ -1,9 +1,0 @@
----
-# Adds an iframe panel to the Home Assistant frontend for the deConz add-on.
-# This allows me to access deConz straight from Home Asssitant's UI
-#
-# https://www.home-assistant.io/components/panel_iframe/
-deconz:
-  title: deConz
-  icon: mdi:chart-timeline
-  url: !secret panel_iframe_deconz_url
