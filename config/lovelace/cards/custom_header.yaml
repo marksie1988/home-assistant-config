@@ -8,5 +8,5 @@ compact_mode: true
 voice_hide: true
 hide_help: true
 hide_config: true
-hide_unused: True
+hide_unused: true
 hide_refresh: true
