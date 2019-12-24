@@ -10,7 +10,7 @@ trigger:
     for:
       hours: 0
       minutes: 10
-      seconfs: 0
+      seconds: 0
 action:
   - service: switch.turn_off
     data:
