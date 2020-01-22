@@ -8,14 +8,14 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "5d95962",
-            "last_release_tag": "0.0.3",
+            "last_commit": "79002d3",
+            "last_release_tag": "0.0.4",
             "name": "Omnik Inverter",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 3,
+            "stars": 5,
             "topics": [
                 "home-assistant",
                 "home-assistant-component",
@@ -24,6 +24,58 @@
                 "omnik",
                 "solar"
             ],
+            "version_installed": null
+        },
+        "120696364": {
+            "authors": [
+                "@vinteo"
+            ],
+            "category": "integration",
+            "description": "Opensprinkler custom component for Home Assistant",
+            "full_name": "vinteo/hass-opensprinkler",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "b329c44",
+            "last_release_tag": "v0.1.4",
+            "name": "Opensprinkler integration for Home Assistant",
+            "new": true,
+            "repository_manifest": {},
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 42,
+            "topics": [
+                "home-assistant",
+                "home-automation",
+                "opensprinkler"
+            ],
+            "version_installed": null
+        },
+        "121891488": {
+            "authors": [
+                "@thevoltagesource"
+            ],
+            "category": "integration",
+            "description": "Python code for interacting with the Lennox iComfort thermostat",
+            "full_name": "thevoltagesource/LennoxiComfort",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "9d0cfd0",
+            "last_release_tag": "v2.1",
+            "name": "Lennox iComfort WiFI",
+            "new": true,
+            "repository_manifest": {
+                "domains": [
+                    "climate"
+                ],
+                "homeassistant": "0.96.0",
+                "name": "Lennox iComfort WiFi Thermostat Integration"
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 14,
+            "topics": [],
             "version_installed": null
         },
         "125756318": {
@@ -43,7 +95,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 5,
+            "stars": 7,
             "topics": [
                 "homeassistant",
                 "homeassistant-components"
@@ -67,7 +119,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 26,
+            "stars": 29,
             "topics": [],
             "version_installed": null
         },
@@ -105,7 +157,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 5,
+            "stars": 6,
             "topics": [],
             "version_installed": null
         },
@@ -127,7 +179,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 20,
+            "stars": 21,
             "topics": [],
             "version_installed": null
         },
@@ -148,7 +200,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 30,
+            "stars": 32,
             "topics": [
                 "elasticsearch",
                 "hass",
@@ -202,7 +254,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 13,
+            "stars": 14,
             "topics": [],
             "version_installed": null
         },
@@ -216,8 +268,8 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "9b8eee4",
-            "last_release_tag": "v0.5",
+            "last_commit": "46dd717",
+            "last_release_tag": "v0.6",
             "name": "Sighthound custom component",
             "new": true,
             "repository_manifest": {},
@@ -240,7 +292,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "8efb2b7",
+            "last_commit": "2ef3fbe",
             "last_release_tag": null,
             "name": "ZiGate",
             "new": true,
@@ -258,7 +310,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 36,
+            "stars": 38,
             "topics": [],
             "version_installed": null
         },
@@ -273,8 +325,8 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "a8bdbf4",
-            "last_release_tag": "v2.3.6",
+            "last_commit": "013edfa",
+            "last_release_tag": "v2.5.3",
             "name": "Alexa Media Player",
             "new": true,
             "repository_manifest": {
@@ -285,13 +337,15 @@
                     "alarm_control_panel",
                     "sensor"
                 ],
+                "filename": "alexa_media.zip",
                 "homeassistant": "0.96.0",
                 "iot_class": "cloud_poll",
-                "name": "Alexa Media Player"
+                "name": "Alexa Media Player",
+                "zip_release": true
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 358,
+            "stars": 386,
             "topics": [],
             "version_installed": null
         },
@@ -334,14 +388,18 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "d6a7ec3",
+            "last_commit": "61049c6",
             "last_release_tag": null,
             "name": "Weatheralerts",
-            "new": true,
-            "repository_manifest": {},
+            "new": false,
+            "repository_manifest": {
+                "country": "US",
+                "name": "Weatheralerts",
+                "render_readme": true
+            },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 15,
+            "stars": 18,
             "topics": [
                 "custom-components",
                 "home-assistant",
@@ -367,7 +425,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 7,
+            "stars": 8,
             "topics": [
                 "custom-components",
                 "home-assistant",
@@ -391,7 +449,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 56,
+            "stars": 58,
             "topics": [
                 "community-driven",
                 "component",
@@ -420,7 +478,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 18,
+            "stars": 19,
             "topics": [
                 "automations",
                 "badges",
@@ -449,7 +507,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 34,
+            "stars": 36,
             "topics": [
                 "custom-components",
                 "home-assistant",
@@ -468,14 +526,14 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "6b0bfb0",
-            "last_release_tag": "2.0.1",
+            "last_commit": "4689c2e",
+            "last_release_tag": "2.1.1",
             "name": "Gree A/C",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 26,
+            "stars": 30,
             "topics": [],
             "version_installed": null
         },
@@ -513,7 +571,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 42,
+            "stars": 44,
             "topics": [],
             "version_installed": null
         },
@@ -551,7 +609,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 291,
+            "stars": 308,
             "topics": [
                 "homeassistant",
                 "lovelace",
@@ -593,7 +651,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 36,
+            "stars": 37,
             "topics": [],
             "version_installed": null
         },
@@ -700,7 +758,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 35,
+            "stars": 37,
             "topics": [],
             "version_installed": null
         },
@@ -719,7 +777,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [],
             "version_installed": null
         },
@@ -738,7 +796,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 9,
+            "stars": 10,
             "topics": [],
             "version_installed": null
         },
@@ -750,8 +808,8 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "f9064d6",
-            "last_release_tag": "10",
+            "last_commit": "998a9a3",
+            "last_release_tag": "11",
             "name": "lovelace-slider-entity-row",
             "new": true,
             "repository_manifest": {
@@ -760,7 +818,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 220,
+            "stars": 240,
             "topics": [],
             "version_installed": null
         },
@@ -875,14 +933,14 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "73a3e1b",
-            "last_release_tag": "3.0.0",
+            "last_commit": "6945bc0",
+            "last_release_tag": "3.1.1",
             "name": "button-card",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 299,
+            "stars": 336,
             "topics": [
                 "home-assistant",
                 "home-assistant-custom",
@@ -928,7 +986,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 27,
+            "stars": 28,
             "topics": [],
             "version_installed": null
         },
@@ -942,8 +1000,8 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "81f56b4",
-            "last_release_tag": "0.3.1",
+            "last_commit": "cdb87ee",
+            "last_release_tag": "0.3.3",
             "name": "ICY E-thermostaat",
             "new": true,
             "repository_manifest": {},
@@ -974,7 +1032,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 33,
+            "stars": 34,
             "topics": [
                 "bravia",
                 "home-assistant",
@@ -991,14 +1049,14 @@
             "hide": false,
             "installed": true,
             "installed_commit": "8d15894",
-            "last_commit": "8d15894",
+            "last_commit": "d098947",
             "last_release_tag": "0.4.0",
             "name": "upcoming-media-card",
             "new": false,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 93,
+            "stars": 95,
             "topics": [],
             "version_installed": "0.4.0"
         },
@@ -1012,7 +1070,7 @@
             "hide": false,
             "installed": true,
             "installed_commit": "8eb3d92",
-            "last_commit": "8eb3d92",
+            "last_commit": "7cc15bb",
             "last_release_tag": "0.2.2",
             "name": "Sonarr Upcoming Media",
             "new": false,
@@ -1033,7 +1091,7 @@
             "hide": false,
             "installed": true,
             "installed_commit": "25b6f55",
-            "last_commit": "25b6f55",
+            "last_commit": "ca00256",
             "last_release_tag": "0.3.0",
             "name": "Radarr Upcoming Media",
             "new": false,
@@ -1059,7 +1117,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 61,
+            "stars": 62,
             "topics": [],
             "version_installed": null
         },
@@ -1081,7 +1139,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 13,
+            "stars": 15,
             "topics": [],
             "version_installed": null
         },
@@ -1092,15 +1150,15 @@
             "full_name": "kalkih/mini-media-player",
             "hide": false,
             "installed": true,
-            "installed_commit": "9c8cf05",
-            "last_commit": "9c8cf05",
-            "last_release_tag": "v1.5.1",
+            "installed_commit": "9a88a77",
+            "last_commit": "9a88a77",
+            "last_release_tag": "v1.5.2",
             "name": "mini-media-player",
             "new": false,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 480,
+            "stars": 507,
             "topics": [
                 "automation",
                 "custom",
@@ -1111,7 +1169,35 @@
                 "media-player",
                 "sonos"
             ],
-            "version_installed": "v1.5.1"
+            "version_installed": "v1.5.2"
+        },
+        "149443194": {
+            "authors": [
+                "@rsnodgrass"
+            ],
+            "category": "integration",
+            "description": "ADT Pulse sensor for Home Assistant",
+            "full_name": "rsnodgrass/hass-adtpulse",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "b5aa96e",
+            "last_release_tag": "0.0.2",
+            "name": "ADT Pulse",
+            "new": true,
+            "repository_manifest": {
+                "domains": [
+                    "alarm_control_panel",
+                    "binary_sensor"
+                ],
+                "name": "ADT Pulse",
+                "render_readme": true
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 5,
+            "topics": [],
+            "version_installed": null
         },
         "150781994": {
             "authors": [],
@@ -1121,8 +1207,8 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "a00f7c9",
-            "last_release_tag": "8",
+            "last_commit": "4deabe3",
+            "last_release_tag": "11",
             "name": "lovelace-fold-entity-row",
             "new": true,
             "repository_manifest": {
@@ -1131,7 +1217,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 108,
+            "stars": 118,
             "topics": [],
             "version_installed": null
         },
@@ -1143,14 +1229,14 @@
             "hide": false,
             "installed": true,
             "installed_commit": "dfe0a14",
-            "last_commit": "37ffa60",
+            "last_commit": "57bf6e5",
             "last_release_tag": "v0.8.2",
             "name": "mini-graph-card",
             "new": false,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 573,
+            "stars": 648,
             "topics": [
                 "automation",
                 "custom",
@@ -1178,7 +1264,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 12,
+            "stars": 14,
             "topics": [],
             "version_installed": null
         },
@@ -1214,7 +1300,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 25,
+            "stars": 30,
             "topics": [
                 "buttons",
                 "entity-row",
@@ -1261,7 +1347,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 29,
+            "stars": 30,
             "topics": [],
             "version_installed": null
         },
@@ -1286,7 +1372,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 68,
+            "stars": 85,
             "topics": [],
             "version_installed": null
         },
@@ -1311,6 +1397,41 @@
             "topics": [],
             "version_installed": null
         },
+        "153870340": {
+            "authors": [],
+            "category": "integration",
+            "description": "\u2744 Use a Harmony Hub to control an IR controlled climate device",
+            "full_name": "so3n/HA_harmony_climate_component",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "3066e1e",
+            "last_release_tag": "v0.1.0",
+            "name": "Harmony AC",
+            "new": true,
+            "repository_manifest": {
+                "domains": [
+                    "climate"
+                ],
+                "homeassistant": "0.96.0",
+                "name": "Harmony Hub Climate Controller",
+                "render_readme": true
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 10,
+            "topics": [
+                "air-conditioner",
+                "climate",
+                "hacs",
+                "harmony",
+                "hass",
+                "home-assistant",
+                "homeassistant",
+                "hvac"
+            ],
+            "version_installed": null
+        },
         "154417419": {
             "authors": [],
             "category": "integration",
@@ -1326,7 +1447,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 55,
+            "stars": 57,
             "topics": [
                 "home-automation",
                 "homeassistant",
@@ -1352,7 +1473,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 9,
+            "stars": 8,
             "topics": [],
             "version_installed": null
         },
@@ -1366,14 +1487,14 @@
             "hide": false,
             "installed": true,
             "installed_commit": "c02656f",
-            "last_commit": "c02656f",
+            "last_commit": "24c4962",
             "last_release_tag": "0.2.9",
             "name": "Plex Recently Added",
             "new": false,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 21,
+            "stars": 24,
             "topics": [],
             "version_installed": "0.2.9"
         },
@@ -1392,7 +1513,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 29,
+            "stars": 30,
             "topics": [
                 "data-table",
                 "data-visualization",
@@ -1414,9 +1535,9 @@
             "full_name": "thomasloven/lovelace-layout-card",
             "hide": false,
             "installed": true,
-            "installed_commit": "5d2842f",
-            "last_commit": "5d2842f",
-            "last_release_tag": "2.3",
+            "installed_commit": "c0f8304",
+            "last_commit": "c0f8304",
+            "last_release_tag": "9",
             "name": "lovelace-layout-card",
             "new": false,
             "repository_manifest": {
@@ -1425,9 +1546,9 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 106,
+            "stars": 119,
             "topics": [],
-            "version_installed": "2.3"
+            "version_installed": "9"
         },
         "157618389": {
             "authors": [],
@@ -1447,7 +1568,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 69,
+            "stars": 72,
             "topics": [],
             "version_installed": null
         },
@@ -1459,14 +1580,14 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "5817209",
+            "last_commit": "e43ceff",
             "last_release_tag": "0.0.8",
             "name": "air-visual-card",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 12,
+            "stars": 16,
             "topics": [
                 "air-quality",
                 "air-visual",
@@ -1512,8 +1633,8 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "0edf1d4",
-            "last_release_tag": "v4.2.0",
+            "last_commit": "832efc9",
+            "last_release_tag": "v5.0.1",
             "name": "Entity Contoller",
             "new": true,
             "repository_manifest": {
@@ -1522,7 +1643,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 72,
+            "stars": 87,
             "topics": [
                 "finite-state-machine",
                 "hass",
@@ -1546,14 +1667,14 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "cb0c520",
-            "last_release_tag": "0.31.0",
+            "last_commit": "9f752d0",
+            "last_release_tag": "0.33.1",
             "name": "simple-thermostat",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 168,
+            "stars": 190,
             "topics": [
                 "hassio",
                 "home-assistant",
@@ -1572,8 +1693,8 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "e8227ce",
-            "last_release_tag": "3",
+            "last_commit": "e2183bb",
+            "last_release_tag": "5",
             "name": "lovelace-state-switch",
             "new": true,
             "repository_manifest": {
@@ -1582,7 +1703,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 52,
+            "stars": 60,
             "topics": [],
             "version_installed": null
         },
@@ -1653,14 +1774,14 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "e4f2d9e",
-            "last_release_tag": "1.6",
+            "last_commit": "429b792",
+            "last_release_tag": "1.8.1",
             "name": "Wiser Heating Component for Home Assistant",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 16,
+            "stars": 20,
             "topics": [],
             "version_installed": null
         },
@@ -1679,7 +1800,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 50,
+            "stars": 54,
             "topics": [],
             "version_installed": null
         },
@@ -1693,14 +1814,20 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "9f29c43",
-            "last_release_tag": "v1.1",
+            "last_commit": "4d00556",
+            "last_release_tag": "v1.3",
             "name": "Amazon Rekognition custom component",
             "new": true,
-            "repository_manifest": {},
+            "repository_manifest": {
+                "country": "UK",
+                "domains": [
+                    "image_processing"
+                ],
+                "name": "Amazon Rekognition"
+            },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 21,
+            "stars": 24,
             "topics": [
                 "home-assistant",
                 "rekognition"
@@ -1715,7 +1842,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "c9603a4",
+            "last_commit": "111eb4a",
             "last_release_tag": "v0.0.15",
             "name": "power-wheel-card",
             "new": true,
@@ -1724,7 +1851,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 36,
+            "stars": 40,
             "topics": [
                 "custom-card",
                 "energy",
@@ -1744,8 +1871,8 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "93cd155",
-            "last_release_tag": "v0.2.3",
+            "last_commit": "a887d97",
+            "last_release_tag": "v0.2.4",
             "name": "Home Connect",
             "new": true,
             "repository_manifest": {
@@ -1760,7 +1887,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 66,
+            "stars": 82,
             "topics": [
                 "hacs",
                 "homeassistant",
@@ -1798,7 +1925,7 @@
             "hide": false,
             "installed": true,
             "installed_commit": "605caa9",
-            "last_commit": "8790289",
+            "last_commit": "fa1edfd",
             "last_release_tag": "2.3",
             "name": "lovelace-card-tools",
             "new": false,
@@ -1807,7 +1934,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 94,
+            "stars": 99,
             "topics": [],
             "version_installed": "2.3"
         },
@@ -1819,17 +1946,18 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "2775700",
-            "last_release_tag": "3.101.1",
+            "last_commit": "aba4c75",
+            "last_release_tag": "3.104.0",
             "name": "calendar-card",
             "new": true,
             "repository_manifest": {
+                "filename": "dist/calendar-card.js",
                 "name": "Calendar Card",
                 "render_readme": true
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 68,
+            "stars": 75,
             "topics": [],
             "version_installed": null
         },
@@ -1848,7 +1976,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 41,
+            "stars": 44,
             "topics": [],
             "version_installed": null
         },
@@ -1862,8 +1990,8 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "79b6bc9",
-            "last_release_tag": "v1.4.1",
+            "last_commit": "1da25ce",
+            "last_release_tag": "v2.1.0",
             "name": "Lightwave v2 (Smart Series) custom component",
             "new": true,
             "repository_manifest": {
@@ -1905,7 +2033,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 6,
+            "stars": 7,
             "topics": [],
             "version_installed": null
         },
@@ -1924,7 +2052,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 72,
+            "stars": 83,
             "topics": [],
             "version_installed": null
         },
@@ -1936,7 +2064,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "c0598e8",
+            "last_commit": "1d85203",
             "last_release_tag": null,
             "name": "entur-card",
             "new": true,
@@ -1962,7 +2090,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 25,
+            "stars": 28,
             "topics": [],
             "version_installed": null
         },
@@ -1976,14 +2104,14 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "b7e2cdf",
+            "last_commit": "f8a0ab1",
             "last_release_tag": null,
             "name": "Goodwe SEMS Scraper",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 8,
+            "stars": 9,
             "topics": [],
             "version_installed": null
         },
@@ -2004,7 +2132,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 108,
+            "stars": 117,
             "topics": [],
             "version_installed": null
         },
@@ -2016,7 +2144,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "fe96198",
+            "last_commit": "cd66f88",
             "last_release_tag": "1.0.9",
             "name": "roku-card",
             "new": true,
@@ -2026,7 +2154,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 32,
+            "stars": 35,
             "topics": [
                 "custom-card",
                 "home-assistant",
@@ -2052,7 +2180,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 16,
+            "stars": 17,
             "topics": [],
             "version_installed": null
         },
@@ -2125,14 +2253,14 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "bb7b1ff",
-            "last_release_tag": "v2.4",
+            "last_commit": "9f81cf7",
+            "last_release_tag": "v2.5",
             "name": "deepstack_object custom component",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 97,
+            "stars": 102,
             "topics": [
                 "facial-recognition",
                 "home-assistant"
@@ -2149,14 +2277,14 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "1a035ea",
-            "last_release_tag": "v2.5.5",
+            "last_commit": "0c5258a",
+            "last_release_tag": "v2.5.9",
             "name": "Afvalbeheer",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 21,
+            "stars": 22,
             "topics": [],
             "version_installed": null
         },
@@ -2191,9 +2319,9 @@
             "full_name": "thomasloven/lovelace-auto-entities",
             "hide": false,
             "installed": true,
-            "installed_commit": "161300d",
-            "last_commit": "161300d",
-            "last_release_tag": "1.9",
+            "installed_commit": "39d9165",
+            "last_commit": "39d9165",
+            "last_release_tag": "14",
             "name": "lovelace-auto-entities",
             "new": false,
             "repository_manifest": {
@@ -2202,9 +2330,9 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 120,
+            "stars": 155,
             "topics": [],
-            "version_installed": "1.9"
+            "version_installed": "14"
         },
         "167885769": {
             "authors": [
@@ -2216,14 +2344,14 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "b2768e3",
-            "last_release_tag": "v0.6.6",
+            "last_commit": "22831ca",
+            "last_release_tag": "v0.6.8",
             "name": "Arlo Camera Support",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 70,
+            "stars": 76,
             "topics": [],
             "version_installed": null
         },
@@ -2242,7 +2370,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 12,
+            "stars": 14,
             "topics": [],
             "version_installed": null
         },
@@ -2254,17 +2382,18 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "e77ddf3",
-            "last_release_tag": "3.1.0",
+            "last_commit": "c7a50b6",
+            "last_release_tag": "3.2.1",
             "name": "light-entity-card",
             "new": true,
             "repository_manifest": {
+                "filename": "dist/light-entity-card.js",
                 "name": "Light Entity Card",
                 "render_readme": true
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 42,
+            "stars": 53,
             "topics": [],
             "version_installed": null
         },
@@ -2278,14 +2407,14 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "8c4fb1a",
+            "last_commit": "4d0a93d",
             "last_release_tag": "V1.1.4",
             "name": "Ophaalkalender",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 3,
+            "stars": 7,
             "topics": [],
             "version_installed": null
         },
@@ -2299,14 +2428,14 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "d17efdb",
+            "last_commit": "a69c436",
             "last_release_tag": "v1.11.1",
             "name": "BWAlarm (ak74 edition)",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 33,
+            "stars": 37,
             "topics": [],
             "version_installed": null
         },
@@ -2325,7 +2454,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 72,
+            "stars": 81,
             "topics": [],
             "version_installed": "v0.8.9"
         },
@@ -2337,7 +2466,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "6c4f12b",
+            "last_commit": "7e4c628",
             "last_release_tag": "1.4.1",
             "name": "github-card",
             "new": true,
@@ -2365,7 +2494,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 2,
             "topics": [],
             "version_installed": null
         },
@@ -2386,7 +2515,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 6,
+            "stars": 7,
             "topics": [
                 "custom-components",
                 "customcomponents",
@@ -2444,7 +2573,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 19,
+            "stars": 21,
             "topics": [],
             "version_installed": null
         },
@@ -2457,19 +2586,21 @@
             "full_name": "hacs/integration",
             "hide": false,
             "installed": true,
-            "installed_commit": null,
-            "last_commit": "980092f",
-            "last_release_tag": "0.19.0",
+            "installed_commit": "136e8b6",
+            "last_commit": "136e8b6",
+            "last_release_tag": "0.20.8",
             "name": "HACS (Home Assistant Community Store)",
             "new": false,
             "repository_manifest": {
                 "filename": "hacs.zip",
+                "hacs": "0.19.0",
+                "hide_default_branch": true,
                 "name": "HACS (Home Assistant Community Store)",
                 "zip_release": true
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 577,
+            "stars": 678,
             "topics": [
                 "community",
                 "hacs",
@@ -2478,7 +2609,7 @@
                 "package-manager",
                 "python"
             ],
-            "version_installed": "0.19.0"
+            "version_installed": "0.20.8"
         },
         "172800356": {
             "authors": [
@@ -2516,14 +2647,14 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "22733c9",
-            "last_release_tag": "v0.5.0",
+            "last_commit": "5898cb1",
+            "last_release_tag": "v0.6.0",
             "name": "simple-weather-card",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 65,
+            "stars": 71,
             "topics": [
                 "home-assistant",
                 "home-automation",
@@ -2551,7 +2682,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 10,
+            "stars": 11,
             "topics": [],
             "version_installed": null
         },
@@ -2570,7 +2701,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 6,
+            "stars": 7,
             "topics": [],
             "version_installed": null
         },
@@ -2582,14 +2713,14 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "1a9093d",
-            "last_release_tag": "4.1",
+            "last_commit": "d1d8207",
+            "last_release_tag": "4.3",
             "name": "Programmable Thermostat",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 11,
+            "stars": 16,
             "topics": [],
             "version_installed": null
         },
@@ -2601,7 +2732,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "19cc627",
+            "last_commit": "f66cccc",
             "last_release_tag": "2.0",
             "name": "File Restore",
             "new": true,
@@ -2620,14 +2751,14 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "bb28a41",
-            "last_release_tag": "v1.10",
+            "last_commit": "fe99ddd",
+            "last_release_tag": "v1.20",
             "name": "spotify-card",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 69,
+            "stars": 72,
             "topics": [],
             "version_installed": null
         },
@@ -2639,14 +2770,14 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "d4e6440",
-            "last_release_tag": "0.3.3",
+            "last_commit": "dc50bd7",
+            "last_release_tag": "0.3.5",
             "name": "lovelace-home-feed-card",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 55,
+            "stars": 59,
             "topics": [],
             "version_installed": null
         },
@@ -2667,7 +2798,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 4,
+            "stars": 6,
             "topics": [],
             "version_installed": null
         },
@@ -2702,8 +2833,8 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "2001696",
-            "last_release_tag": "V0.1.10",
+            "last_commit": "ded73aa",
+            "last_release_tag": "V1.0.2",
             "name": "WeatherFlow Smart Weather Component for Home Assistant",
             "new": true,
             "repository_manifest": {
@@ -2716,7 +2847,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 21,
+            "stars": 23,
             "topics": [
                 "darksky",
                 "home-assistant",
@@ -2733,7 +2864,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "84ba232",
+            "last_commit": "11b0e51",
             "last_release_tag": "1.0.0",
             "name": "reddit-card",
             "new": true,
@@ -2762,7 +2893,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 11,
+            "stars": 12,
             "topics": [],
             "version_installed": null
         },
@@ -2783,8 +2914,47 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 5,
+            "stars": 6,
             "topics": [],
+            "version_installed": null
+        },
+        "177469955": {
+            "authors": [
+                "@dlarrick"
+            ],
+            "category": "integration",
+            "description": "Home Assistant module interfacing with Mitsubishi mini-split units",
+            "full_name": "dlarrick/hass-kumo",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "2d1d8fd",
+            "last_release_tag": "release-0.1.2",
+            "name": "Kumo",
+            "new": true,
+            "repository_manifest": {
+                "domains": [
+                    "climate"
+                ],
+                "homeassistant": "0.96.0",
+                "iot_class": "local_poll",
+                "name": "Mitsubishi Kumo Cloud",
+                "render_readme": true
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 2,
+            "topics": [
+                "climate",
+                "custom-component",
+                "home-assistant",
+                "homeassistant",
+                "kumo",
+                "kumocloud",
+                "mini-split",
+                "mitsubishi",
+                "python"
+            ],
             "version_installed": null
         },
         "177978011": {
@@ -2798,14 +2968,14 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "4594fa8",
+            "last_commit": "8acb177",
             "last_release_tag": "0.1.5",
             "name": "Shelly smart home",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 135,
+            "stars": 157,
             "topics": [],
             "version_installed": null
         },
@@ -2819,8 +2989,8 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "3e35c56",
-            "last_release_tag": null,
+            "last_commit": "cebc2aa",
+            "last_release_tag": "V1.0",
             "name": "Airthings Wave",
             "new": true,
             "repository_manifest": {},
@@ -2843,14 +3013,19 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "f47f0e3",
-            "last_release_tag": null,
+            "last_commit": "ed374b1",
+            "last_release_tag": "v2.2.1",
             "name": "lovelace-multiple-entity-row",
             "new": true,
-            "repository_manifest": {},
+            "repository_manifest": {
+                "content_in_root": true,
+                "filename": "multiple-entity-row.js",
+                "name": "Multiple Entity Row",
+                "render_readme": true
+            },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 57,
+            "stars": 79,
             "topics": [
                 "attribute",
                 "entity",
@@ -2880,7 +3055,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 111,
+            "stars": 127,
             "topics": [],
             "version_installed": null
         },
@@ -2899,7 +3074,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 14,
+            "stars": 15,
             "topics": [],
             "version_installed": null
         },
@@ -2961,7 +3136,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 4,
+            "stars": 5,
             "topics": [],
             "version_installed": null
         },
@@ -2990,19 +3165,24 @@
         "180229356": {
             "authors": [],
             "category": "plugin",
-            "description": "Simple card for Xiaomi (and other) robot vaccums in Home Assistant's Lovelace UI",
+            "description": "Simple card for Xiaomi (and other) robot vacuums in Home Assistant's Lovelace UI",
             "full_name": "benct/lovelace-xiaomi-vacuum-card",
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "ee317e5",
-            "last_release_tag": null,
+            "last_commit": "9b91544",
+            "last_release_tag": "v3.0.1",
             "name": "lovelace-xiaomi-vacuum-card",
             "new": true,
-            "repository_manifest": {},
+            "repository_manifest": {
+                "content_in_root": true,
+                "filename": "xiaomi-vacuum-card.js",
+                "name": "(Xiaomi) Vacuum Card",
+                "render_readme": true
+            },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 44,
+            "stars": 54,
             "topics": [
                 "home-assistant",
                 "home-assistant-frontend",
@@ -3032,7 +3212,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 31,
+            "stars": 34,
             "topics": [
                 "breaking-changes",
                 "custom-component",
@@ -3050,7 +3230,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "eb53907",
+            "last_commit": "e0a6335",
             "last_release_tag": "1.1.2",
             "name": "travel-time-card",
             "new": true,
@@ -3079,7 +3259,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 12,
+            "stars": 15,
             "topics": [],
             "version_installed": null
         },
@@ -3100,7 +3280,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 3,
+            "stars": 4,
             "topics": [
                 "api",
                 "custom-component",
@@ -3127,7 +3307,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 27,
+            "stars": 28,
             "topics": [],
             "version_installed": null
         },
@@ -3148,7 +3328,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 7,
+            "stars": 9,
             "topics": [],
             "version_installed": null
         },
@@ -3209,7 +3389,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "f349d1f",
+            "last_commit": "c60a79e",
             "last_release_tag": "v0.4.0",
             "name": "Grocy",
             "new": true,
@@ -3225,7 +3405,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 7,
+            "stars": 8,
             "topics": [],
             "version_installed": null
         },
@@ -3239,14 +3419,17 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "8b602f1",
-            "last_release_tag": "2.0.1",
+            "last_commit": "757d717",
+            "last_release_tag": "2.2.0",
             "name": "Email",
             "new": true,
-            "repository_manifest": {},
+            "repository_manifest": {
+                "name": "Email Sensor",
+                "render_readme": true
+            },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 11,
+            "stars": 14,
             "topics": [],
             "version_installed": null
         },
@@ -3260,14 +3443,14 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "ce911f3",
-            "last_release_tag": "v2.5",
+            "last_commit": "3de4587",
+            "last_release_tag": "v2.6.1",
             "name": "Start Spotify on chromecast",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 52,
+            "stars": 57,
             "topics": [],
             "version_installed": null
         },
@@ -3309,7 +3492,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "a8a0208",
+            "last_commit": "f4f1967",
             "last_release_tag": null,
             "name": "LinkPlay Media Player",
             "new": true,
@@ -3321,7 +3504,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 13,
+            "stars": 15,
             "topics": [
                 "custom-component",
                 "home-assistant",
@@ -3338,11 +3521,14 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "fde4906",
-            "last_release_tag": "1.2.2",
+            "last_commit": "f56ba83",
+            "last_release_tag": "1.2.3",
             "name": "tracking-number-card",
             "new": true,
-            "repository_manifest": {},
+            "repository_manifest": {
+                "name": "Tracking Number Card",
+                "render_readme": true
+            },
             "selected_tag": null,
             "show_beta": false,
             "stars": 2,
@@ -3380,14 +3566,14 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "a845f67",
-            "last_release_tag": "1.2.1",
+            "last_commit": "968295d",
+            "last_release_tag": "1.2.2",
             "name": "lovelace-swipe-navigation",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 29,
+            "stars": 39,
             "topics": [],
             "version_installed": null
         },
@@ -3399,8 +3585,8 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "a7eb584",
-            "last_release_tag": "0.0.5",
+            "last_commit": "58fdcc6",
+            "last_release_tag": "0.0.7",
             "name": "lovelace-card-templater",
             "new": true,
             "repository_manifest": {},
@@ -3439,14 +3625,18 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "6e9c9e8",
-            "last_release_tag": null,
+            "last_commit": "868f76c",
+            "last_release_tag": "v1.0.0",
             "name": "lovelace-github-entity-row",
             "new": true,
-            "repository_manifest": {},
+            "repository_manifest": {
+                "filename": "github-entity-row.js",
+                "name": "GitHub Entity Row",
+                "render_readme": true
+            },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 4,
+            "stars": 5,
             "topics": [
                 "entity",
                 "github",
@@ -3475,6 +3665,80 @@
             "show_beta": false,
             "stars": 1,
             "topics": [],
+            "version_installed": null
+        },
+        "186288000": {
+            "authors": [
+                "@renenulschde"
+            ],
+            "category": "integration",
+            "description": "MercedesME platform as a Custom Component for Home Assistant.",
+            "full_name": "ReneNulschDE/mbapipy",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "12c04f3",
+            "last_release_tag": "v0.3.2",
+            "name": "MercedesMeApi",
+            "new": true,
+            "repository_manifest": {
+                "domains": [
+                    "lock",
+                    "sensor",
+                    "device_tracker",
+                    "binary_sensor",
+                    "switch"
+                ],
+                "iot_class": "Cloud Pull",
+                "name": "MercedesME"
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 16,
+            "topics": [
+                "car",
+                "integration",
+                "lock",
+                "mercedesme",
+                "sensors"
+            ],
+            "version_installed": null
+        },
+        "186347733": {
+            "authors": [
+                "@arjenvrh"
+            ],
+            "category": "integration",
+            "description": "Adds an audi connect integration to home assistant",
+            "full_name": "arjenvrh/audi_connect_ha",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "ce6e8a8",
+            "last_release_tag": null,
+            "name": "Audi Connect",
+            "new": true,
+            "repository_manifest": {
+                "domains": [
+                    "sensor",
+                    "binary_sensor",
+                    "switch",
+                    "device_tracker",
+                    "lock"
+                ],
+                "homeassistant": "0.98.0",
+                "name": "Audi connect"
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 25,
+            "topics": [
+                "audi",
+                "audi-connect",
+                "homeassistant",
+                "integration",
+                "sensors"
+            ],
             "version_installed": null
         },
         "186600448": {
@@ -3525,7 +3789,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 129,
+            "stars": 139,
             "topics": [
                 "custom-cards",
                 "hassio",
@@ -3571,7 +3835,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 12,
+            "stars": 17,
             "topics": [],
             "version_installed": "0.0.2"
         },
@@ -3590,7 +3854,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 10,
+            "stars": 13,
             "topics": [],
             "version_installed": null
         },
@@ -3609,7 +3873,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 5,
+            "stars": 6,
             "topics": [],
             "version_installed": null
         },
@@ -3628,7 +3892,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 5,
+            "stars": 6,
             "topics": [],
             "version_installed": "0.0.3"
         },
@@ -3666,7 +3930,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 7,
+            "stars": 11,
             "topics": [],
             "version_installed": null
         },
@@ -3678,14 +3942,14 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "175408c",
-            "last_release_tag": "0.2.0",
+            "last_commit": "99c8033",
+            "last_release_tag": "0.3.0",
             "name": "decluttering-card",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 36,
+            "stars": 45,
             "topics": [
                 "custom-cards",
                 "home-assistant",
@@ -3709,7 +3973,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [],
             "version_installed": null
         },
@@ -3772,7 +4036,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 6,
+            "stars": 7,
             "topics": [],
             "version_installed": null
         },
@@ -3783,9 +4047,9 @@
             "full_name": "thomasloven/lovelace-card-mod",
             "hide": false,
             "installed": true,
-            "installed_commit": "050f862",
-            "last_commit": "050f862",
-            "last_release_tag": "11",
+            "installed_commit": "0e82b53",
+            "last_commit": "0e82b53",
+            "last_release_tag": "12",
             "name": "lovelace-card-mod",
             "new": false,
             "repository_manifest": {
@@ -3794,9 +4058,9 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 49,
+            "stars": 61,
             "topics": [],
-            "version_installed": "11"
+            "version_installed": "12"
         },
         "190982718": {
             "authors": [
@@ -3829,8 +4093,8 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "aea46d5",
-            "last_release_tag": "0.3.12",
+            "last_commit": "849e126",
+            "last_release_tag": "0.3.14",
             "name": "Beerbolaget",
             "new": true,
             "repository_manifest": {},
@@ -3860,7 +4124,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 18,
+            "stars": 20,
             "topics": [
                 "custom-card",
                 "home-assistant",
@@ -3888,7 +4152,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 9,
+            "stars": 11,
             "topics": [],
             "version_installed": null
         },
@@ -3902,14 +4166,14 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "967004b",
-            "last_release_tag": "20191220.1",
+            "last_commit": "218337b",
+            "last_release_tag": "20200109.5",
             "name": "Meross Cloud IoT",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 45,
+            "stars": 61,
             "topics": [],
             "version_installed": null
         },
@@ -3923,14 +4187,14 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "aa4e753",
+            "last_commit": "77a827f",
             "last_release_tag": "v0.1.10",
             "name": "Goodwe SEMS API to MQTT sensor",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [],
             "version_installed": null
         },
@@ -3949,7 +4213,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 15,
+            "stars": 20,
             "topics": [
                 "custom-component",
                 "hacs",
@@ -3982,7 +4246,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 2,
+            "stars": 3,
             "topics": [
                 "bosch-mower",
                 "home-assistant",
@@ -4008,7 +4272,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 40,
+            "stars": 61,
             "topics": [],
             "version_installed": "v1.4.1"
         },
@@ -4039,14 +4303,14 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "a63e851",
+            "last_commit": "066610f",
             "last_release_tag": null,
             "name": "love-lock-card",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 48,
+            "stars": 52,
             "topics": [],
             "version_installed": null
         },
@@ -4211,14 +4475,14 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "bfb04c3",
-            "last_release_tag": "v1.1.5",
+            "last_commit": "4f7f25d",
+            "last_release_tag": "v1.1.9",
             "name": "lovelace-xiaomi-vacuum-map-card",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 193,
+            "stars": 221,
             "topics": [
                 "home-assistant",
                 "lovelace-card",
@@ -4242,7 +4506,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 2,
+            "stars": 3,
             "topics": [
                 "home-assistant",
                 "lovelace-card"
@@ -4291,8 +4555,8 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "dbf2088",
-            "last_release_tag": "v1.0.0",
+            "last_commit": "21b91a5",
+            "last_release_tag": "v1.1.1",
             "name": "iMPK",
             "new": true,
             "repository_manifest": {
@@ -4352,7 +4616,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 6,
+            "stars": 7,
             "topics": [],
             "version_installed": null
         },
@@ -4364,8 +4628,8 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "25d77e4",
-            "last_release_tag": "0.1.29",
+            "last_commit": "e472ba9",
+            "last_release_tag": "0.1.36",
             "name": "beerbolaget-card",
             "new": true,
             "repository_manifest": {},
@@ -4395,7 +4659,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 11,
+            "stars": 12,
             "topics": [],
             "version_installed": null
         },
@@ -4406,17 +4670,17 @@
             "full_name": "thomasloven/hass-browser_mod",
             "hide": false,
             "installed": true,
-            "installed_commit": "5f34d95",
-            "last_commit": "5f34d95",
-            "last_release_tag": "15",
+            "installed_commit": "c3f2ebd",
+            "last_commit": "c3f2ebd",
+            "last_release_tag": "16",
             "name": "Browser mod",
             "new": false,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 116,
+            "stars": 136,
             "topics": [],
-            "version_installed": "15"
+            "version_installed": "16"
         },
         "194319685": {
             "authors": [],
@@ -4426,17 +4690,19 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "cf62ec2",
-            "last_release_tag": "0.13.3",
+            "last_commit": "de8cd58",
+            "last_release_tag": "0.14.0",
             "name": "shellies_discovery",
             "new": true,
             "repository_manifest": {
+                "filename": "shellies-discovery.zip",
                 "homeassistant": "0.95.0",
-                "name": "Shellies Discovery"
+                "name": "Shellies Discovery",
+                "zip_release": true
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 24,
+            "stars": 26,
             "topics": [
                 "discovery",
                 "home-assistant",
@@ -4484,13 +4750,19 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "efa5e4a",
-            "last_release_tag": "0.9.3",
+            "last_commit": "f8029b1",
+            "last_release_tag": "0.10.0",
             "name": "Airly",
             "new": true,
             "repository_manifest": {
-                "homeassistant": "0.98.0",
-                "name": "Airly"
+                "domains": [
+                    "sensor"
+                ],
+                "filename": "airly.zip",
+                "homeassistant": "0.104.0",
+                "iot_class": "cloud_poll",
+                "name": "Airly",
+                "zip_release": true
             },
             "selected_tag": null,
             "show_beta": false,
@@ -4513,14 +4785,14 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "bb0d1e2",
-            "last_release_tag": "v1.2",
+            "last_commit": "0fde9bc",
+            "last_release_tag": "v1.2.1",
             "name": "WillyWeather",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 1,
+            "stars": 2,
             "topics": [],
             "version_installed": null
         },
@@ -4534,14 +4806,14 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "5a7a6a9",
+            "last_commit": "d5b5097",
             "last_release_tag": "v0.8.9",
             "name": "Fronius",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 10,
+            "stars": 11,
             "topics": [],
             "version_installed": null
         },
@@ -4555,11 +4827,14 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "8a66dac",
-            "last_release_tag": null,
+            "last_commit": "e28ac8f",
+            "last_release_tag": "v2.2.0",
             "name": "Nintendo Wishlist Component",
             "new": true,
-            "repository_manifest": {},
+            "repository_manifest": {
+                "name": "Nintendo Wishlist",
+                "render_readme": true
+            },
             "selected_tag": null,
             "show_beta": false,
             "stars": 0,
@@ -4593,7 +4868,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 7,
+            "stars": 9,
             "topics": [],
             "version_installed": null
         },
@@ -4614,7 +4889,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 3,
+            "stars": 5,
             "topics": [],
             "version_installed": null
         },
@@ -4633,7 +4908,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 4,
+            "stars": 7,
             "topics": [],
             "version_installed": null
         },
@@ -4647,7 +4922,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "0de64ab",
+            "last_commit": "a8d546d",
             "last_release_tag": null,
             "name": "Sinope GT125",
             "new": true,
@@ -4706,8 +4981,8 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "7b773d1",
-            "last_release_tag": "0.1.7",
+            "last_commit": "ecf12f5",
+            "last_release_tag": "0.1.8",
             "name": "lovelace-grocy-chores-card",
             "new": true,
             "repository_manifest": {},
@@ -4756,7 +5031,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 1,
+            "stars": 2,
             "topics": [
                 "clientraw",
                 "davis",
@@ -4784,7 +5059,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 11,
+            "stars": 15,
             "topics": [
                 "attributes",
                 "breakout",
@@ -4853,14 +5128,17 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "38d185b",
-            "last_release_tag": null,
+            "last_commit": "1611db6",
+            "last_release_tag": "1.0.0",
             "name": "favicon-counter",
             "new": true,
-            "repository_manifest": {},
+            "repository_manifest": {
+                "filename": "favicon-counter.js",
+                "name": "Favicon counter"
+            },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 4,
+            "stars": 5,
             "topics": [],
             "version_installed": null
         },
@@ -4901,7 +5179,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 33,
+            "stars": 40,
             "topics": [
                 "hacs",
                 "home-assistant",
@@ -4958,7 +5236,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 14,
+            "stars": 20,
             "topics": [
                 "computer-vision",
                 "deep-learning",
@@ -4976,13 +5254,20 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "77c3cb4",
-            "last_release_tag": "0.6.3",
+            "last_commit": "1a189d3",
+            "last_release_tag": "0.7.0",
             "name": "GIOS",
             "new": true,
             "repository_manifest": {
-                "homeassistant": "0.98.0",
-                "name": "GIO\u015a"
+                "country": "PL",
+                "domains": [
+                    "sensor"
+                ],
+                "filename": "gios.zip",
+                "homeassistant": "0.104.0",
+                "iot_class": "cloud_poll",
+                "name": "GIO\u015a",
+                "zip_release": true
             },
             "selected_tag": null,
             "show_beta": false,
@@ -5003,14 +5288,14 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "708a3b6",
-            "last_release_tag": "v0.0.11",
+            "last_commit": "baf41b4",
+            "last_release_tag": "v0.0.12",
             "name": "lovelace-hass-aarlo",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 5,
+            "stars": 7,
             "topics": [],
             "version_installed": null
         },
@@ -5032,7 +5317,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 5,
+            "stars": 6,
             "topics": [],
             "version_installed": null
         },
@@ -5070,7 +5355,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 11,
+            "stars": 18,
             "topics": [],
             "version_installed": null
         },
@@ -5091,7 +5376,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 10,
+            "stars": 12,
             "topics": [
                 "hacs",
                 "home-assistant-custom",
@@ -5116,7 +5401,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 10,
+            "stars": 11,
             "topics": [],
             "version_installed": null
         },
@@ -5128,14 +5413,14 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "43d1dbb",
-            "last_release_tag": "1.2.0",
+            "last_commit": "b87c942",
+            "last_release_tag": "1.3.0",
             "name": "Our Groceries",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 3,
+            "stars": 4,
             "topics": [],
             "version_installed": null
         },
@@ -5147,14 +5432,14 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "e0f4f35",
+            "last_commit": "6d19f6b",
             "last_release_tag": "1.3.1",
             "name": "our-groceries-card",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 4,
+            "stars": 6,
             "topics": [],
             "version_installed": null
         },
@@ -5198,7 +5483,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 1,
+            "stars": 2,
             "topics": [
                 "home-assistant",
                 "lovelace-ui"
@@ -5220,7 +5505,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 5,
+            "stars": 7,
             "topics": [
                 "hacs",
                 "home-assistant",
@@ -5296,7 +5581,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 1,
+            "stars": 2,
             "topics": [],
             "version_installed": null
         },
@@ -5353,7 +5638,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 2,
+            "stars": 3,
             "topics": [
                 "beward",
                 "camera",
@@ -5387,7 +5672,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 16,
+            "stars": 21,
             "topics": [],
             "version_installed": null
         },
@@ -5406,7 +5691,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 10,
+            "stars": 11,
             "topics": [
                 "home-assistant",
                 "lovelace-card"
@@ -5456,7 +5741,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 6,
+            "stars": 7,
             "topics": [
                 "custom",
                 "homeassistant",
@@ -5489,7 +5774,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 5,
+            "stars": 6,
             "topics": [],
             "version_installed": null
         },
@@ -5501,14 +5786,14 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "c8add7f",
-            "last_release_tag": "2.0.1",
+            "last_commit": "ac05f17",
+            "last_release_tag": "3.0.2",
             "name": "Discord Game",
             "new": false,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 6,
+            "stars": 9,
             "topics": [],
             "version_installed": null
         },
@@ -5548,7 +5833,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 1,
+            "stars": 2,
             "topics": [
                 "bkk",
                 "budapest",
@@ -5590,14 +5875,42 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "38fd8b7",
-            "last_release_tag": "5",
+            "last_commit": "14fd723",
+            "last_release_tag": "6",
             "name": "Lovelace Gen",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 24,
+            "stars": 29,
+            "topics": [],
+            "version_installed": null
+        },
+        "200989730": {
+            "authors": [
+                "@rsnodgrass"
+            ],
+            "category": "integration",
+            "description": "Flo Water Control for Home Assistant",
+            "full_name": "rsnodgrass/hass-flo-water",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "a24856e",
+            "last_release_tag": "2.0.2",
+            "name": "Flo Water Control System",
+            "new": true,
+            "repository_manifest": {
+                "domains": [
+                    "sensor",
+                    "switch"
+                ],
+                "name": "Flo Water Control System",
+                "render_readme": true
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 3,
             "topics": [],
             "version_installed": null
         },
@@ -5609,7 +5922,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "b9fa742",
+            "last_commit": "7705df6",
             "last_release_tag": "v0.6.0",
             "name": "zigbee2mqtt-networkmap",
             "new": true,
@@ -5619,7 +5932,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 39,
+            "stars": 49,
             "topics": [
                 "home-assistant",
                 "zigbee2mqtt"
@@ -5702,7 +6015,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 6,
+            "stars": 8,
             "topics": [],
             "version_installed": null
         },
@@ -5749,7 +6062,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 10,
+            "stars": 13,
             "topics": [],
             "version_installed": null
         },
@@ -5793,7 +6106,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 48,
+            "stars": 56,
             "topics": [
                 "css",
                 "home-assistant",
@@ -5818,7 +6131,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 10,
+            "stars": 12,
             "topics": [],
             "version_installed": null
         },
@@ -5830,8 +6143,8 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "e1d5c4a",
-            "last_release_tag": "v1.0.8",
+            "last_commit": "ad9a17e",
+            "last_release_tag": "v1.0.9",
             "name": "Isy994",
             "new": true,
             "repository_manifest": {},
@@ -5858,7 +6171,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [],
             "version_installed": null
         },
@@ -5877,7 +6190,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 9,
+            "stars": 10,
             "topics": [],
             "version_installed": null
         },
@@ -5896,7 +6209,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 24,
+            "stars": 25,
             "topics": [],
             "version_installed": null
         },
@@ -5908,7 +6221,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "7259a09",
+            "last_commit": "61a5951",
             "last_release_tag": null,
             "name": "lovelace-media-art-background",
             "new": true,
@@ -5929,11 +6242,21 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "fad8210",
-            "last_release_tag": "2.1.2",
+            "last_commit": "acfeaa9",
+            "last_release_tag": "2.2.0",
             "name": "digitalSTROM",
             "new": true,
-            "repository_manifest": {},
+            "repository_manifest": {
+                "domains": [
+                    "cover",
+                    "light",
+                    "scene",
+                    "switch"
+                ],
+                "homeassistant": "0.104",
+                "iot_class": "local_poll",
+                "name": "digitalSTROM"
+            },
             "selected_tag": null,
             "show_beta": false,
             "stars": 2,
@@ -5950,8 +6273,8 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "2564658",
-            "last_release_tag": "v0.1.1",
+            "last_commit": "c27bd22",
+            "last_release_tag": "v0.2.0",
             "name": "Node-RED",
             "new": true,
             "repository_manifest": {
@@ -5966,7 +6289,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 8,
+            "stars": 16,
             "topics": [
                 "home-assistant",
                 "node-red"
@@ -5983,8 +6306,8 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "b0bc7ec",
-            "last_release_tag": "2.5",
+            "last_commit": "304d163",
+            "last_release_tag": "2.7",
             "name": "CZ Public Transport",
             "new": true,
             "repository_manifest": {
@@ -6000,7 +6323,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 1,
+            "stars": 3,
             "topics": [
                 "chaps",
                 "crws",
@@ -6030,7 +6353,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 30,
+            "stars": 32,
             "topics": [],
             "version_installed": null
         },
@@ -6099,6 +6422,42 @@
             "topics": [],
             "version_installed": null
         },
+        "204164206": {
+            "authors": [
+                "@Sholofly"
+            ],
+            "category": "integration",
+            "description": "Custom component to integrate Ziggo Next Box into Home Assistant",
+            "full_name": "Sholofly/ZiggoNext",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "374d4a3",
+            "last_release_tag": "v0.1.1",
+            "name": "Ziggo Next",
+            "new": true,
+            "repository_manifest": {
+                "country": [
+                    "NL"
+                ],
+                "domains": [
+                    "media_player"
+                ],
+                "iot_class": "Local Push",
+                "name": "ZiggoNext",
+                "render_readme": true
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 9,
+            "topics": [
+                "assistant",
+                "home",
+                "media-players",
+                "ziggo-next"
+            ],
+            "version_installed": null
+        },
         "204192861": {
             "authors": [
                 "@Limych"
@@ -6109,7 +6468,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "c78e313",
+            "last_commit": "bb1cdba",
             "last_release_tag": null,
             "name": "Average",
             "new": true,
@@ -6121,7 +6480,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 11,
+            "stars": 12,
             "topics": [
                 "average",
                 "home-assistant",
@@ -6139,8 +6498,8 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "448c4a3",
-            "last_release_tag": "2.8",
+            "last_commit": "ccda2e0",
+            "last_release_tag": "2.13",
             "name": "Garbage Collection",
             "new": true,
             "repository_manifest": {
@@ -6155,7 +6514,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 28,
+            "stars": 35,
             "topics": [
                 "garbage-collection",
                 "schedule",
@@ -6174,8 +6533,8 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "79f05b5",
-            "last_release_tag": "v0.3",
+            "last_commit": "37914db",
+            "last_release_tag": "v0.4",
             "name": "Momentary Switch Component",
             "new": true,
             "repository_manifest": {
@@ -6195,8 +6554,8 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "042bf06",
-            "last_release_tag": "v1.0.1",
+            "last_commit": "b9300d6",
+            "last_release_tag": "v1.0.2",
             "name": "Home-Assistant-Lovelace-HTML-Jinja2-Template-card",
             "new": true,
             "repository_manifest": {
@@ -6205,13 +6564,40 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 3,
+            "stars": 4,
             "topics": [
                 "home-assistant",
                 "jinja2",
                 "lovelace-card",
                 "template"
             ],
+            "version_installed": null
+        },
+        "205416078": {
+            "authors": [
+                "@rsnodgrass"
+            ],
+            "category": "integration",
+            "description": "SensorPush integration for Home Assistant",
+            "full_name": "rsnodgrass/hass-sensorpush",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "00ce2d6",
+            "last_release_tag": "0.0.2",
+            "name": "SensorPush",
+            "new": true,
+            "repository_manifest": {
+                "domains": [
+                    "sensor"
+                ],
+                "name": "SensorPush",
+                "render_readme": true
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 0,
+            "topics": [],
             "version_installed": null
         },
         "206574936": {
@@ -6225,8 +6611,8 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "b491889",
-            "last_release_tag": "0.2.3",
+            "last_commit": "7828cb3",
+            "last_release_tag": "v0.2.4",
             "name": "Sia",
             "new": true,
             "repository_manifest": {
@@ -6237,7 +6623,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 8,
+            "stars": 9,
             "topics": [],
             "version_installed": null
         },
@@ -6264,7 +6650,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 9,
+            "stars": 10,
             "topics": [
                 "forecast",
                 "gismeteo",
@@ -6285,14 +6671,19 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "30d4aa3",
-            "last_release_tag": "1.0",
+            "last_commit": "aec3e08",
+            "last_release_tag": "1.2.3",
             "name": "garbage-collection-card",
             "new": true,
-            "repository_manifest": {},
+            "repository_manifest": {
+                "filename": "garbage-collection-card.zip",
+                "iot_class": "Local Push",
+                "name": "Garbage Collection Card",
+                "zip_release": true
+            },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 4,
+            "stars": 6,
             "topics": [
                 "homeassistant",
                 "lovelace-custom-card"
@@ -6309,7 +6700,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "39ee7ed",
+            "last_commit": "7be0679",
             "last_release_tag": null,
             "name": "avfallsor",
             "new": true,
@@ -6349,7 +6740,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 26,
+            "stars": 34,
             "topics": [
                 "home-assistant",
                 "home-assistant-custom",
@@ -6370,7 +6761,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "951aedd",
+            "last_commit": "50eafcb",
             "last_release_tag": "v1.1",
             "name": "DPC (Dipartimento Protezione Civile)",
             "new": true,
@@ -6385,7 +6776,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 3,
+            "stars": 6,
             "topics": [
                 "dpc",
                 "hacs",
@@ -6403,7 +6794,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "8c68998",
+            "last_commit": "00fb2b4",
             "last_release_tag": null,
             "name": "BER Status Sensor",
             "new": true,
@@ -6438,7 +6829,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 2,
+            "stars": 3,
             "topics": [],
             "version_installed": null
         },
@@ -6452,8 +6843,8 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "67bacb4",
-            "last_release_tag": "1.1.0",
+            "last_commit": "6c0f86f",
+            "last_release_tag": "1.3.0",
             "name": "Anniversaries",
             "new": true,
             "repository_manifest": {
@@ -6468,7 +6859,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 8,
+            "stars": 13,
             "topics": [
                 "anniversaries",
                 "home-assistant",
@@ -6511,8 +6902,8 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "32dbf21",
-            "last_release_tag": "1.5.1",
+            "last_commit": "4bd985e",
+            "last_release_tag": "1.5.3",
             "name": "FRITZ!Box Tools",
             "new": true,
             "repository_manifest": {
@@ -6523,7 +6914,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 14,
+            "stars": 19,
             "topics": [
                 "home-assistant",
                 "home-automation",
@@ -6540,7 +6931,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "25d256f",
+            "last_commit": "4b1ae50",
             "last_release_tag": null,
             "name": "Fedex",
             "new": true,
@@ -6649,7 +7040,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "7146b0b",
+            "last_commit": "209e1df",
             "last_release_tag": null,
             "name": "amoled",
             "new": true,
@@ -6658,7 +7049,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 8,
+            "stars": 10,
             "topics": [
                 "hacs",
                 "home-assistant",
@@ -6676,7 +7067,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "8ac788d",
+            "last_commit": "5b111c6",
             "last_release_tag": null,
             "name": "BMR",
             "new": true,
@@ -6687,7 +7078,7 @@
                     "sensor",
                     "binary_sensor"
                 ],
-                "homeassistant": "0.99.2",
+                "homeassistant": "0.103.0",
                 "name": "BMR",
                 "render_readme": true
             },
@@ -6707,7 +7098,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "bbe3560",
+            "last_commit": "37d4419",
             "last_release_tag": null,
             "name": "Car Wash",
             "new": true,
@@ -6719,7 +7110,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 7,
+            "stars": 10,
             "topics": [
                 "binary-sensor",
                 "car",
@@ -6728,6 +7119,32 @@
                 "wash",
                 "weather-forecast"
             ],
+            "version_installed": null
+        },
+        "210269734": {
+            "authors": [],
+            "category": "integration",
+            "description": "HDHomeRun integration for Home Assistant.",
+            "full_name": "burnnat/ha-hdhomerun",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "bfda20c",
+            "last_release_tag": "v0.0.5",
+            "name": "HDHomeRun",
+            "new": true,
+            "repository_manifest": {
+                "content_in_root": false,
+                "domains": [
+                    "sensor"
+                ],
+                "iot_class": "Local Polling",
+                "name": "HDHomeRun"
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 2,
+            "topics": [],
             "version_installed": null
         },
         "210538576": {
@@ -6785,7 +7202,33 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 1,
+            "stars": 2,
+            "topics": [],
+            "version_installed": null
+        },
+        "211397713": {
+            "authors": [],
+            "category": "integration",
+            "description": "Polar fitness tracking integration for Home Assistant.",
+            "full_name": "burnnat/ha-polar",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "3b40d0a",
+            "last_release_tag": "v0.0.2",
+            "name": "Polar",
+            "new": true,
+            "repository_manifest": {
+                "content_in_root": false,
+                "domains": [
+                    "sensor"
+                ],
+                "iot_class": "Local Polling",
+                "name": "Polar"
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 0,
             "topics": [],
             "version_installed": null
         },
@@ -6799,7 +7242,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "03d33eb",
+            "last_commit": "9c0ec53",
             "last_release_tag": "0.1.3",
             "name": "Minecraft Version",
             "new": true,
@@ -6821,7 +7264,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "4823a10",
+            "last_commit": "b1ff5a4",
             "last_release_tag": "1.0.1",
             "name": "Mitsubishi HVAC with Echonet lite",
             "new": true,
@@ -6835,7 +7278,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 3,
+            "stars": 4,
             "topics": [],
             "version_installed": null
         },
@@ -6856,7 +7299,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 34,
+            "stars": 39,
             "topics": [],
             "version_installed": null
         },
@@ -6942,7 +7385,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "0a23416",
+            "last_commit": "7def84e",
             "last_release_tag": null,
             "name": "midnight",
             "new": true,
@@ -6951,11 +7394,37 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 14,
+            "stars": 21,
             "topics": [
                 "hacs",
                 "home-assistant",
                 "theme"
+            ],
+            "version_installed": null
+        },
+        "214705523": {
+            "authors": [],
+            "category": "theme",
+            "description": "Home Assistant Purple Theme",
+            "full_name": "sinclairpaul/ha_purple_theme",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "a80c8c7",
+            "last_release_tag": null,
+            "name": "purple",
+            "new": true,
+            "repository_manifest": {
+                "name": "Purple Theme",
+                "render_readme": true
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 3,
+            "topics": [
+                "home-assistant",
+                "home-assistant-theme",
+                "homeassistant"
             ],
             "version_installed": null
         },
@@ -6977,7 +7446,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 5,
+            "stars": 7,
             "topics": [],
             "version_installed": null
         },
@@ -6989,7 +7458,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "052162a",
+            "last_commit": "6963185",
             "last_release_tag": null,
             "name": "dark_mint",
             "new": true,
@@ -6998,7 +7467,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 2,
+            "stars": 4,
             "topics": [
                 "hacs",
                 "home-assistant",
@@ -7026,7 +7495,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 2,
+            "stars": 4,
             "topics": [
                 "hacs",
                 "home-assistant",
@@ -7043,7 +7512,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "1f616a5",
+            "last_commit": "15f17a4",
             "last_release_tag": null,
             "name": "blue_night",
             "new": true,
@@ -7052,7 +7521,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 1,
+            "stars": 2,
             "topics": [
                 "hacs",
                 "home-assistant",
@@ -7068,7 +7537,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "852e24c",
+            "last_commit": "790c179",
             "last_release_tag": null,
             "name": "grey_night",
             "new": true,
@@ -7077,7 +7546,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 1,
+            "stars": 2,
             "topics": [
                 "hacs",
                 "home-assistant",
@@ -7108,7 +7577,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 21,
+            "stars": 26,
             "topics": [
                 "home-assistant",
                 "lovelace",
@@ -7135,7 +7604,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 13,
+            "stars": 18,
             "topics": [
                 "custom-card",
                 "home-assistant",
@@ -7152,8 +7621,8 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "895b34d",
-            "last_release_tag": "0.4.1",
+            "last_commit": "349ffa3",
+            "last_release_tag": "0.4.2",
             "name": "logbook-card",
             "new": true,
             "repository_manifest": {
@@ -7163,8 +7632,13 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 6,
-            "topics": [],
+            "stars": 10,
+            "topics": [
+                "custom-card",
+                "hacs",
+                "home-assistant",
+                "lovelace"
+            ],
             "version_installed": null
         },
         "216165131": {
@@ -7175,7 +7649,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "2fb5222",
+            "last_commit": "d0a78f0",
             "last_release_tag": null,
             "name": "solarized_light",
             "new": true,
@@ -7200,7 +7674,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "65273b6",
+            "last_commit": "cba1803",
             "last_release_tag": null,
             "name": "christmas",
             "new": true,
@@ -7225,7 +7699,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "ee4a624",
+            "last_commit": "f56e9f5",
             "last_release_tag": null,
             "name": "material_dark_green",
             "new": true,
@@ -7250,7 +7724,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "88d10b6",
+            "last_commit": "c357dee",
             "last_release_tag": null,
             "name": "teal",
             "new": true,
@@ -7275,7 +7749,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "2be389a",
+            "last_commit": "8137c68",
             "last_release_tag": null,
             "name": "material_dark_pink",
             "new": true,
@@ -7284,7 +7758,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 1,
+            "stars": 2,
             "topics": [
                 "hacs",
                 "home-assistant",
@@ -7300,7 +7774,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "cb90588",
+            "last_commit": "0c14af7",
             "last_release_tag": null,
             "name": "halloween",
             "new": true,
@@ -7309,7 +7783,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 1,
+            "stars": 2,
             "topics": [
                 "hacs",
                 "home-assistant",
@@ -7410,9 +7884,9 @@
             "full_name": "maykar/custom-header",
             "hide": false,
             "installed": true,
-            "installed_commit": "c9cd966",
-            "last_commit": "c9cd966",
-            "last_release_tag": "1.1.3",
+            "installed_commit": "d94fbc5",
+            "last_commit": "d94fbc5",
+            "last_release_tag": "1.2.1",
             "name": "custom-header",
             "new": false,
             "repository_manifest": {
@@ -7422,9 +7896,9 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 24,
+            "stars": 58,
             "topics": [],
-            "version_installed": "1.1.3"
+            "version_installed": "1.2.1"
         },
         "219363790": {
             "authors": [],
@@ -7434,7 +7908,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "361ade9",
+            "last_commit": "505b4c1",
             "last_release_tag": "1.0.0",
             "name": "TV4 Play",
             "new": true,
@@ -7462,7 +7936,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "03409b6",
+            "last_commit": "f5d041c",
             "last_release_tag": null,
             "name": "dark_orange",
             "new": true,
@@ -7471,7 +7945,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 1,
+            "stars": 2,
             "topics": [
                 "hacs",
                 "home-assistant",
@@ -7489,7 +7963,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "a776560",
+            "last_commit": "03c92d0",
             "last_release_tag": null,
             "name": "KEF",
             "new": true,
@@ -7502,7 +7976,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [
                 "hacs",
                 "home-assistant",
@@ -7510,6 +7984,42 @@
                 "ls50",
                 "ls50w",
                 "lsx"
+            ],
+            "version_installed": null
+        },
+        "220661494": {
+            "authors": [
+                "@cyr-ius"
+            ],
+            "category": "integration",
+            "description": "Livebox Component for Home assistant",
+            "full_name": "Cyr-ius/hass-livebox-component",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "4092cb5",
+            "last_release_tag": "1.3.6",
+            "name": "Orange Livebox",
+            "new": true,
+            "repository_manifest": {
+                "country": "FR",
+                "domains": [
+                    "device_tracker",
+                    "sensor",
+                    "binary_sensor",
+                    "switch"
+                ],
+                "homeassistant": "0.99.9",
+                "name": "Orange Livebox routeur"
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 1,
+            "topics": [
+                "hacs",
+                "home-assistant",
+                "homeassistant",
+                "homeassistant-components"
             ],
             "version_installed": null
         },
@@ -7523,8 +8033,8 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "956cb24",
-            "last_release_tag": "v0.5",
+            "last_commit": "21c7a27",
+            "last_release_tag": "v0.6",
             "name": "CFR (Centro Funzionale Regione Toscana)",
             "new": true,
             "repository_manifest": {
@@ -7643,7 +8153,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "9380685",
+            "last_commit": "e3c9149",
             "last_release_tag": "v1.1",
             "name": "clear",
             "new": true,
@@ -7653,7 +8163,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 4,
+            "stars": 6,
             "topics": [],
             "version_installed": null
         },
@@ -7665,7 +8175,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "48442e2",
+            "last_commit": "0175625",
             "last_release_tag": "v1.1",
             "name": "clear-dark",
             "new": true,
@@ -7675,7 +8185,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 2,
+            "stars": 3,
             "topics": [],
             "version_installed": null
         },
@@ -7684,21 +8194,24 @@
                 "@jcwillox"
             ],
             "category": "integration",
-            "description": "\ud83d\uddc3 Improved Backup Service for Hass.io that can Automatically Remove Snapshots and Supports Generational Backup Schemes.",
+            "description": "\ud83d\uddc3\ufe0f Improved Backup Service for Hass.io that can Automatically Remove Snapshots and Supports Generational Backup Schemes.",
             "full_name": "jcwillox/hass-auto-backup",
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "679f9b5",
-            "last_release_tag": "0.3.1",
+            "last_commit": "fc54197",
+            "last_release_tag": "0.4.1",
             "name": "Auto Backup",
             "new": true,
             "repository_manifest": {
-                "name": "Auto Backup"
+                "filename": "auto_backup.zip",
+                "hide_default_branch": true,
+                "name": "Auto Backup",
+                "zip_release": true
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 3,
+            "stars": 13,
             "topics": [
                 "auto-purge",
                 "generational-backups",
@@ -7731,7 +8244,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 17,
+            "stars": 22,
             "topics": [
                 "device-tracker",
                 "icloud",
@@ -7749,7 +8262,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "c9edd42",
+            "last_commit": "749a300",
             "last_release_tag": null,
             "name": "ios-dark-mode",
             "new": true,
@@ -7759,7 +8272,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 51,
+            "stars": 143,
             "topics": [
                 "dark-mode",
                 "darkmode",
@@ -7800,7 +8313,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "e92ca87",
+            "last_commit": "6c36ff1",
             "last_release_tag": null,
             "name": "midnight_blue",
             "new": true,
@@ -7828,18 +8341,51 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "78cb438",
-            "last_release_tag": "0.4.0",
+            "last_commit": "c03c156",
+            "last_release_tag": "0.4.1",
             "name": "Xiaomi BLE monitor sensor integration",
             "new": true,
             "repository_manifest": {
                 "domains": "sensor",
                 "iot_class": "local push",
-                "name": "Xiaomi Mi temperature and humidity monitor (BLE) sensor platform"
+                "name": "Xiaomi BLE monitor sensor platform"
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 19,
+            "stars": 58,
+            "topics": [],
+            "version_installed": null
+        },
+        "224001103": {
+            "authors": [
+                "@biker91620",
+                "@cyr-ius"
+            ],
+            "category": "integration",
+            "description": "Cozytouch support for Home Assistant",
+            "full_name": "Cyr-ius/hass-cozytouch",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "32b88e8",
+            "last_release_tag": "1.2",
+            "name": "Cozytouch",
+            "new": true,
+            "repository_manifest": {
+                "country": "FR",
+                "domains": [
+                    "binary_sensor",
+                    "sensor",
+                    "climate",
+                    "water_heater",
+                    "switch"
+                ],
+                "homeassistant": "0.99.9",
+                "name": "Cozytouch"
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 1,
             "topics": [],
             "version_installed": null
         },
@@ -7869,7 +8415,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [
                 "api-client",
                 "calendarific",
@@ -7898,7 +8444,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 2,
             "topics": [],
             "version_installed": null
         },
@@ -7912,7 +8458,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "c5bd642",
+            "last_commit": "4bbe5b9",
             "last_release_tag": null,
             "name": "Sinope Neviweb130",
             "new": true,
@@ -7937,7 +8483,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 2,
+            "stars": 3,
             "topics": [],
             "version_installed": null
         },
@@ -7963,7 +8509,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 2,
+            "stars": 3,
             "topics": [],
             "version_installed": null
         },
@@ -7995,7 +8541,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 2,
+            "stars": 7,
             "topics": [
                 "hassio",
                 "hassio-integration",
@@ -8040,7 +8586,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "e8db5d4",
+            "last_commit": "fdd186a",
             "last_release_tag": "v1.0",
             "name": "aqua-fiesta",
             "new": true,
@@ -8083,6 +8629,28 @@
             ],
             "version_installed": null
         },
+        "226862969": {
+            "authors": [],
+            "category": "plugin",
+            "description": "Provides a means to program 3 preset brightness settings for dimmable lights",
+            "full_name": "finity69x2/light-brightness-preset-row",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "e80f760",
+            "last_release_tag": "1.1",
+            "name": "light-brightness-preset-row",
+            "new": true,
+            "repository_manifest": {
+                "filename": "light-brightness-preset-row.js",
+                "name": "Light Brightness Preset Row"
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 3,
+            "topics": [],
+            "version_installed": null
+        },
         "227056435": {
             "authors": [
                 "@briis"
@@ -8093,8 +8661,8 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "e1599f3",
-            "last_release_tag": "V1.0.4",
+            "last_commit": "7891950",
+            "last_release_tag": "V1.0.7",
             "name": "Meteobridge Weather",
             "new": true,
             "repository_manifest": {
@@ -8144,6 +8712,312 @@
             ],
             "version_installed": null
         },
+        "228579545": {
+            "authors": [
+                "@sebr"
+            ],
+            "category": "integration",
+            "description": "Orbit BHyve custom component for Home Assistant",
+            "full_name": "sebr/bhyve-home-assistant",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "e00ffe3",
+            "last_release_tag": "0.1.3",
+            "name": "Orbit BHyve Integration",
+            "new": true,
+            "repository_manifest": {
+                "domains": [
+                    "binary_sensor",
+                    "sensor",
+                    "switch"
+                ],
+                "name": "Orbit BHyve"
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 6,
+            "topics": [
+                "bhyve",
+                "home-assistant",
+                "home-assistant-component",
+                "irrigation",
+                "orbit",
+                "orbit-bhyve"
+            ],
+            "version_installed": null
+        },
+        "228604799": {
+            "authors": [
+                "@cyberjunky"
+            ],
+            "category": "integration",
+            "description": "This component tracks devices using the arp-scan liinux command, it's very fast, and reasonably accurate.",
+            "full_name": "cyberjunky/home-assistant-arpscan_tracker",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "5dc7733",
+            "last_release_tag": "1.0.2",
+            "name": "Arpscan tracker",
+            "new": true,
+            "repository_manifest": {
+                "country": "NL",
+                "domains": [
+                    "device_tracker"
+                ],
+                "name": "Arpscan Device Tracker",
+                "render_readme": false
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 1,
+            "topics": [
+                "custom-component",
+                "hacs",
+                "home-assistant",
+                "homeassistant",
+                "python"
+            ],
+            "version_installed": null
+        },
+        "228618998": {
+            "authors": [
+                "@cyberjunky"
+            ],
+            "category": "integration",
+            "description": ":electric_plug: This component can read values from and control Plugwise circles and plugs.",
+            "full_name": "cyberjunky/home-assistant-plugwise",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "6fc8316",
+            "last_release_tag": "1.0.2",
+            "name": "Plugwise",
+            "new": true,
+            "repository_manifest": {
+                "country": "NL",
+                "domains": [
+                    "switch",
+                    "sensor"
+                ],
+                "name": "Plugwise",
+                "render_readme": false
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 0,
+            "topics": [
+                "custom-component",
+                "hacs",
+                "home-assistant",
+                "homeassistant",
+                "plugwise",
+                "power",
+                "python"
+            ],
+            "version_installed": null
+        },
+        "228627470": {
+            "authors": [
+                "@cyberjunky"
+            ],
+            "category": "integration",
+            "description": ":recycle: :wastebasket: This component fetches garbage pickup dates for parts of The Netherlands using HVC Groep's REST API.",
+            "full_name": "cyberjunky/home-assistant-hvcgroep",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "f8734fe",
+            "last_release_tag": "1.0.3",
+            "name": "HVCGroep Sensor",
+            "new": true,
+            "repository_manifest": {
+                "country": "NL",
+                "domains": [
+                    "sensor"
+                ],
+                "name": "HVCGroep",
+                "render_readme": false
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 1,
+            "topics": [
+                "custom-component",
+                "hacs",
+                "home-assistant",
+                "homeassistant",
+                "python"
+            ],
+            "version_installed": null
+        },
+        "228649088": {
+            "authors": [
+                "@cyberjunky"
+            ],
+            "category": "integration",
+            "description": ":fire_engine: This component tracks P2000 emergency events in The Netherlands.",
+            "full_name": "cyberjunky/home-assistant-p2000",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "6883c66",
+            "last_release_tag": "1.0.6",
+            "name": "P2000 Sensor",
+            "new": true,
+            "repository_manifest": {
+                "country": "NL",
+                "domains": [
+                    "sensor"
+                ],
+                "name": "P2000 Sensor",
+                "render_readme": false
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 6,
+            "topics": [
+                "custom-component",
+                "emergency",
+                "hacs",
+                "home-assistant",
+                "homeassistant",
+                "p2000",
+                "python"
+            ],
+            "version_installed": null
+        },
+        "228662926": {
+            "authors": [
+                "@cyberjunky"
+            ],
+            "category": "integration",
+            "description": "This component provides a climate device for rooted TOON thermostats.",
+            "full_name": "cyberjunky/home-assistant-toon_climate",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "6f342d2",
+            "last_release_tag": "1.0.4",
+            "name": "TOON Climate",
+            "new": true,
+            "repository_manifest": {
+                "country": "NL",
+                "domains": [
+                    "climate"
+                ],
+                "name": "TOON Climate",
+                "render_readme": false
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 6,
+            "topics": [],
+            "version_installed": null
+        },
+        "228678807": {
+            "authors": [
+                "@cyberjunky"
+            ],
+            "category": "integration",
+            "description": "This component reads and displays sensor values from the meteradapter connected to a rooted TOON thermostat.",
+            "full_name": "cyberjunky/home-assistant-toon_smartmeter",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "f81aa75",
+            "last_release_tag": "1.0.2",
+            "name": "TOON Smart Meter",
+            "new": true,
+            "repository_manifest": {
+                "country": "NL",
+                "domains": [
+                    "sensor"
+                ],
+                "name": "TOON Smart Meter",
+                "render_readme": false
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 2,
+            "topics": [
+                "custom-component",
+                "hacs",
+                "home-assistant",
+                "homeassistant",
+                "python"
+            ],
+            "version_installed": null
+        },
+        "228685436": {
+            "authors": [
+                "@cyberjunky"
+            ],
+            "category": "integration",
+            "description": "This component reads and displays the boiler status values from a rooted TOON thermostat.",
+            "full_name": "cyberjunky/home-assistant-toon_boilerstatus",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "401e0e7",
+            "last_release_tag": "1.0.1",
+            "name": "TOON Boiler Status",
+            "new": true,
+            "repository_manifest": {
+                "country": [
+                    "NL",
+                    "BE"
+                ],
+                "domains": [
+                    "sensor"
+                ],
+                "name": "TOON Boiler Status",
+                "render_readme": false
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 2,
+            "topics": [
+                "custom-component",
+                "cv",
+                "hacs",
+                "home-assistant",
+                "homeassistant",
+                "opentherm",
+                "python",
+                "toon"
+            ],
+            "version_installed": null
+        },
+        "228690854": {
+            "authors": [
+                "@cyberjunky"
+            ],
+            "category": "integration",
+            "description": "This components reads statistics from a The Things Network Gateway.",
+            "full_name": "cyberjunky/home-assistant-ttn_gateway",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "d276df8",
+            "last_release_tag": "1.0.3",
+            "name": "TTN Gateway Sensor",
+            "new": true,
+            "repository_manifest": {
+                "country": "NL",
+                "domains": [
+                    "sensor"
+                ],
+                "name": "TTN Gateway Sensor",
+                "render_readme": false
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 0,
+            "topics": [],
+            "version_installed": null
+        },
         "229014136": {
             "authors": [
                 "doudz"
@@ -8154,7 +9028,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "e9645af",
+            "last_commit": "0b966be",
             "last_release_tag": null,
             "name": "MyJDownloader",
             "new": true,
@@ -8167,8 +9041,760 @@
             },
             "selected_tag": null,
             "show_beta": false,
+            "stars": 2,
+            "topics": [],
+            "version_installed": null
+        },
+        "229519365": {
+            "authors": [
+                "@bacco007"
+            ],
+            "category": "integration",
+            "description": "Home Assistant Sensor for WaterNSW Real Time Data",
+            "full_name": "bacco007/sensor.waternsw",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "81e5a04",
+            "last_release_tag": "v0.5",
+            "name": "Water NSW",
+            "new": true,
+            "repository_manifest": {
+                "country": "AU",
+                "domains": "sensor",
+                "name": "WaterNSW Real Time Data"
+            },
+            "selected_tag": null,
+            "show_beta": false,
             "stars": 0,
             "topics": [],
+            "version_installed": null
+        },
+        "230199787": {
+            "authors": [
+                "@briis"
+            ],
+            "category": "integration",
+            "description": "Unifi Protect Integration for Home Assistant",
+            "full_name": "briis/unifiprotect",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "bd64e05",
+            "last_release_tag": "V0.1.0",
+            "name": "Unifi Protect",
+            "new": true,
+            "repository_manifest": {
+                "domains": [
+                    "binary_sensor",
+                    "sensor",
+                    "camera"
+                ],
+                "iot_class": "Local Polling",
+                "name": "Unifi Protect Integration for Home Assistant"
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 26,
+            "topics": [
+                "home-assistant",
+                "homeassistant",
+                "protect",
+                "python",
+                "unifi",
+                "unifi-protect"
+            ],
+            "version_installed": null
+        },
+        "230841240": {
+            "authors": [
+                "@dr1rrb"
+            ],
+            "category": "integration",
+            "description": "Twinkly integration for Home-Assistant",
+            "full_name": "dr1rrb/ha-twinkly",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "18b93ca",
+            "last_release_tag": null,
+            "name": "Twinkly",
+            "new": true,
+            "repository_manifest": {
+                "domains": [
+                    "light"
+                ],
+                "iot_class": "local_polling",
+                "name": "Twinkly",
+                "render_readme": false
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 3,
+            "topics": [
+                "custom-component",
+                "hacs",
+                "home-assistant",
+                "homeassistant",
+                "light",
+                "twinkly"
+            ],
+            "version_installed": null
+        },
+        "230974064": {
+            "authors": [],
+            "category": "theme",
+            "description": "Oxford blue theme for Home Assistant",
+            "full_name": "arsaboo/oxford_blue_theme",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "d41378d",
+            "last_release_tag": null,
+            "name": "oxfordblue",
+            "new": true,
+            "repository_manifest": {
+                "name": "Oxford Blue",
+                "render_readme": true
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 0,
+            "topics": [],
+            "version_installed": null
+        },
+        "231015759": {
+            "authors": [],
+            "category": "plugin",
+            "description": "Xiaomi Smartmi Fan Lovelace card with CSS fan animation",
+            "full_name": "ikaruswill/lovelace-fan-xiaomi",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "4565f98",
+            "last_release_tag": "1.2",
+            "name": "lovelace-fan-xiaomi",
+            "new": true,
+            "repository_manifest": {
+                "name": "Xiaomi Smartmi Fan Card",
+                "render_readme": true
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 2,
+            "topics": [],
+            "version_installed": null
+        },
+        "231083679": {
+            "authors": [],
+            "category": "theme",
+            "description": "\ud83d\udc35 Dark Theme based on clear-theme-dark by @naofireblade",
+            "full_name": "aFFekopp/dark_teal",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "da8f7e4",
+            "last_release_tag": "1.1",
+            "name": "dark_teal",
+            "new": true,
+            "repository_manifest": {
+                "name": "Dark Teal"
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 2,
+            "topics": [
+                "dark-theme",
+                "hacs",
+                "home-assistant",
+                "home-assistant-theme"
+            ],
+            "version_installed": null
+        },
+        "231145540": {
+            "authors": [],
+            "category": "plugin",
+            "description": "A card giving richer public transit display using NextBus sensors.",
+            "full_name": "dcramer/lovelace-nextbus-card",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "06498bc",
+            "last_release_tag": "0.2.0",
+            "name": "lovelace-nextbus-card",
+            "new": true,
+            "repository_manifest": {
+                "filename": "nextbus-card.js",
+                "name": "NextBus Card",
+                "render_readme": true
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 2,
+            "topics": [
+                "hacs",
+                "homeassistant",
+                "lovelace-custom-card",
+                "nextbus",
+                "public-transit"
+            ],
+            "version_installed": null
+        },
+        "231674882": {
+            "authors": [],
+            "category": "plugin",
+            "description": "\ud83d\udd39 Display whatever you want in an entities card row.",
+            "full_name": "thomasloven/lovelace-template-entity-row",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "81bf499",
+            "last_release_tag": null,
+            "name": "lovelace-template-entity-row",
+            "new": true,
+            "repository_manifest": {
+                "name": "template-entity-row",
+                "render_readme": true
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 11,
+            "topics": [],
+            "version_installed": null
+        },
+        "231829137": {
+            "authors": [],
+            "category": "theme",
+            "description": "\ud83d\udc35 Dark Blue Theme for Home Assistant",
+            "full_name": "aFFekopp/noctis",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "149d53a",
+            "last_release_tag": "1.6",
+            "name": "noctis",
+            "new": true,
+            "repository_manifest": {
+                "name": "Noctis"
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 11,
+            "topics": [
+                "dark-theme",
+                "hacs",
+                "home-assistant",
+                "home-assistant-theme"
+            ],
+            "version_installed": null
+        },
+        "231840220": {
+            "authors": [],
+            "category": "integration",
+            "description": "MoneyDashboard Net Balance sensor for HomeAssistant",
+            "full_name": "shutupflanders/sensor.moneydashboard",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "be94477",
+            "last_release_tag": "1.0",
+            "name": "MoneyDashboard Sensor",
+            "new": true,
+            "repository_manifest": {
+                "country": "GB",
+                "domains": [
+                    "sensor"
+                ],
+                "homeassistant": "0.99.0",
+                "name": "MoneyDashboard",
+                "render_readme": true
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 0,
+            "topics": [],
+            "version_installed": null
+        },
+        "231989179": {
+            "authors": [
+                "al-fontes-jr",
+                "JAAlperin"
+            ],
+            "category": "integration",
+            "description": "HASS custom component to load and run Bardolph (simple scripting utility for LIFX light bulbs by Al Fontes, Jr.)",
+            "full_name": "JAAlperin/hass-bardolph",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "642cdda",
+            "last_release_tag": null,
+            "name": "Bardolph",
+            "new": true,
+            "repository_manifest": {
+                "name": "HASS Bardolph"
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 0,
+            "topics": [
+                "bardolph",
+                "color-bulb",
+                "home-assistant",
+                "lifx",
+                "lifx-lan-protocol",
+                "scripts",
+                "services"
+            ],
+            "version_installed": null
+        },
+        "232573716": {
+            "authors": [
+                "@PTST"
+            ],
+            "category": "integration",
+            "description": "Office 365 calendar sensor for Home Assistant",
+            "full_name": "PTST/O365Calendar-HomeAssistant",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "49be377",
+            "last_release_tag": "v1.1.1",
+            "name": "Office 365 Calendar",
+            "new": true,
+            "repository_manifest": {
+                "homeassistant": "0.103",
+                "name": "Office 365 calendar sensor",
+                "persistent_directory": ".O365-token-cache",
+                "render_readme": true
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 4,
+            "topics": [],
+            "version_installed": null
+        },
+        "233079250": {
+            "authors": [
+                "@kodi1"
+            ],
+            "category": "integration",
+            "description": "darksky - clouds cover and alerts",
+            "full_name": "kodi1/darksky_m",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "580385d",
+            "last_release_tag": null,
+            "name": "darksky mod - alerts and clouds",
+            "new": true,
+            "repository_manifest": {
+                "country": "NO",
+                "name": "darksky_m",
+                "render_readme": "true"
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 0,
+            "topics": [
+                "darksky",
+                "hacs",
+                "home-assistant",
+                "python"
+            ],
+            "version_installed": null
+        },
+        "233089370": {
+            "authors": [
+                "@kodi1"
+            ],
+            "category": "integration",
+            "description": "easyesp status sensor",
+            "full_name": "kodi1/esp_wd",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "c2cd915",
+            "last_release_tag": null,
+            "name": "easy esp monitor",
+            "new": true,
+            "repository_manifest": {
+                "country": "NO",
+                "name": "esp_wd",
+                "render_readme": "true"
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 1,
+            "topics": [
+                "esp-easy",
+                "hacs",
+                "home-assistant",
+                "python"
+            ],
+            "version_installed": null
+        },
+        "233090507": {
+            "authors": [
+                "@kodi1"
+            ],
+            "category": "integration",
+            "description": "meteoalarm sensor",
+            "full_name": "kodi1/meteoalarm",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "eac38ad",
+            "last_release_tag": null,
+            "name": "meteoalarm",
+            "new": true,
+            "repository_manifest": {
+                "country": "NO",
+                "name": "meteoalarm",
+                "render_readme": "true"
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 0,
+            "topics": [
+                "hacs",
+                "home-assistant",
+                "meteoalarm",
+                "python"
+            ],
+            "version_installed": null
+        },
+        "233092112": {
+            "authors": [
+                "@kodi1"
+            ],
+            "category": "integration",
+            "description": "songpal - volume down workaround",
+            "full_name": "kodi1/songpal_m",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "510384d",
+            "last_release_tag": null,
+            "name": "songpal mod - volume decrease",
+            "new": true,
+            "repository_manifest": {
+                "country": "NO",
+                "name": "songpal_m",
+                "render_readme": "true"
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 0,
+            "topics": [
+                "hacs",
+                "home-assistant",
+                "python",
+                "songpal"
+            ],
+            "version_installed": null
+        },
+        "233092629": {
+            "authors": [
+                "@kodi1"
+            ],
+            "category": "integration",
+            "description": "tvheadend recorder sensor - lovelace upcoming media card",
+            "full_name": "kodi1/tvh_rec",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "d138ac9",
+            "last_release_tag": null,
+            "name": "Tvheadend recordings sensor",
+            "new": true,
+            "repository_manifest": {
+                "country": "NO",
+                "name": "tvh_rec"
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 0,
+            "topics": [
+                "hacs",
+                "home-assistant",
+                "python",
+                "recordings",
+                "tvheadend"
+            ],
+            "version_installed": null
+        },
+        "233093604": {
+            "authors": [],
+            "category": "python_script",
+            "description": "merge master/slave device trackers",
+            "full_name": "kodi1/tracker_merge",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "034275b",
+            "last_release_tag": null,
+            "name": "device_tracker_merge",
+            "new": true,
+            "repository_manifest": {
+                "country": "NO",
+                "name": "kodi1/tracker_merge",
+                "render_readme": "true"
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 1,
+            "topics": [
+                "hacs",
+                "home-assistant",
+                "python",
+                "python-script",
+                "tracking"
+            ],
+            "version_installed": null
+        },
+        "233445397": {
+            "authors": [],
+            "category": "theme",
+            "description": "Custom theme for home assistant",
+            "full_name": "am80l/sundown",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "b453cb2",
+            "last_release_tag": null,
+            "name": "sundown",
+            "new": true,
+            "repository_manifest": {
+                "name": "Sundown Theme"
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 2,
+            "topics": [],
+            "version_installed": null
+        },
+        "233575809": {
+            "authors": [
+                "@adamnaj"
+            ],
+            "category": "integration",
+            "description": "The linksys_velop platform allows for presence detection by listing devices connected to your Linksys Velop router.",
+            "full_name": "AdamNaj/linksys_velop",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "3ed8c9f",
+            "last_release_tag": "0.1.1",
+            "name": "Linksys Velop",
+            "new": true,
+            "repository_manifest": {
+                "content_in_root": false,
+                "domains": [
+                    "device_tracker"
+                ],
+                "homeassistant": "0.100.0",
+                "name": "Linksys Velop Device Tracker"
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 1,
+            "topics": [],
+            "version_installed": null
+        },
+        "233715171": {
+            "authors": [],
+            "category": "theme",
+            "description": "Darkish-Theme for Home Assistant",
+            "full_name": "78wesley/Darkish-Theme",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "e55c8ec",
+            "last_release_tag": null,
+            "name": "darkish",
+            "new": true,
+            "repository_manifest": {
+                "name": "Darkish Theme"
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 2,
+            "topics": [],
+            "version_installed": null
+        },
+        "234022648": {
+            "authors": [],
+            "category": "theme",
+            "description": "\ud83c\udfa8 By JuanMTech -- A Home Assistant theme inspired on the Google app dark mode.",
+            "full_name": "JuanMTech/google_dark_theme",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "9e2f430",
+            "last_release_tag": "v1.2",
+            "name": "google_dark_theme",
+            "new": true,
+            "repository_manifest": {
+                "name": "Google Dark Theme"
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 14,
+            "topics": [
+                "hacs",
+                "home-assistant",
+                "theme"
+            ],
+            "version_installed": null
+        },
+        "234032927": {
+            "authors": [],
+            "category": "theme",
+            "description": "\ud83c\udfa8 By JuanMTech -- A Home Assistant theme inspired on the Google app light mode.",
+            "full_name": "JuanMTech/google_light_theme",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "307d3e1",
+            "last_release_tag": "v1.2",
+            "name": "google_light_theme",
+            "new": true,
+            "repository_manifest": {
+                "name": "Google Light Theme"
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 7,
+            "topics": [],
+            "version_installed": null
+        },
+        "234375294": {
+            "authors": [],
+            "category": "theme",
+            "description": "Vaporwave Pink Theme for Home Assistant",
+            "full_name": "home-assistant-community-themes/vaporwave-pink-theme",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "f61c8be",
+            "last_release_tag": "v1.1",
+            "name": "vaporwave-pink",
+            "new": true,
+            "repository_manifest": {
+                "name": "Vaporwave Pink Theme",
+                "render_readme": true
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 0,
+            "topics": [
+                "80s",
+                "pink",
+                "vaporwave"
+            ],
+            "version_installed": null
+        },
+        "234491154": {
+            "authors": [],
+            "category": "theme",
+            "description": "\ud83c\udfa8 By JuanMTech -- A true black Home Assistant theme for devices with AMOLED displays",
+            "full_name": "JuanMTech/amoled_blue",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "28104d0",
+            "last_release_tag": "v1.0",
+            "name": "amoled_blue",
+            "new": true,
+            "repository_manifest": {
+                "name": "AMOLED Blue"
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 3,
+            "topics": [],
+            "version_installed": null
+        },
+        "234514524": {
+            "authors": [],
+            "category": "integration",
+            "description": "HomeAssistant custom component to control your SONOS Alarm",
+            "full_name": "AaronDavidSchneider/SonosAlarm",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "5fa518b",
+            "last_release_tag": "v1.0",
+            "name": "Sonos Alarm",
+            "new": true,
+            "repository_manifest": {
+                "domains": [
+                    "switch"
+                ],
+                "name": "Sonos Alarm"
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 3,
+            "topics": [],
+            "version_installed": null
+        },
+        "234581410": {
+            "authors": [],
+            "category": "theme",
+            "description": "\ud83c\udfa8 Theme for Home Assistant inspired by iOS Dark Mode \ud83c\udf16",
+            "full_name": "fi-sch/ux_goodie_theme",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "dbe9935",
+            "last_release_tag": null,
+            "name": "ux_goodie",
+            "new": true,
+            "repository_manifest": {
+                "name": "UX Goodie Theme",
+                "render_readme": true
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 2,
+            "topics": [
+                "dark",
+                "hass",
+                "hassio",
+                "ios",
+                "lovelace",
+                "lovelace-theme",
+                "lovelace-ui",
+                "mode",
+                "theme",
+                "ux"
+            ],
+            "version_installed": null
+        },
+        "235057110": {
+            "authors": [],
+            "category": "theme",
+            "description": "Material Dark Red theme for Home Assistant",
+            "full_name": "home-assistant-community-themes/material-dark-red",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "93fc1a3",
+            "last_release_tag": null,
+            "name": "template",
+            "new": true,
+            "repository_manifest": {
+                "name": "Material Dark Red Theme"
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 1,
+            "topics": [
+                "hacs",
+                "home-assistant",
+                "theme"
+            ],
             "version_installed": null
         },
         "76125161": {
@@ -8188,7 +9814,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 13,
+            "stars": 14,
             "topics": [],
             "version_installed": null
         },
@@ -8202,7 +9828,7 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "d1b6da2",
+            "last_commit": "319f9c7",
             "last_release_tag": "v2.2",
             "name": "Hue sensor custom component",
             "new": true,
@@ -8217,7 +9843,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 302,
+            "stars": 313,
             "topics": [
                 "home-assistant",
                 "hue",
