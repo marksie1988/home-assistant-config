@@ -1,7 +1,6 @@
 ---
 awesome_people:
   name: Awesome People
-  view: false
   entities:
     - device_tracker.life360_nicola
     - device_tracker.life360_steve

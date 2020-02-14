@@ -1,8 +1,11 @@
 ---
+#### TODO: need to review this configuration for new versions
+# https://www.home-assistant.io/integrations/google_assistant/
 
 google_assistant:
   project_id: !secret google_assistant_pid
-  api_key: !secret google_assistant_api
+  service_account: !include google_assistant_service_account.json
+  report_state: true
   exposed_domains:
     – switch
     – light

@@ -1,7 +1,6 @@
 ---
 
 FreeNAS Monitor:
-  view: false
   entities:
     - sensor.freenas_version
     - sensor.freenas_alert_level
