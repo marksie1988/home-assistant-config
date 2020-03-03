@@ -1,5 +1,3 @@
 ---
 hacs:
   token: !secret github_token
-  theme: true
-  python_script: true
