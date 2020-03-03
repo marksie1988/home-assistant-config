@@ -74,6 +74,14 @@ cards:
               - type: entities
                 entities:
                   - type: custom:mini-media-player
+                    entity: media_player.spotify_marksie1988
+                    icon: mdi:spotify
+                    artwork: cover
+                    hide:
+                      volume: true
+                      source: true
+                      power_state: false
+                  - type: custom:mini-media-player
                     entity: media_player.media_player_nesthub_livingroom_host
                     icon: mdi:speaker-wireless
                     toggle_power: false
@@ -102,3 +110,4 @@ cards:
                     group: true
                     artwork_border: true
                     hide_power: true
+                  
