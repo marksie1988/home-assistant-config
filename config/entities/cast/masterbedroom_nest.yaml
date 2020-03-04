@@ -1,0 +1,3 @@
+---
+media_player:
+  - host: !secret media_player_nestmini_masterbedroom_host
