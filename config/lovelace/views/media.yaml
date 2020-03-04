@@ -82,7 +82,7 @@ cards:
                       source: true
                       power_state: false
                   - type: custom:mini-media-player
-                    entity: media_player.media_player_nesthub_livingroom_host
+                    entity: media_player.living_room_display
                     icon: mdi:speaker-wireless
                     toggle_power: false
                     group: true
@@ -91,21 +91,21 @@ cards:
                     show_progress: true
                   - type: custom:mini-media-player
                     name: Office
-                    entity: media_player.media_player_nesthome_office_host
+                    entity: media_player.office_speaker
                     icon: mdi:speaker-wireless
                     group: true
                     artwork_border: true
                     hide_power: true
                   - type: custom:mini-media-player
                     name: Kitchen
-                    entity: media_player.media_player_nestmini_kitchen_host
+                    entity: media_player.kitchen_speaker
                     icon: mdi:speaker-wireless
                     group: true
                     artwork_border: true
                     hide_power: true
                   - type: custom:mini-media-player
                     name: Master Bedroom
-                    entity: media_player.media_player_nestmini_masterbedroom_host
+                    entity: media_player.master_bedroom_speaker
                     icon: mdi:speaker-wireless
                     group: true
                     artwork_border: true
