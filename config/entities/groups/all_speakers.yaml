@@ -1,0 +1,6 @@
+---
+all_speakers:
+  name: All Speakers
+  entities:
+    - group.downstairs_speakers
+    - group.upstairs_speakers

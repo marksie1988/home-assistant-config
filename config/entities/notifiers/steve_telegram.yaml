@@ -1,0 +1,4 @@
+---
+name: steve_telegram
+platform: telegram
+chat_id: !secret telegram_steve
