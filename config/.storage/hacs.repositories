@@ -18,7 +18,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 5,
+            "stars": 7,
             "topics": [
                 "home-assistant",
                 "home-assistant-component",
@@ -53,7 +53,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 48,
+            "stars": 50,
             "topics": [
                 "home-assistant",
                 "home-automation",
@@ -154,9 +154,9 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "557cf9b",
+            "last_commit": "0ef5352",
             "last_release_tag": null,
-            "last_updated": "2020-01-24T02:43:29Z",
+            "last_updated": "2020-03-08T02:42:15Z",
             "name": "",
             "new": true,
             "repository_manifest": {
@@ -204,7 +204,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 22,
+            "stars": 23,
             "topics": [],
             "version_installed": null
         },
@@ -228,7 +228,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 34,
+            "stars": 36,
             "topics": [
                 "elasticsearch",
                 "hass",
@@ -280,15 +280,15 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "7ed55a6",
-            "last_release_tag": "0.1.7",
-            "last_updated": "2020-02-29T12:31:54Z",
+            "last_commit": "0f67c20",
+            "last_release_tag": "0.1.8",
+            "last_updated": "2020-03-03T21:52:48Z",
             "name": "",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 15,
+            "stars": 16,
             "topics": [],
             "version_installed": null
         },
@@ -388,7 +388,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 408,
+            "stars": 409,
             "topics": [],
             "version_installed": null
         },
@@ -412,7 +412,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 1,
+            "stars": 2,
             "topics": [
                 "api",
                 "brewdog",
@@ -448,7 +448,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 18,
+            "stars": 20,
             "topics": [
                 "custom-components",
                 "home-assistant",
@@ -568,7 +568,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 38,
+            "stars": 39,
             "topics": [
                 "custom-components",
                 "home-assistant",
@@ -679,7 +679,7 @@
             "installed_commit": null,
             "last_commit": "8797405",
             "last_release_tag": "v0.2.1",
-            "last_updated": "2020-02-17T19:39:08Z",
+            "last_updated": "2020-03-06T04:18:43Z",
             "name": "vertical-stack-in-card",
             "new": true,
             "repository_manifest": {
@@ -689,7 +689,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 346,
+            "stars": 349,
             "topics": [
                 "homeassistant",
                 "lovelace",
@@ -734,10 +734,14 @@
             "last_updated": "2020-03-01T16:49:53Z",
             "name": "canvas-gauge-card",
             "new": true,
-            "repository_manifest": {},
+            "repository_manifest": {
+                "filename": "canvas-gauge-card.js",
+                "name": "Canvas Gauge Card",
+                "render_readme": true
+            },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 42,
+            "stars": 44,
             "topics": [],
             "version_installed": null
         },
@@ -800,7 +804,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 4,
+            "stars": 5,
             "topics": [
                 "camera",
                 "home-assistant",
@@ -856,7 +860,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 40,
+            "stars": 41,
             "topics": [],
             "version_installed": null
         },
@@ -885,7 +889,7 @@
         "144888844": {
             "authors": [],
             "category": "integration",
-            "description": "",
+            "description": null,
             "downloads": null,
             "first_install": true,
             "full_name": "Paul-dH/Home-Assisant-Sensor-OvApi",
@@ -900,7 +904,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 10,
+            "stars": 11,
             "topics": [],
             "version_installed": null
         },
@@ -925,7 +929,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 267,
+            "stars": 273,
             "topics": [],
             "version_installed": null
         },
@@ -1019,7 +1023,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 19,
+            "stars": 21,
             "topics": [],
             "version_installed": null
         },
@@ -1065,7 +1069,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 372,
+            "stars": 371,
             "topics": [
                 "home-assistant",
                 "home-assistant-custom",
@@ -1093,7 +1097,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 2,
+            "stars": 3,
             "topics": [],
             "version_installed": null
         },
@@ -1141,7 +1145,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 3,
+            "stars": 2,
             "topics": [
                 "e-thermostaat",
                 "home-assistant",
@@ -1169,7 +1173,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 38,
+            "stars": 39,
             "topics": [
                 "bravia",
                 "home-assistant",
@@ -1266,7 +1270,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 67,
+            "stars": 66,
             "topics": [],
             "version_installed": null
         },
@@ -1283,15 +1287,15 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "d37b817",
+            "last_commit": "2330056",
             "last_release_tag": null,
-            "last_updated": "2020-01-16T11:50:49Z",
+            "last_updated": "2020-03-10T15:04:49Z",
             "name": "",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 19,
+            "stars": 20,
             "topics": [],
             "version_installed": null
         },
@@ -1299,7 +1303,7 @@
             "authors": [],
             "category": "plugin",
             "description": "Minimalistic media card for Home Assistant Lovelace UI",
-            "downloads": null,
+            "downloads": 7549,
             "first_install": false,
             "full_name": "kalkih/mini-media-player",
             "hide": false,
@@ -1307,13 +1311,13 @@
             "installed_commit": "1cadce3",
             "last_commit": "1cadce3",
             "last_release_tag": "v1.6.0",
-            "last_updated": "2020-02-27T15:09:48Z",
+            "last_updated": "2020-03-06T23:11:39Z",
             "name": "mini-media-player",
             "new": false,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 563,
+            "stars": 570,
             "topics": [
                 "automation",
                 "custom",
@@ -1386,21 +1390,21 @@
             "authors": [],
             "category": "plugin",
             "description": "Minimalistic graph card for Home Assistant Lovelace UI",
-            "downloads": null,
+            "downloads": 7873,
             "first_install": false,
             "full_name": "kalkih/mini-graph-card",
             "hide": false,
             "installed": true,
             "installed_commit": "10cb58b",
-            "last_commit": "10cb58b",
+            "last_commit": "5f4213e",
             "last_release_tag": "v0.9.3",
-            "last_updated": "2020-02-23T21:04:21Z",
+            "last_updated": "2020-03-08T10:21:35Z",
             "name": "mini-graph-card",
             "new": false,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 745,
+            "stars": 762,
             "topics": [
                 "automation",
                 "custom",
@@ -1470,7 +1474,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 40,
+            "stars": 39,
             "topics": [
                 "buttons",
                 "entity-row",
@@ -1551,7 +1555,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 94,
+            "stars": 98,
             "topics": [],
             "version_installed": null
         },
@@ -1560,7 +1564,7 @@
                 "@yuval_mejahez"
             ],
             "category": "integration",
-            "description": "",
+            "description": null,
             "downloads": null,
             "first_install": true,
             "full_name": "rt400/School-Vacation",
@@ -1575,7 +1579,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 3,
+            "stars": 4,
             "topics": [],
             "version_installed": null
         },
@@ -1635,7 +1639,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 60,
+            "stars": 62,
             "topics": [
                 "home-automation",
                 "homeassistant",
@@ -1702,15 +1706,19 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "e149317",
+            "last_commit": "13960ca",
             "last_release_tag": null,
-            "last_updated": "2019-11-15T20:40:24Z",
+            "last_updated": "2020-03-09T08:48:14Z",
             "name": "flex-table-card",
             "new": true,
-            "repository_manifest": {},
+            "repository_manifest": {
+                "content_in_root": true,
+                "filename": "flex-table-card.js",
+                "name": "Flex Table - Highly customizable, Data visualization"
+            },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 31,
+            "stars": 33,
             "topics": [
                 "data-table",
                 "data-visualization",
@@ -1734,10 +1742,10 @@
             "full_name": "thomasloven/lovelace-layout-card",
             "hide": false,
             "installed": true,
-            "installed_commit": "d105c5b",
-            "last_commit": "d105c5b",
-            "last_release_tag": "11",
-            "last_updated": "2020-02-19T15:51:32Z",
+            "installed_commit": "af99dba",
+            "last_commit": "af99dba",
+            "last_release_tag": "13",
+            "last_updated": "2020-03-11T19:35:30Z",
             "name": "lovelace-layout-card",
             "new": false,
             "repository_manifest": {
@@ -1746,9 +1754,9 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 134,
+            "stars": 140,
             "topics": [],
-            "version_installed": "11"
+            "version_installed": "13"
         },
         "157618389": {
             "authors": [],
@@ -1771,7 +1779,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 74,
+            "stars": 77,
             "topics": [],
             "version_installed": null
         },
@@ -1793,7 +1801,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 19,
+            "stars": 20,
             "topics": [
                 "air-quality",
                 "air-visual",
@@ -1815,11 +1823,17 @@
             "installed": false,
             "installed_commit": null,
             "last_commit": "7e2ce7e",
-            "last_release_tag": "2.2.2",
-            "last_updated": "2020-03-01T11:37:16Z",
+            "last_release_tag": "2.2.3",
+            "last_updated": "2020-03-04T11:58:10Z",
             "name": "",
             "new": true,
-            "repository_manifest": {},
+            "repository_manifest": {
+                "content_in_root": false,
+                "homeassistant": "0.92",
+                "name": "Home Assistant SL Sensor (HASL)",
+                "render_readme": false,
+                "zip_release": false
+            },
             "selected_tag": null,
             "show_beta": false,
             "stars": 15,
@@ -1855,7 +1869,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 99,
+            "stars": 102,
             "topics": [
                 "finite-state-machine",
                 "hass",
@@ -1892,7 +1906,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 213,
+            "stars": 215,
             "topics": [
                 "hassio",
                 "home-assistant",
@@ -1924,7 +1938,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 66,
+            "stars": 67,
             "topics": [],
             "version_installed": null
         },
@@ -2005,13 +2019,13 @@
             "installed_commit": null,
             "last_commit": "a5e2cc0",
             "last_release_tag": "R1.9.1",
-            "last_updated": "2020-03-02T00:19:04Z",
+            "last_updated": "2020-03-07T22:32:47Z",
             "name": "",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 24,
+            "stars": 25,
             "topics": [],
             "version_installed": null
         },
@@ -2033,7 +2047,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 61,
+            "stars": 62,
             "topics": [],
             "version_installed": null
         },
@@ -2090,7 +2104,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 44,
+            "stars": 45,
             "topics": [
                 "custom-card",
                 "energy",
@@ -2158,7 +2172,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 1,
+            "stars": 2,
             "topics": [],
             "version_installed": null
         },
@@ -2182,7 +2196,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 105,
+            "stars": 106,
             "topics": [],
             "version_installed": "9"
         },
@@ -2256,7 +2270,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 8,
+            "stars": 9,
             "topics": [
                 "home-assistant",
                 "home-automation",
@@ -2337,7 +2351,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 26,
+            "stars": 27,
             "topics": [],
             "version_installed": null
         },
@@ -2351,15 +2365,15 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "96b01e9",
-            "last_release_tag": "1.0.2",
-            "last_updated": "2020-03-03T02:31:44Z",
+            "last_commit": "bdb11ff",
+            "last_release_tag": "1.1.0",
+            "last_updated": "2020-03-08T12:08:47Z",
             "name": "check-button-card",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 34,
+            "stars": 35,
             "topics": [],
             "version_installed": null
         },
@@ -2407,7 +2421,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 126,
+            "stars": 127,
             "topics": [],
             "version_installed": null
         },
@@ -2483,7 +2497,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 3,
+            "stars": 4,
             "topics": [],
             "version_installed": null
         },
@@ -2632,7 +2646,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 187,
+            "stars": 194,
             "topics": [],
             "version_installed": "16"
         },
@@ -2648,15 +2662,15 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "4301c98",
-            "last_release_tag": "v0.6.14",
-            "last_updated": "2020-02-27T02:57:34Z",
+            "last_commit": "9e6880b",
+            "last_release_tag": "v0.6.14.1",
+            "last_updated": "2020-03-10T01:34:23Z",
             "name": "",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 85,
+            "stars": 89,
             "topics": [],
             "version_installed": null
         },
@@ -2678,7 +2692,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 14,
+            "stars": 15,
             "topics": [],
             "version_installed": null
         },
@@ -2722,13 +2736,13 @@
             "installed_commit": null,
             "last_commit": "e0a7994",
             "last_release_tag": "V1.1.4",
-            "last_updated": "2020-02-25T13:44:26Z",
+            "last_updated": "2020-03-09T08:08:25Z",
             "name": "",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 8,
+            "stars": 9,
             "topics": [],
             "version_installed": null
         },
@@ -2752,7 +2766,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 42,
+            "stars": 43,
             "topics": [],
             "version_installed": null
         },
@@ -2761,11 +2775,11 @@
             "category": "plugin",
             "description": "Custom calendar card for Home Assistant with Lovelace",
             "downloads": null,
-            "first_install": false,
+            "first_install": true,
             "full_name": "atomic7777/atomic_calendar",
             "hide": false,
-            "installed": true,
-            "installed_commit": "87fa82d",
+            "installed": false,
+            "installed_commit": null,
             "last_commit": "87fa82d",
             "last_release_tag": "v0.8.9",
             "last_updated": "2020-02-29T20:31:17Z",
@@ -2776,7 +2790,7 @@
             "show_beta": false,
             "stars": 88,
             "topics": [],
-            "version_installed": "v0.8.9"
+            "version_installed": null
         },
         "169641362": {
             "authors": [
@@ -2790,9 +2804,9 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "a4eee6a",
+            "last_commit": "143ac8a",
             "last_release_tag": null,
-            "last_updated": "2020-03-01T20:21:52Z",
+            "last_updated": "2020-03-06T13:22:44Z",
             "name": "",
             "new": true,
             "repository_manifest": {
@@ -2801,7 +2815,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 30,
+            "stars": 31,
             "topics": [],
             "version_installed": null
         },
@@ -2827,7 +2841,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 7,
+            "stars": 8,
             "topics": [],
             "version_installed": null
         },
@@ -2851,7 +2865,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 3,
+            "stars": 4,
             "topics": [],
             "version_installed": null
         },
@@ -2875,7 +2889,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 7,
+            "stars": 8,
             "topics": [
                 "custom-components",
                 "customcomponents",
@@ -2907,7 +2921,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 72,
+            "stars": 75,
             "topics": [],
             "version_installed": null
         },
@@ -2949,15 +2963,15 @@
             ],
             "category": "integration",
             "description": "Manage (Install, track, upgrade) and discover custom elements for Home Assistant.",
-            "downloads": 2430,
+            "downloads": 3014,
             "first_install": false,
             "full_name": "hacs/integration",
             "hide": false,
             "installed": true,
-            "installed_commit": "4296b6a",
-            "last_commit": "4296b6a",
-            "last_release_tag": "0.22.1",
-            "last_updated": "2020-03-02T16:04:16Z",
+            "installed_commit": "bdbb2be",
+            "last_commit": "bdbb2be",
+            "last_release_tag": "0.23.2",
+            "last_updated": "2020-03-10T17:33:31Z",
             "name": "hacs",
             "new": false,
             "repository_manifest": {
@@ -2969,7 +2983,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 798,
+            "stars": 829,
             "topics": [
                 "community",
                 "hacs",
@@ -2978,7 +2992,7 @@
                 "package-manager",
                 "python"
             ],
-            "version_installed": "0.22.1"
+            "version_installed": "0.23.2"
         },
         "172800356": {
             "authors": [
@@ -3029,7 +3043,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 79,
+            "stars": 80,
             "topics": [
                 "home-assistant",
                 "home-automation",
@@ -3060,7 +3074,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 13,
+            "stars": 14,
             "topics": [],
             "version_installed": null
         },
@@ -3096,15 +3110,15 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "d1d8207",
-            "last_release_tag": "4.3",
-            "last_updated": "2020-01-19T13:24:32Z",
+            "last_commit": "e166abe",
+            "last_release_tag": "5.1",
+            "last_updated": "2020-03-08T14:51:46Z",
             "name": "",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 17,
+            "stars": 21,
             "topics": [],
             "version_installed": null
         },
@@ -3126,7 +3140,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 5,
+            "stars": 6,
             "topics": [],
             "version_installed": null
         },
@@ -3162,9 +3176,9 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "43e1a1f",
+            "last_commit": "a0a4a29",
             "last_release_tag": "0.3.9",
-            "last_updated": "2020-03-02T13:40:23Z",
+            "last_updated": "2020-03-08T15:02:41Z",
             "name": "lovelace-home-feed-card",
             "new": true,
             "repository_manifest": {},
@@ -3249,7 +3263,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 26,
+            "stars": 27,
             "topics": [
                 "darksky",
                 "home-assistant",
@@ -3280,7 +3294,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 4,
+            "stars": 5,
             "topics": [],
             "version_installed": null
         },
@@ -3361,7 +3375,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 4,
+            "stars": 5,
             "topics": [
                 "climate",
                 "custom-component",
@@ -3375,6 +3389,37 @@
             ],
             "version_installed": null
         },
+        "177480500": {
+            "authors": [],
+            "category": "plugin",
+            "description": "A custom Lovelace component for displaying battery levels for battery entities",
+            "downloads": null,
+            "first_install": true,
+            "full_name": "cbulock/lovelace-battery-entity",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "76ab513",
+            "last_release_tag": "0.2",
+            "last_updated": "2020-03-09T10:03:14Z",
+            "name": "lovelace-battery-entity",
+            "new": true,
+            "repository_manifest": {
+                "content_in_root": true,
+                "filename": "battery-entity.js",
+                "name": "Battery Entity Card",
+                "render_readme": true
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 82,
+            "topics": [
+                "battery-entities",
+                "home-assistant",
+                "lovelace"
+            ],
+            "version_installed": null
+        },
         "177978011": {
             "authors": [
                 "@hakana",
@@ -3382,15 +3427,15 @@
             ],
             "category": "integration",
             "description": "Shelly smart home platform for Home Assistant",
-            "downloads": null,
+            "downloads": 4785,
             "first_install": false,
             "full_name": "StyraHem/ShellyForHASS",
             "hide": false,
             "installed": true,
             "installed_commit": "ae37e68",
-            "last_commit": "18c432c",
+            "last_commit": "4dc65f7",
             "last_release_tag": "0.1.6",
-            "last_updated": "2020-02-26T08:32:53Z",
+            "last_updated": "2020-03-11T23:34:18Z",
             "name": "shelly",
             "new": false,
             "repository_manifest": {
@@ -3402,7 +3447,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 209,
+            "stars": 216,
             "topics": [],
             "version_installed": "0.1.6"
         },
@@ -3445,9 +3490,9 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "877b907",
-            "last_release_tag": "v3.0.0",
-            "last_updated": "2020-02-14T13:54:00Z",
+            "last_commit": "eab2c3b",
+            "last_release_tag": "v3.1.1",
+            "last_updated": "2020-03-08T11:37:34Z",
             "name": "lovelace-multiple-entity-row",
             "new": true,
             "repository_manifest": {
@@ -3457,7 +3502,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 102,
+            "stars": 106,
             "topics": [
                 "attribute",
                 "entity",
@@ -3482,15 +3527,15 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "50c6bdf",
-            "last_release_tag": "1.0.10",
-            "last_updated": "2020-02-22T03:21:37Z",
+            "last_commit": "4909fdb",
+            "last_release_tag": "1.0.11",
+            "last_updated": "2020-03-07T15:34:01Z",
             "name": "",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 144,
+            "stars": 148,
             "topics": [
                 "circadian",
                 "circadian-rhythms",
@@ -3563,7 +3608,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 4,
+            "stars": 5,
             "topics": [
                 "home-assistant",
                 "water-sensor"
@@ -3573,7 +3618,7 @@
         "180000010": {
             "authors": [],
             "category": "plugin",
-            "description": "",
+            "description": null,
             "downloads": null,
             "first_install": true,
             "full_name": "custom-cards/cover-element",
@@ -3588,7 +3633,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 6,
+            "stars": 7,
             "topics": [],
             "version_installed": null
         },
@@ -3613,7 +3658,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 5,
+            "stars": 6,
             "topics": [],
             "version_installed": null
         },
@@ -3640,7 +3685,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 62,
+            "stars": 64,
             "topics": [
                 "home-assistant",
                 "home-assistant-frontend",
@@ -3705,7 +3750,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 8,
+            "stars": 10,
             "topics": [],
             "version_installed": null
         },
@@ -3730,7 +3775,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 17,
+            "stars": 18,
             "topics": [],
             "version_installed": null
         },
@@ -3754,7 +3799,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 4,
+            "stars": 5,
             "topics": [
                 "api",
                 "custom-component",
@@ -3870,7 +3915,7 @@
                 "@SebRut"
             ],
             "category": "integration",
-            "description": "",
+            "description": null,
             "downloads": null,
             "first_install": true,
             "full_name": "custom-components/grocy",
@@ -3921,7 +3966,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 16,
+            "stars": 19,
             "topics": [],
             "version_installed": null
         },
@@ -3945,8 +3990,41 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 64,
+            "stars": 65,
             "topics": [],
+            "version_installed": null
+        },
+        "183222061": {
+            "authors": [
+                "@lichtteil"
+            ],
+            "category": "integration",
+            "description": "Custom component for Home Assistant that integrates your (own) local Luftdaten sensor (air quality/particle sensor) without using the cloud.",
+            "downloads": null,
+            "first_install": true,
+            "full_name": "lichtteil/local_luftdaten",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "a7e640a",
+            "last_release_tag": "1.1",
+            "last_updated": "2020-03-01T21:45:50Z",
+            "name": "",
+            "new": true,
+            "repository_manifest": {
+                "domains": "sensor",
+                "name": "Local Luftdaten Sensor",
+                "render_readme": true
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 3,
+            "topics": [
+                "air-quality",
+                "homeassistant",
+                "homeassistant-sensor",
+                "sensor"
+            ],
             "version_installed": null
         },
         "183306034": {
@@ -4005,7 +4083,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 17,
+            "stars": 18,
             "topics": [
                 "custom-component",
                 "home-assistant",
@@ -4036,7 +4114,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 3,
+            "stars": 4,
             "topics": [],
             "version_installed": null
         },
@@ -4084,7 +4162,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 43,
+            "stars": 45,
             "topics": [],
             "version_installed": null
         },
@@ -4098,9 +4176,9 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "578bf7c",
-            "last_release_tag": "0.0.7",
-            "last_updated": "2020-02-25T22:24:13Z",
+            "last_commit": "6c05670",
+            "last_release_tag": "0.0.8",
+            "last_updated": "2020-03-08T09:45:51Z",
             "name": "lovelace-card-templater",
             "new": true,
             "repository_manifest": {},
@@ -4115,7 +4193,7 @@
                 "@SebRut"
             ],
             "category": "integration",
-            "description": "",
+            "description": null,
             "downloads": null,
             "first_install": true,
             "full_name": "custom-components/qbo",
@@ -4171,7 +4249,7 @@
         "185304888": {
             "authors": [],
             "category": "plugin",
-            "description": "",
+            "description": null,
             "downloads": null,
             "first_install": true,
             "full_name": "custom-cards/text-action-element",
@@ -4260,7 +4338,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 33,
+            "stars": 35,
             "topics": [
                 "audi",
                 "audi-connect",
@@ -4297,7 +4375,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 8,
+            "stars": 10,
             "topics": [
                 "custom-component",
                 "home-assistant",
@@ -4324,7 +4402,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 148,
+            "stars": 149,
             "topics": [
                 "custom-cards",
                 "hassio",
@@ -4354,7 +4432,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 6,
+            "stars": 7,
             "topics": [],
             "version_installed": null
         },
@@ -4398,14 +4476,14 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 17,
+            "stars": 19,
             "topics": [],
             "version_installed": null
         },
         "187245495": {
             "authors": [],
             "category": "plugin",
-            "description": "",
+            "description": null,
             "downloads": null,
             "first_install": true,
             "full_name": "custom-cards/gauge-card",
@@ -4442,7 +4520,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 7,
+            "stars": 6,
             "topics": [],
             "version_installed": "0.0.3"
         },
@@ -4471,7 +4549,7 @@
         "187247927": {
             "authors": [],
             "category": "plugin",
-            "description": "",
+            "description": null,
             "downloads": null,
             "first_install": true,
             "full_name": "custom-cards/plan-coordinates",
@@ -4508,7 +4586,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 52,
+            "stars": 51,
             "topics": [
                 "custom-cards",
                 "home-assistant",
@@ -4527,9 +4605,9 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "b460cc2",
+            "last_commit": "d148f29",
             "last_release_tag": null,
-            "last_updated": "2020-03-01T16:37:46Z",
+            "last_updated": "2020-03-08T18:15:57Z",
             "name": "",
             "new": true,
             "repository_manifest": {
@@ -4543,7 +4621,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 125,
+            "stars": 135,
             "topics": [
                 "alice",
                 "home-assistant-component",
@@ -4570,7 +4648,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 1,
+            "stars": 2,
             "topics": [],
             "version_installed": null
         },
@@ -4594,7 +4672,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 1,
+            "stars": 2,
             "topics": [],
             "version_installed": null
         },
@@ -4644,7 +4722,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 1,
+            "stars": 2,
             "topics": [
                 "alarm",
                 "alarm-control-panel",
@@ -4674,7 +4752,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 7,
+            "stars": 8,
             "topics": [],
             "version_installed": null
         },
@@ -4699,7 +4777,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 76,
+            "stars": 80,
             "topics": [],
             "version_installed": "13"
         },
@@ -4774,7 +4852,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 21,
+            "stars": 23,
             "topics": [
                 "custom-card",
                 "home-assistant",
@@ -4805,7 +4883,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 13,
+            "stars": 14,
             "topics": [],
             "version_installed": null
         },
@@ -4821,15 +4899,15 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "2ab9aee",
-            "last_release_tag": "20200223.2",
-            "last_updated": "2020-02-23T18:24:15Z",
+            "last_commit": "05f9928",
+            "last_release_tag": "20200308.3",
+            "last_updated": "2020-03-08T17:56:04Z",
             "name": "",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 77,
+            "stars": 80,
             "topics": [],
             "version_installed": null
         },
@@ -4884,7 +4962,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 31,
+            "stars": 32,
             "topics": [
                 "custom-component",
                 "hacs",
@@ -4949,7 +5027,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 76,
+            "stars": 77,
             "topics": [],
             "version_installed": "v1.4.3"
         },
@@ -4971,7 +5049,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 5,
+            "stars": 6,
             "topics": [],
             "version_installed": null
         },
@@ -4993,7 +5071,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 54,
+            "stars": 55,
             "topics": [],
             "version_installed": null
         },
@@ -5015,7 +5093,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [],
             "version_installed": null
         },
@@ -5156,7 +5234,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 5,
+            "stars": 6,
             "topics": [
                 "custom-component",
                 "energy-monitor",
@@ -5183,7 +5261,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 240,
+            "stars": 245,
             "topics": [
                 "home-assistant",
                 "lovelace-card",
@@ -5278,7 +5356,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 1,
+            "stars": 2,
             "topics": [
                 "custom-component",
                 "home-assistant",
@@ -5308,7 +5386,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 5,
+            "stars": 6,
             "topics": [],
             "version_installed": null
         },
@@ -5332,7 +5410,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 7,
+            "stars": 8,
             "topics": [],
             "version_installed": null
         },
@@ -5366,7 +5444,7 @@
             "description": "\ud83d\udca8 Philips AirPurifier custom component for Home Assistant.",
             "downloads": null,
             "first_install": true,
-            "full_name": "xMrVizzy/Philips-AirPurifier",
+            "full_name": "xMrVizzy/philips-airpurifier",
             "hide": false,
             "installed": false,
             "installed_commit": null,
@@ -5381,7 +5459,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 16,
+            "stars": 17,
             "topics": [],
             "version_installed": null
         },
@@ -5403,7 +5481,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 160,
+            "stars": 161,
             "topics": [],
             "version_installed": "23"
         },
@@ -5500,7 +5578,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 12,
+            "stars": 13,
             "topics": [
                 "air-quality",
                 "airly",
@@ -5521,9 +5599,9 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "ee60dee",
+            "last_commit": "c0a828c",
             "last_release_tag": "v1.2.1",
-            "last_updated": "2020-02-09T03:32:55Z",
+            "last_updated": "2020-03-08T05:36:01Z",
             "name": "",
             "new": true,
             "repository_manifest": {},
@@ -5545,9 +5623,9 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "d5b5097",
+            "last_commit": "9228f35",
             "last_release_tag": "v0.8.9",
-            "last_updated": "2020-01-02T01:37:17Z",
+            "last_updated": "2020-03-08T05:27:46Z",
             "name": "",
             "new": true,
             "repository_manifest": {},
@@ -5658,15 +5736,15 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "e6f3aa3",
+            "last_commit": "48dded9",
             "last_release_tag": "0.62",
-            "last_updated": "2020-02-27T04:38:01Z",
+            "last_updated": "2020-03-10T04:03:38Z",
             "name": "bom-weather-card",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 10,
+            "stars": 12,
             "topics": [
                 "bom",
                 "home-assistant",
@@ -5722,7 +5800,7 @@
                 "@timvancann"
             ],
             "category": "integration",
-            "description": "",
+            "description": null,
             "downloads": null,
             "first_install": true,
             "full_name": "timvancann/homeassistant-growatt",
@@ -5739,7 +5817,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [],
             "version_installed": null
         },
@@ -5761,7 +5839,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 14,
+            "stars": 15,
             "topics": [],
             "version_installed": null
         },
@@ -5835,13 +5913,13 @@
             "installed_commit": null,
             "last_commit": "a82843d",
             "last_release_tag": "1.0.0",
-            "last_updated": "2019-12-28T22:09:55Z",
+            "last_updated": "2020-03-05T22:53:13Z",
             "name": "",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 20,
+            "stars": 21,
             "topics": [
                 "attributes",
                 "breakout",
@@ -5976,7 +6054,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 54,
+            "stars": 55,
             "topics": [
                 "hacs",
                 "home-assistant",
@@ -6039,7 +6117,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 22,
+            "stars": 24,
             "topics": [
                 "computer-vision",
                 "deep-learning",
@@ -6077,7 +6155,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 6,
+            "stars": 7,
             "topics": [
                 "air-quality",
                 "gios",
@@ -6104,7 +6182,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 9,
+            "stars": 10,
             "topics": [],
             "version_installed": null
         },
@@ -6114,7 +6192,7 @@
                 "@robhofmann"
             ],
             "category": "integration",
-            "description": "",
+            "description": null,
             "downloads": null,
             "first_install": true,
             "full_name": "mlowijs/HomeAssistant-TeslaCustomComponent",
@@ -6173,7 +6251,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 18,
+            "stars": 20,
             "topics": [],
             "version_installed": null
         },
@@ -6247,7 +6325,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 5,
+            "stars": 6,
             "topics": [],
             "version_installed": null
         },
@@ -6269,7 +6347,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 7,
+            "stars": 8,
             "topics": [],
             "version_installed": null
         },
@@ -6399,7 +6477,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 1,
+            "stars": 2,
             "topics": [],
             "version_installed": null
         },
@@ -6429,7 +6507,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 2,
+            "stars": 3,
             "topics": [],
             "version_installed": null
         },
@@ -6529,7 +6607,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 35,
+            "stars": 36,
             "topics": [],
             "version_installed": null
         },
@@ -6607,7 +6685,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 7,
+            "stars": 8,
             "topics": [
                 "custom",
                 "homeassistant",
@@ -6639,7 +6717,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 22,
+            "stars": 23,
             "topics": [
                 "zha",
                 "zha-map"
@@ -6773,7 +6851,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 3,
+            "stars": 4,
             "topics": [],
             "version_installed": null
         },
@@ -6851,7 +6929,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 55,
+            "stars": 56,
             "topics": [
                 "home-assistant",
                 "zigbee2mqtt"
@@ -6915,7 +6993,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 1,
+            "stars": 2,
             "topics": [
                 "media-card",
                 "mylar",
@@ -6943,7 +7021,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 9,
+            "stars": 10,
             "topics": [],
             "version_installed": null
         },
@@ -6967,7 +7045,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 5,
+            "stars": 6,
             "topics": [
                 "automation",
                 "home-assistant",
@@ -6996,7 +7074,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 15,
+            "stars": 17,
             "topics": [],
             "version_installed": null
         },
@@ -7020,7 +7098,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 4,
+            "stars": 5,
             "topics": [
                 "api-client",
                 "healthchecksio",
@@ -7038,15 +7116,15 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "317507e",
-            "last_release_tag": "0.2.2",
-            "last_updated": "2020-01-02T21:44:09Z",
+            "last_commit": "d6fd42f",
+            "last_release_tag": "0.3.0",
+            "last_updated": "2020-03-06T12:46:14Z",
             "name": "synthwave-hass",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 63,
+            "stars": 65,
             "topics": [
                 "css",
                 "home-assistant",
@@ -7088,15 +7166,15 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "38a78a3",
-            "last_release_tag": "v1.0.15",
-            "last_updated": "2020-03-02T15:14:57Z",
+            "last_commit": "958dc1c",
+            "last_release_tag": "v1.1.1",
+            "last_updated": "2020-03-06T23:40:29Z",
             "name": "",
             "new": true,
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 3,
+            "stars": 4,
             "topics": [],
             "version_installed": null
         },
@@ -7120,7 +7198,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 2,
+            "stars": 3,
             "topics": [],
             "version_installed": null
         },
@@ -7142,7 +7220,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 10,
+            "stars": 11,
             "topics": [],
             "version_installed": null
         },
@@ -7164,7 +7242,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 29,
+            "stars": 31,
             "topics": [],
             "version_installed": null
         },
@@ -7253,7 +7331,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 32,
+            "stars": 33,
             "topics": [
                 "home-assistant",
                 "node-red"
@@ -7323,7 +7401,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 34,
+            "stars": 36,
             "topics": [],
             "version_installed": null
         },
@@ -7475,7 +7553,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 13,
+            "stars": 15,
             "topics": [
                 "assistant",
                 "home",
@@ -7529,9 +7607,9 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "1a4237e",
+            "last_commit": "24791a5",
             "last_release_tag": "2.17",
-            "last_updated": "2020-02-27T15:12:01Z",
+            "last_updated": "2020-03-09T21:17:18Z",
             "name": "",
             "new": true,
             "repository_manifest": {
@@ -7577,7 +7655,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 5,
+            "stars": 6,
             "topics": [],
             "version_installed": null
         },
@@ -7637,7 +7715,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 1,
+            "stars": 2,
             "topics": [],
             "version_installed": null
         },
@@ -7697,7 +7775,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 14,
+            "stars": 16,
             "topics": [
                 "forecast",
                 "gismeteo",
@@ -7796,7 +7874,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 43,
+            "stars": 44,
             "topics": [
                 "home-assistant",
                 "home-assistant-custom",
@@ -7835,7 +7913,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 7,
+            "stars": 8,
             "topics": [
                 "dpc",
                 "hacs",
@@ -7869,7 +7947,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 4,
+            "stars": 5,
             "topics": [],
             "version_installed": null
         },
@@ -7988,7 +8066,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 25,
+            "stars": 28,
             "topics": [
                 "home-assistant",
                 "home-automation",
@@ -8067,7 +8145,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [],
             "version_installed": null
         },
@@ -8092,7 +8170,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [],
             "version_installed": null
         },
@@ -8117,7 +8195,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [],
             "version_installed": null
         },
@@ -8242,7 +8320,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 16,
+            "stars": 17,
             "topics": [
                 "binary-sensor",
                 "car",
@@ -8278,7 +8356,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 3,
+            "stars": 4,
             "topics": [],
             "version_installed": null
         },
@@ -8294,9 +8372,9 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "875ecd8",
+            "last_commit": "3531583",
             "last_release_tag": null,
-            "last_updated": "2020-02-23T10:57:49Z",
+            "last_updated": "2020-03-07T17:10:04Z",
             "name": "",
             "new": true,
             "repository_manifest": {
@@ -8307,7 +8385,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [
                 "care",
                 "flora",
@@ -8416,7 +8494,7 @@
             "description": "\ud83c\udf3f Minecraft Version Checker for Home Assistant.",
             "downloads": null,
             "first_install": true,
-            "full_name": "xMrVizzy/Minecraft-Version",
+            "full_name": "xMrVizzy/minecraft-version",
             "hide": false,
             "installed": false,
             "installed_commit": null,
@@ -8533,9 +8611,9 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "247f835",
+            "last_commit": "895da2c",
             "last_release_tag": null,
-            "last_updated": "2020-02-17T20:54:02Z",
+            "last_updated": "2020-03-03T19:00:33Z",
             "name": "",
             "new": true,
             "repository_manifest": {
@@ -8544,7 +8622,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [],
             "version_installed": null
         },
@@ -8594,7 +8672,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 5,
+            "stars": 6,
             "topics": [],
             "version_installed": null
         },
@@ -8618,7 +8696,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 24,
+            "stars": 25,
             "topics": [
                 "hacs",
                 "home-assistant",
@@ -8731,7 +8809,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 6,
+            "stars": 8,
             "topics": [
                 "hacs",
                 "home-assistant",
@@ -8806,9 +8884,9 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "6a2b428",
+            "last_commit": "accfd7d",
             "last_release_tag": "1.5.0",
-            "last_updated": "2020-02-22T15:38:21Z",
+            "last_updated": "2020-03-06T14:47:28Z",
             "name": "rgb-light-card",
             "new": true,
             "repository_manifest": {
@@ -8883,7 +8961,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 14,
+            "stars": 15,
             "topics": [
                 "custom-card",
                 "hacs",
@@ -9087,7 +9165,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 3,
+            "stars": 4,
             "topics": [],
             "version_installed": null
         },
@@ -9159,7 +9237,7 @@
             "authors": [],
             "category": "plugin",
             "description": "Lovelace Custom Header",
-            "downloads": null,
+            "downloads": 11350,
             "first_install": false,
             "full_name": "maykar/custom-header",
             "hide": false,
@@ -9177,7 +9255,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 90,
+            "stars": 96,
             "topics": [],
             "version_installed": "1.3.2"
         },
@@ -9224,9 +9302,9 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "be7edad",
+            "last_commit": "5745ada",
             "last_release_tag": null,
-            "last_updated": "2020-02-29T16:50:00Z",
+            "last_updated": "2020-03-09T04:06:40Z",
             "name": "",
             "new": true,
             "repository_manifest": {
@@ -9235,7 +9313,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 25,
+            "stars": 28,
             "topics": [],
             "version_installed": null
         },
@@ -9297,7 +9375,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 2,
+            "stars": 3,
             "topics": [
                 "hacs",
                 "home-assistant",
@@ -9348,9 +9426,9 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "86b637b",
-            "last_release_tag": "v2.4.0",
-            "last_updated": "2020-03-02T06:21:48Z",
+            "last_commit": "fe5d2bc",
+            "last_release_tag": "v2.5.0",
+            "last_updated": "2020-03-04T12:49:27Z",
             "name": "lovelace-hasl-departure-card",
             "new": true,
             "repository_manifest": {
@@ -9382,9 +9460,9 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "e91a302",
-            "last_release_tag": "v2.3.0",
-            "last_updated": "2020-03-02T06:26:13Z",
+            "last_commit": "fdf9915",
+            "last_release_tag": "v2.3.1",
+            "last_updated": "2020-03-04T12:20:16Z",
             "name": "lovelace-hasl-traffic-status-card",
             "new": true,
             "repository_manifest": {
@@ -9432,7 +9510,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 1,
+            "stars": 2,
             "topics": [
                 "google-maps",
                 "google-places-api",
@@ -9486,7 +9564,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 4,
+            "stars": 5,
             "topics": [],
             "version_installed": null
         },
@@ -9515,7 +9593,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 17,
+            "stars": 18,
             "topics": [
                 "auto-purge",
                 "generational-backups",
@@ -9537,9 +9615,9 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "6be5351",
+            "last_commit": "1936ee0",
             "last_release_tag": "v2.0.5",
-            "last_updated": "2020-02-20T15:02:24Z",
+            "last_updated": "2020-03-10T20:16:09Z",
             "name": "",
             "new": true,
             "repository_manifest": {
@@ -9551,7 +9629,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 26,
+            "stars": 29,
             "topics": [
                 "device-tracker",
                 "icloud",
@@ -9582,7 +9660,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 194,
+            "stars": 197,
             "topics": [
                 "dark-mode",
                 "darkmode",
@@ -9623,7 +9701,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 7,
+            "stars": 8,
             "topics": [
                 "american-standard",
                 "hacs",
@@ -9670,9 +9748,9 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "dad1cd0",
-            "last_release_tag": "v1.4.1",
-            "last_updated": "2020-03-02T17:59:42Z",
+            "last_commit": "db7b124",
+            "last_release_tag": "v1.4.4",
+            "last_updated": "2020-03-10T23:16:17Z",
             "name": "",
             "new": true,
             "repository_manifest": {
@@ -9680,7 +9758,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 40,
+            "stars": 43,
             "topics": [],
             "version_installed": null
         },
@@ -9725,9 +9803,9 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "b6afc5f",
-            "last_release_tag": "0.5.7",
-            "last_updated": "2020-03-02T18:33:50Z",
+            "last_commit": "1a1c8dd",
+            "last_release_tag": "0.6.1",
+            "last_updated": "2020-03-10T21:13:37Z",
             "name": "",
             "new": true,
             "repository_manifest": {
@@ -9737,7 +9815,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 101,
+            "stars": 107,
             "topics": [
                 "custom-component",
                 "hacs",
@@ -9782,7 +9860,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 5,
+            "stars": 6,
             "topics": [],
             "version_installed": null
         },
@@ -9877,7 +9955,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 3,
+            "stars": 4,
             "topics": [],
             "version_installed": null
         },
@@ -9893,9 +9971,9 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "926ade7",
+            "last_commit": "90e9628",
             "last_release_tag": null,
-            "last_updated": "2020-03-01T19:35:50Z",
+            "last_updated": "2020-03-10T00:38:12Z",
             "name": "",
             "new": true,
             "repository_manifest": {
@@ -9935,9 +10013,9 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "7af2a3a",
+            "last_commit": "ba3f35c",
             "last_release_tag": "v0.9.0",
-            "last_updated": "2020-02-29T23:28:14Z",
+            "last_updated": "2020-03-07T21:08:41Z",
             "name": "",
             "new": true,
             "repository_manifest": {
@@ -10006,9 +10084,9 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "1dd19b9",
+            "last_commit": "492db2b",
             "last_release_tag": "1.1",
-            "last_updated": "2019-12-08T12:59:42Z",
+            "last_updated": "2020-03-06T06:49:44Z",
             "name": "",
             "new": true,
             "repository_manifest": {
@@ -10103,7 +10181,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 6,
+            "stars": 8,
             "topics": [],
             "version_installed": null
         },
@@ -10119,9 +10197,9 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "2b2ee1f",
-            "last_release_tag": "V1.2.2",
-            "last_updated": "2020-02-16T18:33:16Z",
+            "last_commit": "20c0dfb",
+            "last_release_tag": "V1.2.3",
+            "last_updated": "2020-03-04T06:50:32Z",
             "name": "",
             "new": true,
             "repository_manifest": {
@@ -10134,7 +10212,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 1,
+            "stars": 2,
             "topics": [
                 "darksky",
                 "home-assistant",
@@ -10201,7 +10279,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 9,
+            "stars": 10,
             "topics": [
                 "air-quality",
                 "hacs",
@@ -10223,9 +10301,9 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "8e67908",
+            "last_commit": "d9a47df",
             "last_release_tag": "0.1.9",
-            "last_updated": "2020-02-24T22:28:53Z",
+            "last_updated": "2020-03-04T05:06:17Z",
             "name": "",
             "new": true,
             "repository_manifest": {
@@ -10277,7 +10355,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 2,
+            "stars": 3,
             "topics": [
                 "custom-component",
                 "hacs",
@@ -10354,7 +10432,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 1,
+            "stars": 2,
             "topics": [
                 "custom-component",
                 "hacs",
@@ -10376,9 +10454,9 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "0ef84bb",
-            "last_release_tag": "1.0.7",
-            "last_updated": "2020-02-25T11:46:00Z",
+            "last_commit": "45f60ba",
+            "last_release_tag": "1.0.10",
+            "last_updated": "2020-03-10T13:45:30Z",
             "name": "",
             "new": true,
             "repository_manifest": {
@@ -10391,7 +10469,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 10,
+            "stars": 13,
             "topics": [
                 "custom-component",
                 "emergency",
@@ -10571,7 +10649,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 2,
+            "stars": 3,
             "topics": [],
             "version_installed": null
         },
@@ -10686,7 +10764,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 43,
+            "stars": 51,
             "topics": [],
             "version_installed": null
         },
@@ -10718,7 +10796,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 45,
+            "stars": 50,
             "topics": [
                 "home-assistant",
                 "homeassistant",
@@ -10947,7 +11025,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 16,
+            "stars": 18,
             "topics": [
                 "dark-theme",
                 "hacs",
@@ -11078,7 +11156,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 6,
+            "stars": 7,
             "topics": [],
             "version_installed": null
         },
@@ -11172,7 +11250,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 1,
+            "stars": 2,
             "topics": [
                 "hacs",
                 "home-assistant",
@@ -11205,7 +11283,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [
                 "hacs",
                 "home-assistant",
@@ -11378,7 +11456,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 25,
+            "stars": 26,
             "topics": [
                 "hacs",
                 "home-assistant",
@@ -11436,7 +11514,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 10,
+            "stars": 11,
             "topics": [],
             "version_installed": null
         },
@@ -11452,9 +11530,9 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "713fac8",
+            "last_commit": "e159962",
             "last_release_tag": null,
-            "last_updated": "2020-02-29T17:25:54Z",
+            "last_updated": "2020-03-08T21:41:24Z",
             "name": "",
             "new": true,
             "repository_manifest": {
@@ -11471,7 +11549,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 3,
+            "stars": 4,
             "topics": [],
             "version_installed": null
         },
@@ -11590,7 +11668,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 3,
+            "stars": 4,
             "topics": [],
             "version_installed": null
         },
@@ -11676,9 +11754,9 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "40c8a9a",
+            "last_commit": "fbe9c50",
             "last_release_tag": null,
-            "last_updated": "2020-02-27T01:27:18Z",
+            "last_updated": "2020-03-09T00:30:40Z",
             "name": "",
             "new": true,
             "repository_manifest": {
@@ -11737,9 +11815,9 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "801bc9b",
-            "last_release_tag": "0.5",
-            "last_updated": "2020-03-02T09:35:30Z",
+            "last_commit": "6ca7790",
+            "last_release_tag": "0.5.1",
+            "last_updated": "2020-03-09T12:49:22Z",
             "name": "",
             "new": true,
             "repository_manifest": {
@@ -11751,7 +11829,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 3,
+            "stars": 5,
             "topics": [],
             "version_installed": null
         },
@@ -11767,7 +11845,7 @@
             "installed_commit": null,
             "last_commit": "75718db",
             "last_release_tag": "v1.2",
-            "last_updated": "2020-01-30T23:15:11Z",
+            "last_updated": "2020-03-08T21:47:16Z",
             "name": "noctis-grey",
             "new": true,
             "repository_manifest": {
@@ -11827,7 +11905,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 9,
+            "stars": 11,
             "topics": [],
             "version_installed": null
         },
@@ -12037,7 +12115,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 1,
+            "stars": 4,
             "topics": [
                 "hassio",
                 "home-assistant",
@@ -12070,6 +12148,33 @@
             "selected_tag": null,
             "show_beta": false,
             "stars": 2,
+            "topics": [],
+            "version_installed": null
+        },
+        "236317072": {
+            "authors": [],
+            "category": "plugin",
+            "description": "Generalized Lovelace pie chart card",
+            "downloads": null,
+            "first_install": true,
+            "full_name": "sdelliot/pie-chart-card",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "03a951f",
+            "last_release_tag": null,
+            "last_updated": "2020-03-07T21:19:19Z",
+            "name": "pie-chart-card",
+            "new": true,
+            "repository_manifest": {
+                "content_in_root": true,
+                "filename": "pie-chart-card.js",
+                "name": "Pie Chart Card",
+                "render_readme": true
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 1,
             "topics": [],
             "version_installed": null
         },
@@ -12163,7 +12268,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 1,
+            "stars": 2,
             "topics": [],
             "version_installed": null
         },
@@ -12189,7 +12294,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 20,
+            "stars": 23,
             "topics": [],
             "version_installed": null
         },
@@ -12205,9 +12310,9 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "f863a5d",
+            "last_commit": "1e66d84",
             "last_release_tag": null,
-            "last_updated": "2020-02-14T08:46:51Z",
+            "last_updated": "2020-03-04T13:37:53Z",
             "name": "",
             "new": true,
             "repository_manifest": {
@@ -12246,9 +12351,9 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "50b4f0b",
-            "last_release_tag": "v0.2",
-            "last_updated": "2020-02-04T18:43:28Z",
+            "last_commit": "8dc5a8f",
+            "last_release_tag": "v0.3.3",
+            "last_updated": "2020-03-10T21:39:01Z",
             "name": "",
             "new": true,
             "repository_manifest": {
@@ -12331,7 +12436,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 9,
+            "stars": 11,
             "topics": [
                 "colorlog",
                 "home-assistant",
@@ -12430,7 +12535,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 5,
+            "stars": 6,
             "topics": [
                 "custom-component",
                 "hassio",
@@ -12466,7 +12571,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 1,
+            "stars": 2,
             "topics": [],
             "version_installed": null
         },
@@ -12482,9 +12587,9 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "f5349b5",
+            "last_commit": "7359c55",
             "last_release_tag": "0.0.3",
-            "last_updated": "2020-03-03T09:08:47Z",
+            "last_updated": "2020-03-07T14:13:09Z",
             "name": "",
             "new": true,
             "repository_manifest": {
@@ -12492,7 +12597,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 8,
+            "stars": 9,
             "topics": [],
             "version_installed": null
         },
@@ -12540,9 +12645,9 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "17eaa21",
+            "last_commit": "a54d236",
             "last_release_tag": "v0.1.2",
-            "last_updated": "2020-02-13T03:24:30Z",
+            "last_updated": "2020-03-06T22:54:07Z",
             "name": "",
             "new": true,
             "repository_manifest": {
@@ -12553,7 +12658,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 5,
+            "stars": 6,
             "topics": [
                 "custom-components",
                 "faastatus",
@@ -12622,7 +12727,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 0,
+            "stars": 1,
             "topics": [],
             "version_installed": null
         },
@@ -12692,7 +12797,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 5,
+            "stars": 6,
             "topics": [],
             "version_installed": null
         },
@@ -12743,9 +12848,9 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "93c5b5f",
+            "last_commit": "fef5e61",
             "last_release_tag": "v0.7",
-            "last_updated": "2020-02-27T03:18:22Z",
+            "last_updated": "2020-03-06T04:52:39Z",
             "name": "",
             "new": true,
             "repository_manifest": {
@@ -12758,7 +12863,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 1,
+            "stars": 2,
             "topics": [
                 "assistant",
                 "disk",
@@ -12768,12 +12873,98 @@
             ],
             "version_installed": null
         },
+        "244872232": {
+            "authors": [],
+            "category": "plugin",
+            "description": "Adds highly configurable buttons that use actions and per-state styling.",
+            "downloads": null,
+            "first_install": true,
+            "full_name": "jcwillox/lovelace-paper-buttons-row",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "3ed374e",
+            "last_release_tag": "0.1.1",
+            "last_updated": "2020-03-09T03:38:18Z",
+            "name": "lovelace-paper-buttons-row",
+            "new": true,
+            "repository_manifest": {
+                "name": "Paper Buttons Row"
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 5,
+            "topics": [
+                "actions",
+                "buttons",
+                "haptic",
+                "home-assistant",
+                "paper"
+            ],
+            "version_installed": null
+        },
+        "245267534": {
+            "authors": [
+                "@twrecked"
+            ],
+            "category": "integration",
+            "description": "Virtual Components for Home Assistant",
+            "downloads": null,
+            "first_install": true,
+            "full_name": "twrecked/hass-virtual",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": "fc90d11",
+            "last_release_tag": "v0.3",
+            "last_updated": "2020-03-09T20:04:59Z",
+            "name": "",
+            "new": true,
+            "repository_manifest": {
+                "name": "Virtual Components"
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 3,
+            "topics": [],
+            "version_installed": null
+        },
+        "246549747": {
+            "authors": [],
+            "category": "plugin",
+            "description": "Custom calendar card for Home Assistant with Lovelace",
+            "downloads": null,
+            "first_install": true,
+            "full_name": "marksie1988/atomic_calendar",
+            "hide": false,
+            "installed": true,
+            "installed_commit": "fcf3694",
+            "last_commit": "fcf3694",
+            "last_release_tag": "v0.10.1",
+            "last_updated": "2020-03-12T11:02:15Z",
+            "name": "atomic_calendar",
+            "new": false,
+            "repository_manifest": {
+                "content_in_root": true,
+                "country": [
+                    "GB"
+                ],
+                "filename": "atomic_calendar.js",
+                "name": "Atomic Calendar Revive",
+                "render_readme": true
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 0,
+            "topics": [],
+            "version_installed": "v0.10.1"
+        },
         "76125161": {
             "authors": [
                 "@tybritten"
             ],
             "category": "integration",
-            "description": "",
+            "description": null,
             "downloads": null,
             "first_install": true,
             "full_name": "tybritten/ical-sensor-homeassistant",
@@ -12788,7 +12979,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 14,
+            "stars": 15,
             "topics": [],
             "version_installed": null
         },
@@ -12804,9 +12995,9 @@
             "hide": false,
             "installed": false,
             "installed_commit": null,
-            "last_commit": "ae0dcf7",
-            "last_release_tag": "2.10",
-            "last_updated": "2020-02-14T04:57:19Z",
+            "last_commit": "4319688",
+            "last_release_tag": "2.13",
+            "last_updated": "2020-03-10T19:59:44Z",
             "name": "",
             "new": true,
             "repository_manifest": {
@@ -12816,12 +13007,12 @@
                     "binary_sensor",
                     "remote"
                 ],
-                "homeassistant": "0.104.0",
+                "homeassistant": "0.106.0",
                 "name": "Hue sensor advanced"
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 332,
+            "stars": 336,
             "topics": [
                 "home-assistant",
                 "hue",
