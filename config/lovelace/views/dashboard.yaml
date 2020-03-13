@@ -187,7 +187,6 @@ cards:
           - type: vertical-stack
             cards:
               - type: custom:atomic-calendar
-                title: Calendar
                 showProgressBar: true
                 progressBarColor: blue
                 entities:
