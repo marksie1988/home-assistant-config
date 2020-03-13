@@ -12,6 +12,7 @@ config/.cloud
 config/.storage
 config/deps
 config/www/lovelace/persons
+config/www/dev_components/
 
 # Specific file ignores
 config/.config_entries.json
@@ -32,6 +33,8 @@ config/zwcfg_*
 config/zwscene.xml
 config/google_calendars.yaml
 config/google_assistant_service_account.json
+config/lovelace/views/dev.yaml
+
 
 # ESPHome ignores
 config/esphome/secrets.yaml
