@@ -74,6 +74,33 @@ This currently controls my Ikea TRÅDFRI lights
 * [AppDaemon](https://github.com/hassio-addons/addon-appdaemon3)
   * for HADashboard
 
+## HACS Installed
+
+### Integrations
+* Breaking Changes
+* Browser Mod
+* Plex Recently Added
+* Radarr Upcoming Media
+* ShellyForHass
+* Sonarr Upcoming Media
+
+### Plugins
+* [Atomic Calendar Revive](https://github.com/marksie1988/atomic_calendar_revive)
+* Bignumber Card
+* Custom Header
+* Group Card
+* Home Setter
+* Mini Graph Card
+* Mini Media Player
+* Secondaryinfo Entity Row
+* State Attribute Element
+* Upcoming Media Card
+* Weather Card
+* auto-entities
+* card-mod
+* card-tools
+* layout-card
+
 ## Screenshot
 
 Coming Soon...
