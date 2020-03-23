@@ -77,6 +77,7 @@ This currently controls my Ikea TRÅDFRI lights
 ## HACS Installed
 
 ### Integrations
+
 * Breaking Changes
 * Browser Mod
 * Plex Recently Added
@@ -85,6 +86,7 @@ This currently controls my Ikea TRÅDFRI lights
 * Sonarr Upcoming Media
 
 ### Plugins
+
 * [Atomic Calendar Revive](https://github.com/marksie1988/atomic_calendar_revive)
 * Bignumber Card
 * Custom Header
