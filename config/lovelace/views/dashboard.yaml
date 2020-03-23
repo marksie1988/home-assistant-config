@@ -186,9 +186,12 @@ cards:
 
           - type: vertical-stack
             cards:
-              - type: custom:atomic-calendar
+              - type: custom:atomic-calendar-revive
+                name: "Busy Stuff"
                 showProgressBar: true
                 progressBarColor: blue
+                enableModeChange: true
+                firstDayOfWeek: 7
                 entities:
                   - calendar.family
                   - calendar.dutysheet_duties
