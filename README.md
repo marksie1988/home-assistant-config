@@ -3,7 +3,7 @@
 ![Project Maintenance][maintenance-shield]
 [![License][license-shield]](LICENSE.md)
 
-[![Build Status][gitlab-shield]][gitlab]
+![Home Assistant CI](https://github.com/marksie1988/home-assistant-config/workflows/Home%20Assistant%20CI/badge.svg)
 [![GitHub Activity][commits-shield]][commits]
 [![GitHub Last Commit][last-commit-shield]][commits]
 
