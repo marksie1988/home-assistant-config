@@ -1,0 +1,5 @@
+---
+logger: 
+  default: info
+  logs:
+    hacs: debug
