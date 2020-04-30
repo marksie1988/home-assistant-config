@@ -4,10 +4,10 @@ name: Home Assistant CI
 on:
   push:
     branches:
-    - master
+      - master
   pull_request:
     branches:
-    - master
+      - master
   schedule:
     - cron: 0 12 * * *
 
