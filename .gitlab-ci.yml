@@ -53,7 +53,7 @@ stages:
 # Preflight jobs
 yamllint:
   <<: *preflight
-  image: sdesbure/yamllint
+  image: pipelinecomponents/yamllint:latest
   before_script:
     - yamllint --version
   script:
