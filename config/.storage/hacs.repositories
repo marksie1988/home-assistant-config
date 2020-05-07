@@ -1178,7 +1178,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 108,
+            "stars": 110,
             "topics": [],
             "version_installed": "0.4.0"
         },
@@ -1226,7 +1226,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 18,
+            "stars": 19,
             "topics": [],
             "version_installed": "0.3.1"
         },
@@ -1259,7 +1259,7 @@
             "authors": [],
             "category": "plugin",
             "description": "Minimalistic media card for Home Assistant Lovelace UI",
-            "downloads": 8242,
+            "downloads": 9418,
             "first_install": false,
             "full_name": "kalkih/mini-media-player",
             "hide": false,
@@ -1273,7 +1273,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 607,
+            "stars": 612,
             "topics": [
                 "automation",
                 "custom",
@@ -1346,13 +1346,13 @@
             "authors": [],
             "category": "plugin",
             "description": "Minimalistic graph card for Home Assistant Lovelace UI",
-            "downloads": 18452,
+            "downloads": 19818,
             "first_install": false,
             "full_name": "kalkih/mini-graph-card",
             "hide": false,
             "installed": true,
             "installed_commit": "10cb58b",
-            "last_commit": "95b4711",
+            "last_commit": "5f4213e",
             "last_release_tag": "v0.9.3",
             "last_updated": "2020-04-28T16:16:38Z",
             "name": "mini-graph-card",
@@ -1360,7 +1360,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 858,
+            "stars": 873,
             "topics": [
                 "automation",
                 "custom",
@@ -1710,7 +1710,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 164,
+            "stars": 168,
             "topics": [],
             "version_installed": "13"
         },
@@ -2008,7 +2008,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 71,
+            "stars": 70,
             "topics": [],
             "version_installed": null
         },
@@ -2151,9 +2151,9 @@
             "hide": false,
             "installed": true,
             "installed_commit": "317f77b",
-            "last_commit": "317f77b",
+            "last_commit": "225a3fe",
             "last_release_tag": "10",
-            "last_updated": "2020-03-31T13:08:25Z",
+            "last_updated": "2020-05-04T19:54:34Z",
             "name": "lovelace-card-tools",
             "new": false,
             "repository_manifest": {
@@ -2611,7 +2611,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 218,
+            "stars": 221,
             "topics": [],
             "version_installed": "16"
         },
@@ -2931,15 +2931,15 @@
             ],
             "category": "integration",
             "description": "Manage (Install, track, upgrade) and discover custom elements for Home Assistant.",
-            "downloads": 1770,
+            "downloads": 12720,
             "first_install": false,
             "full_name": "hacs/integration",
             "hide": false,
             "installed": true,
             "installed_commit": "79afece",
-            "last_commit": "79afece",
+            "last_commit": "e776cc5",
             "last_release_tag": "0.24.3",
-            "last_updated": "2020-04-30T06:45:01Z",
+            "last_updated": "2020-05-07T06:37:54Z",
             "name": "hacs",
             "new": false,
             "repository_manifest": {
@@ -2951,7 +2951,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 930,
+            "stars": 958,
             "topics": [
                 "community",
                 "hacs",
@@ -3395,15 +3395,15 @@
             ],
             "category": "integration",
             "description": "Shelly smart home platform for Home Assistant",
-            "downloads": 4060,
+            "downloads": 1412,
             "first_install": false,
             "full_name": "StyraHem/ShellyForHASS",
             "hide": false,
             "installed": true,
             "installed_commit": "4a2e154",
-            "last_commit": "4a2e154",
-            "last_release_tag": "0.1.7",
-            "last_updated": "2020-04-24T14:11:20Z",
+            "last_commit": "6039c7d",
+            "last_release_tag": "0.1.8",
+            "last_updated": "2020-05-07T10:13:49Z",
             "name": "shelly",
             "new": false,
             "repository_manifest": {
@@ -3415,7 +3415,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 249,
+            "stars": 254,
             "topics": [],
             "version_installed": "0.1.7"
         },
@@ -3689,7 +3689,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 42,
+            "stars": 43,
             "topics": [
                 "breaking-changes",
                 "custom-component",
@@ -4816,9 +4816,9 @@
             "hide": false,
             "installed": true,
             "installed_commit": "3acbf0a",
-            "last_commit": "fa6cad9",
-            "last_release_tag": "13",
-            "last_updated": "2020-04-01T10:35:32Z",
+            "last_commit": "1a020c4",
+            "last_release_tag": "14",
+            "last_updated": "2020-05-04T20:12:43Z",
             "name": "lovelace-card-mod",
             "new": false,
             "repository_manifest": {
@@ -4827,7 +4827,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 103,
+            "stars": 106,
             "topics": [],
             "version_installed": "13"
         },
@@ -5077,7 +5077,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 95,
+            "stars": 99,
             "topics": [],
             "version_installed": "v1.4.3"
         },
@@ -5531,7 +5531,7 @@
             "repository_manifest": {},
             "selected_tag": null,
             "show_beta": false,
-            "stars": 199,
+            "stars": 204,
             "topics": [],
             "version_installed": "25"
         },
@@ -9284,7 +9284,7 @@
             "authors": [],
             "category": "plugin",
             "description": "Lovelace Custom Header",
-            "downloads": 9364,
+            "downloads": 10707,
             "first_install": false,
             "full_name": "maykar/custom-header",
             "hide": false,
@@ -9302,7 +9302,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 126,
+            "stars": 130,
             "topics": [],
             "version_installed": "1.3.8"
         },
@@ -13022,6 +13022,40 @@
             "topics": [],
             "version_installed": null
         },
+        "241427839": {
+            "authors": [
+                "@robbinjanssen"
+            ],
+            "category": "integration",
+            "description": "Read the current, daily and total power from your Omnik Inverter via local network (no cloud!)",
+            "downloads": null,
+            "first_install": true,
+            "full_name": "robbinjanssen/home-assistant-omnik-inverter",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": null,
+            "last_release_tag": "v1.3.0",
+            "last_updated": null,
+            "name": "omnik_inverter",
+            "new": true,
+            "repository_manifest": {
+                "country": "NL",
+                "domains": [
+                    "sensor"
+                ],
+                "homeassistant": "0.109.0",
+                "name": "Omnik Inverter Solar Sensor (No Cloud)"
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 2,
+            "topics": [
+                "home-assistant",
+                "home-assistant-sensor"
+            ],
+            "version_installed": null
+        },
         "241706284": {
             "authors": [],
             "category": "plugin",
@@ -13414,14 +13448,14 @@
             "description": "Custom calendar card for Home Assistant with Lovelace",
             "downloads": null,
             "first_install": false,
-            "full_name": "marksie1988/atomic_calendar_revive",
+            "full_name": "marksie1988/atomic-calendar-revive",
             "hide": false,
             "installed": true,
-            "installed_commit": "e863d31",
-            "last_commit": "b401c6a",
-            "last_release_tag": "v1.2.0",
-            "last_updated": "2020-04-30T07:59:21Z",
-            "name": "atomic_calendar_revive",
+            "installed_commit": "430268e",
+            "last_commit": "430268e",
+            "last_release_tag": "v1.3.1",
+            "last_updated": "2020-05-07T13:41:53Z",
+            "name": "atomic-calendar-revive",
             "new": false,
             "repository_manifest": {
                 "country": [
@@ -13432,8 +13466,8 @@
                 "render_readme": true
             },
             "selected_tag": null,
-            "show_beta": false,
-            "stars": 4,
+            "show_beta": true,
+            "stars": 5,
             "topics": [
                 "calendar",
                 "card",
@@ -13443,7 +13477,7 @@
                 "lovelace",
                 "module"
             ],
-            "version_installed": "v1.2.0"
+            "version_installed": "v1.3.1"
         },
         "246939713": {
             "authors": [
@@ -14389,6 +14423,40 @@
             ],
             "version_installed": null
         },
+        "255380953": {
+            "authors": [
+                "@rkoebrugge",
+                "@reharmsen",
+                "@pdwonline",
+                "@jongsoftdev"
+            ],
+            "category": "integration",
+            "description": "Custom Youless LS110 component for Home-Assistant ",
+            "downloads": null,
+            "first_install": true,
+            "full_name": "rkoebrugge/hacs-youless-component",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": null,
+            "last_release_tag": "2.0.3",
+            "last_updated": null,
+            "name": "youless",
+            "new": true,
+            "repository_manifest": {
+                "country": "NL",
+                "domains": [
+                    "sensor"
+                ],
+                "name": "YouLess LS110",
+                "render_readme": true
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 0,
+            "topics": [],
+            "version_installed": null
+        },
         "255662264": {
             "authors": [
                 "@MTrab"
@@ -14822,6 +14890,220 @@
             "topics": [
                 "home-assistant",
                 "simple-icons"
+            ],
+            "version_installed": null
+        },
+        "259126760": {
+            "authors": [],
+            "category": "plugin",
+            "description": "Honeycomb menu is a Home Assistant module (not a card) that can be applied to any lovelace card. When activated by the defined action on said card, the module will display a 'rounded' list of honeycomb buttons with an optional XY pad to make interfacing with lovelace more fluent",
+            "downloads": 100,
+            "first_install": true,
+            "full_name": "Sian-Lee-SA/honeycomb-menu",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": null,
+            "last_release_tag": "0.8.9",
+            "last_updated": null,
+            "name": "honeycomb-menu",
+            "new": true,
+            "repository_manifest": {
+                "filename": "honeycomb-menu.js",
+                "name": "Honeycomb Menu",
+                "render_readme": true
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 4,
+            "topics": [
+                "home-assistant",
+                "home-assistant-frontend",
+                "lovelace-module",
+                "lovelace-ui",
+                "menu",
+                "module"
+            ],
+            "version_installed": null
+        },
+        "259270792": {
+            "authors": [
+                "@peternijssen"
+            ],
+            "category": "integration",
+            "description": ":convenience_store: Integrate Jumbo.com in Home Assistant",
+            "downloads": null,
+            "first_install": true,
+            "full_name": "peternijssen/home-assistant-jumbo",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": null,
+            "last_release_tag": "v0.5.0",
+            "last_updated": null,
+            "name": "jumbo",
+            "new": true,
+            "repository_manifest": {},
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 2,
+            "topics": [
+                "hacs",
+                "home-assistant",
+                "jumbo",
+                "supermarket"
+            ],
+            "version_installed": null
+        },
+        "259784620": {
+            "authors": [],
+            "category": "plugin",
+            "description": "\u590d\u523b\u5b98\u65b9Lovelace\u5730\u56fe\u5361\u7247,\u57fa\u4e8e\u9ad8\u5fb7\u5730\u56fe",
+            "downloads": null,
+            "first_install": true,
+            "full_name": "fineemb/lovelace-cn-map-card",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": null,
+            "last_release_tag": "v1.1",
+            "last_updated": null,
+            "name": "lovelace-cn-map-card",
+            "new": true,
+            "repository_manifest": {
+                "country": [
+                    "CN"
+                ],
+                "name": "Gaode Map card",
+                "render_readme": true
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 1,
+            "topics": [],
+            "version_installed": null
+        },
+        "259865897": {
+            "authors": [
+                "Bouni"
+            ],
+            "category": "integration",
+            "description": "DRK Blutspende component for Home Assistant ",
+            "downloads": null,
+            "first_install": true,
+            "full_name": "Bouni/drkblutspende",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": null,
+            "last_release_tag": "0.1.1",
+            "last_updated": null,
+            "name": "drkblutspende",
+            "new": true,
+            "repository_manifest": {
+                "name": "DRK Blutspende",
+                "render_readme": true
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 0,
+            "topics": [],
+            "version_installed": null
+        },
+        "259904390": {
+            "authors": [],
+            "category": "plugin",
+            "description": "A custom lovelace card for the custom Jumbo component.",
+            "downloads": 36,
+            "first_install": true,
+            "full_name": "Voxxie/lovelace-jumbo-card",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": null,
+            "last_release_tag": "v0.2.1",
+            "last_updated": null,
+            "name": "lovelace-jumbo-card",
+            "new": true,
+            "repository_manifest": {
+                "filename": "jumbo-card.js",
+                "name": "Jumbo Card"
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 1,
+            "topics": [
+                "home-assistant",
+                "jumbo",
+                "lovelace-card",
+                "lovelace-custom-card"
+            ],
+            "version_installed": null
+        },
+        "260264517": {
+            "authors": [
+                "@r-renato"
+            ],
+            "category": "integration",
+            "description": "Climacell weather provider integration is a custom component for Home Assistant. The climacell platform uses the Climacell API as a source for meteorological data for your location.",
+            "downloads": null,
+            "first_install": true,
+            "full_name": "r-renato/ha-climacell-weather",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": null,
+            "last_release_tag": null,
+            "last_updated": null,
+            "name": "climacell",
+            "new": true,
+            "repository_manifest": {
+                "domains": [
+                    "sensor"
+                ],
+                "name": "Climacell weather provider"
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 4,
+            "topics": [
+                "climacell",
+                "hacs",
+                "home-assistant",
+                "weather"
+            ],
+            "version_installed": null
+        },
+        "260940136": {
+            "authors": [],
+            "category": "plugin",
+            "description": "Weather condition card (Lovelace) for Home Assistant.",
+            "downloads": null,
+            "first_install": true,
+            "full_name": "r-renato/ha-card-weather-conditions",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": null,
+            "last_release_tag": null,
+            "last_updated": null,
+            "name": "ha-card-weather-conditions",
+            "new": true,
+            "repository_manifest": {
+                "domains": [
+                    "plugin"
+                ],
+                "name": "HA (Lovelace) Card Weather Conditions"
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 1,
+            "topics": [
+                "card",
+                "home-assistant",
+                "home-assistant-hacs",
+                "lovelace",
+                "weather-conditions"
             ],
             "version_installed": null
         },
