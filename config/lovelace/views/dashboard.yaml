@@ -187,11 +187,15 @@ cards:
           - type: vertical-stack
             cards:
               - type: custom:atomic-calendar-revive
-                name: "Busy Stuff"
+                name: "Our Calendar"
                 showProgressBar: true
                 progressBarColor: blue
                 enableModeChange: true
                 firstDayOfWeek: 7
                 entities:
-                  - calendar.family
-                  - calendar.dutysheet_duties
+                  - entity: calendar.family
+                    type: icon1
+                  - entity: calendar.dutysheet_duties
+                    type: icon2
+                CalEventIcon1: 'mdi:home-heart'
+                CalEventIcon2: 'mdi:police-badge-outline'
