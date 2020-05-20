@@ -1330,12 +1330,12 @@
             "authors": [],
             "category": "plugin",
             "description": "Minimalistic media card for Home Assistant Lovelace UI",
-            "downloads": 698,
+            "downloads": 712,
             "first_install": false,
             "full_name": "kalkih/mini-media-player",
             "hide": false,
             "installed": true,
-            "installed_commit": "fa1427d",
+            "installed_commit": "4925a6b",
             "last_commit": "4925a6b",
             "last_release_tag": "v1.8.1",
             "last_updated": "2020-05-19T21:08:31Z",
@@ -1355,7 +1355,7 @@
                 "media-player",
                 "sonos"
             ],
-            "version_installed": "v1.8.0"
+            "version_installed": "v1.8.1"
         },
         "149443194": {
             "authors": [
@@ -1710,7 +1710,7 @@
             "full_name": "custom-components/sensor.plex_recently_added",
             "hide": false,
             "installed": true,
-            "installed_commit": "28648fc",
+            "installed_commit": "6fcad0b",
             "last_commit": "6fcad0b",
             "last_release_tag": "0.3.2",
             "last_updated": "2020-05-19T22:32:37Z",
@@ -1721,7 +1721,7 @@
             "show_beta": false,
             "stars": 31,
             "topics": [],
-            "version_installed": "0.3.0"
+            "version_installed": "0.3.2"
         },
         "156292058": {
             "authors": [],
