@@ -187,15 +187,17 @@ cards:
           - type: vertical-stack
             cards:
               - type: custom:atomic-calendar-revive
-                name: "Our Calendar"
+                name: "Events"
                 showProgressBar: true
-                progressBarColor: blue
+                progressBarColor: "#cc5500"
                 enableModeChange: true
                 firstDayOfWeek: 7
                 entities:
                   - entity: calendar.family
                     type: icon1
+                    color: "#cc5500"
                   - entity: calendar.dutysheet_duties
                     type: icon2
-                CalEventIcon1: 'mdi:home-heart'
-                CalEventIcon2: 'mdi:police-badge-outline'
+                    color: blue
+                calEventIcon1: 'mdi:home-heart'
+                calEventIcon2: 'mdi:police-badge-outline'
