@@ -1,19 +1,22 @@
 ---
 # When it is getting dark outside...
 #
+id: '1591735806552'
 alias: '[lights] office_sunset'
 trigger:
   platform: sun
   event: sunset
   offset: '-00:15:00'
 condition:
-  condition: time
+- condition: time
   weekday:
     - mon
     - tue
     - wed
     - thu
     - fri
+- condition: time
+  before: '18:00' 
 action:
   - service: switch.turn_on
     data:
