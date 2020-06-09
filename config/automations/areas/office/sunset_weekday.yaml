@@ -8,15 +8,15 @@ trigger:
   event: sunset
   offset: '-00:15:00'
 condition:
-- condition: time
-  weekday:
-    - mon
-    - tue
-    - wed
-    - thu
-    - fri
-- condition: time
-  before: '18:00' 
+  - condition: time
+    weekday:
+      - mon
+      - tue
+      - wed
+      - thu
+      - fri
+  - condition: time
+    before: '18:00'
 action:
   - service: switch.turn_on
     data:
