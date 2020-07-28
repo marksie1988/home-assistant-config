@@ -20,7 +20,6 @@ cards:
                     entities:
                       - sensor.server_proxy
                       - sensor.server_bastion
-                      - sensor.storage_freenas
                       - sensor.storage_qnap
                     style:
                       left: 50%
@@ -46,10 +45,6 @@ cards:
               #        --paper-item-icon-color: white
               #        border-radius: 5px
               #        color: rgb(0, 0, 0)
-              - type: custom:group-card
-                card:
-                  type: entities
-                group: group.freenas_monitor
           - break
           - type: vertical-stack
             cards:
@@ -99,7 +94,6 @@ cards:
                     show_state: false
                     columns: 4
                     entities:
-                      - sensor.unifi_usg
                       - sensor.juniper_ex2200
                     style:
                       left: 50%

@@ -8,7 +8,3 @@
 #
 cast:
   media_player:
-    - host: !secret media_player_nestmini_masterbedroom_host
-    - host: !secret media_player_nestmini_kitchen_host
-    - host: !secret media_player_nesthome_office_host
-    - host: !secret media_player_nesthub_livingroom_host
