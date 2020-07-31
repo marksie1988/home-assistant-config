@@ -29,10 +29,6 @@ cards:
                       --paper-item-icon-color: white
                       border-radius: 5px
                       color: rgb(0, 0, 0)
-              - type: custom:group-card
-                card:
-                  type: entities
-                group: group.freenas_monitor
           - break
           - type: vertical-stack
             cards:
