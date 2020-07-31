@@ -30,22 +30,22 @@ cards:
                       --paper-item-icon-color: white
                       border-radius: 5px
                       color: rgb(0, 0, 0)
-              # - type: picture-elements
-              #  image: /local/lovelace/backgrounds/cctv_background.jpg
-              #  elements:
-              #    - type: custom:hui-glance-card
-              #      show_state: false
-              #      columns: 2
-              #      entities:
-              #        - sensor.system_cctv_driveway
-              #      style:
-              #        left: 50%
-              #        top: 50%
-              #        width: 100%
-              #        --paper-card-background-color: rgba(0, 0, 0, 0.4)
-              #        --paper-item-icon-color: white
-              #        border-radius: 5px
-              #        color: rgb(0, 0, 0)
+                      # - type: picture-elements
+                      #  image: /local/lovelace/backgrounds/cctv_background.jpg
+                      #  elements:
+                      #    - type: custom:hui-glance-card
+                      #      show_state: false
+                      #      columns: 2
+                      #      entities:
+                      #        - sensor.system_cctv_driveway
+                      #      style:
+                      #        left: 50%
+                      #        top: 50%
+                      #        width: 100%
+                      #        --paper-card-background-color: rgba(0, 0, 0, 0.4)
+                      #        --paper-item-icon-color: white
+                      #        border-radius: 5px
+                      #        color: rgb(0, 0, 0)
               - type: custom:group-card
                 card:
                   type: entities
