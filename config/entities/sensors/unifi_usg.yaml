@@ -1,7 +1,0 @@
----
-platform: template
-sensors:
-  unifi_usg:
-    friendly_name: 'UniFi USG Router'
-    entity_id: "device_tracker.unifi_usg"
-    value_template: "{{ 'Online' if is_state('device_tracker.unifi_usg', 'home') else 'Offline' }}"

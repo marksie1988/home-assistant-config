@@ -20,7 +20,6 @@ cards:
                     entities:
                       - sensor.server_proxy
                       - sensor.server_bastion
-                      - sensor.storage_freenas
                       - sensor.storage_qnap
                     style:
                       left: 50%
@@ -30,6 +29,7 @@ cards:
                       --paper-item-icon-color: white
                       border-radius: 5px
                       color: rgb(0, 0, 0)
+<<<<<<< HEAD
                       # - type: picture-elements
                       #  image: /local/lovelace/backgrounds/cctv_background.jpg
                       #  elements:
@@ -50,6 +50,24 @@ cards:
                 card:
                   type: entities
                 group: group.freenas_monitor
+=======
+              # - type: picture-elements
+              #  image: /local/lovelace/backgrounds/cctv_background.jpg
+              #  elements:
+              #    - type: custom:hui-glance-card
+              #      show_state: false
+              #      columns: 2
+              #      entities:
+              #        - sensor.system_cctv_driveway
+              #      style:
+              #        left: 50%
+              #        top: 50%
+              #        width: 100%
+              #        --paper-card-background-color: rgba(0, 0, 0, 0.4)
+              #        --paper-item-icon-color: white
+              #        border-radius: 5px
+              #        color: rgb(0, 0, 0)
+>>>>>>> 5315e0e6478496ca4eda40d331aa460b6d1fb5c6
           - break
           - type: vertical-stack
             cards:
@@ -99,7 +117,6 @@ cards:
                     show_state: false
                     columns: 4
                     entities:
-                      - sensor.unifi_usg
                       - sensor.juniper_ex2200
                     style:
                       left: 50%
