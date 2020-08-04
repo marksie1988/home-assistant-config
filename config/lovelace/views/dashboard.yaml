@@ -186,7 +186,6 @@ cards:
             cards:
               - type: custom:atomic-calendar-revive
                 name: "Events"
-                showProgressBar: true
                 progressBarColor: "#cc5500"
                 enableModeChange: true
                 firstDayOfWeek: 7
