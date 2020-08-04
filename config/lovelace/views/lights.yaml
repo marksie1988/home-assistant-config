@@ -20,8 +20,8 @@ cards:
                     toggle: true
                     hide_when_off: false
               - type: light
-                entity: light.living_room_lamp
-                name: Living room lamp
+                entity: light.hallway_lamp
+                name: Hallway Lamp
                 hide_when_off: false
           - break
           - type: vertical-stack

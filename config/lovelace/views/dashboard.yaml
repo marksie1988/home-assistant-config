@@ -181,9 +181,7 @@ cards:
               - type: custom:weather-card
                 entity: weather.dark_sky
                 icons: '/local/lovelace/weather_icons/animated/'
-
           - break
-
           - type: vertical-stack
             cards:
               - type: custom:atomic-calendar-revive
@@ -194,10 +192,8 @@ cards:
                 firstDayOfWeek: 7
                 entities:
                   - entity: calendar.family
-                    type: icon1
+                    icon: 'mdi:home-heart'
                     color: "#cc5500"
                   - entity: calendar.dutysheet_duties
-                    type: icon2
+                    icon: 'mdi:police-badge-outline'
                     color: blue
-                calEventIcon1: 'mdi:home-heart'
-                calEventIcon2: 'mdi:police-badge-outline'
