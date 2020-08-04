@@ -1,0 +1,5 @@
+---
+opnsense:
+  url: https://172.16.20.1/api
+  api_secret: !secret opnsense_secret
+  api_key: !secret opnsense_key
