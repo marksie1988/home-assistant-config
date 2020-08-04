@@ -1,11 +1,12 @@
----
-# When it is bed time...
+# When it is getting dark outside...
 #
-alias: '[lights] hallway_lamp_off'
+alias: '[lights] hallway_lamp_sunset'
 trigger:
-  platform: time
-  at: '23:00:00'
+  platform: sun
+  event: sunset
+  offset: '-00:15:00'
 action:
-  - service: light.turn_off
+  - service: light.turn_on
     data:
       entity_id: light.hallway_lamp
+      brightness_pct: 50
