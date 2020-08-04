@@ -190,6 +190,16 @@ cards:
                 progressBarColor: "#cc5500"
                 enableModeChange: true
                 firstDayOfWeek: 7
+                dimFinishedEvents: true
+                showColors: true
+                showDate: true
+                showDescription: true
+                showLocation: true
+                showMonth: true
+                showNoEventsForToday: true
+                showProgressBar: true
+                showWeekDay: true
+                sortByStartTime: true
                 entities:
                   - entity: calendar.family
                     icon: 'mdi:home-heart'
