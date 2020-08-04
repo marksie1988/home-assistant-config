@@ -6,6 +6,7 @@
 *.pyc
 ._*
 __pycache__
+*.code-workspace
 
 # Directory (contents) ignores
 config/.cloud
