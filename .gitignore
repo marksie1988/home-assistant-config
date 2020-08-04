@@ -33,7 +33,7 @@ config/secrets.yaml
 config/zwcfg_*
 config/zwscene.xml
 config/google_calendars.yaml
-config/google_assistant_service_account.json
+google_assistant_service_account.json
 config/lovelace/views/dev.yaml
 
 
