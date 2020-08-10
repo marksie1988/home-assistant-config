@@ -20,6 +20,7 @@ stages:
   before_script:
     - python -m homeassistant --version
     - cp -R ./.stubs/* ./config
+    - cp -R ./.stubs/* ./config/integrations
   script:
     - |
       python -m homeassistant \
