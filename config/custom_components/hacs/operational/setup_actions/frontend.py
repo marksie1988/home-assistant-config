@@ -30,9 +30,7 @@ async def async_setup_frontend():
         "js_url": f"/hacsfiles/frontend-{hacs.frontend.version_running}.js",
     }
 
-    config = {}
-    config["_panel_custom"] = custom_panel_config
-
+    config = {"_panel_custom": custom_panel_config}
     hacs.hass.components.frontend.async_register_built_in_panel(
         component_name="custom",
         sidebar_title=hacs.configuration.sidepanel_title,

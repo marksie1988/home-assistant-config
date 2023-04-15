@@ -55,13 +55,18 @@ async def load_hacs_repository():
 def setup_extra_stores():
     """Set up extra stores in HACS if enabled in Home Assistant."""
     hacs = get_hacs()
-    if "python_script" in hacs.hass.config.components:
-        if "python_script" not in hacs.common.categories:
-            hacs.common.categories.append("python_script")
+    if (
+        "python_script" in hacs.hass.config.components
+        and "python_script" not in hacs.common.categories
+    ):
+        hacs.common.categories.append("python_script")
 
-    if hacs.hass.services.services.get("frontend", {}).get("reload_themes") is not None:
-        if "theme" not in hacs.common.categories:
-            hacs.common.categories.append("theme")
+    if (
+        hacs.hass.services.services.get("frontend", {}).get("reload_themes")
+        is not None
+        and "theme" not in hacs.common.categories
+    ):
+        hacs.common.categories.append("theme")
 
 
 def add_sensor():
@@ -106,9 +111,7 @@ async def setup_frontend():
         "js_url": f"/hacsfiles/frontend-{hacs.frontend.version_running}.js",
     }
 
-    config = {}
-    config["_panel_custom"] = custom_panel_config
-
+    config = {"_panel_custom": custom_panel_config}
     hacs.hass.components.frontend.async_register_built_in_panel(
         component_name="custom",
         sidebar_title=hacs.configuration.sidepanel_title,

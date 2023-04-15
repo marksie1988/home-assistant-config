@@ -20,9 +20,7 @@ async def get_default_repos_orgs(github: type(GitHub), category: str) -> dict:
 
     try:
         repos = await github.get_org_repos(orgs[category])
-        for repo in repos:
-            repositories.append(repo.full_name)
-
+        repositories.extend(repo.full_name for repo in repos)
     except AIOGitHubAPIException as exception:
         logger.error(exception)
 

@@ -70,9 +70,7 @@ class HacsPlugin(HacsRepository):
             package = await self.repository_object.get_contents(
                 "package.json", self.ref
             )
-            package = json.loads(package.content)
-
-            if package:
+            if package := json.loads(package.content):
                 self.data.authors = package["author"]
-        except (Exception, BaseException):  # pylint: disable=broad-except
+        except BaseException:
             pass

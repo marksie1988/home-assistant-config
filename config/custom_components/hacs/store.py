@@ -9,9 +9,7 @@ async def async_load_from_store(hass, key):
     key = key if "/" in key else f"hacs.{key}"
     store = Store(hass, STORAGE_VERSION, key, encoder=JSONEncoder)
     restored = await store.async_load()
-    if restored is None:
-        return {}
-    return restored
+    return {} if restored is None else restored
 
 
 async def async_save_to_store(hass, key, data):

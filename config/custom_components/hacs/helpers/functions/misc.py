@@ -8,10 +8,12 @@ def get_repository_name(repository) -> str:
     if repository.repository_manifest.name is not None:
         return repository.repository_manifest.name
 
-    if repository.data.category == "integration":
-        if repository.integration_manifest:
-            if "name" in repository.integration_manifest:
-                return repository.integration_manifest["name"]
+    if (
+        repository.data.category == "integration"
+        and repository.integration_manifest
+        and "name" in repository.integration_manifest
+    ):
+        return repository.integration_manifest["name"]
 
     return (
         repository.data.full_name.split("/")[-1]

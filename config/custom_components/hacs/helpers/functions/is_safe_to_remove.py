@@ -15,6 +15,4 @@ def is_safe_to_remove(path: str) -> bool:
         Path(f"{hacs.system.config_path}/{hacs.configuration.theme_path}"),
         Path(f"{hacs.system.config_path}/custom_components/"),
     ]
-    if Path(path) in paths:
-        return False
-    return True
+    return Path(path) not in paths

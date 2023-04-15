@@ -18,14 +18,13 @@ class ShellyBlock(RestoreEntity):
     def __init__(self, block, instance, prefix=""):
         conf = instance.conf
         id_prefix = conf.get(CONF_OBJECT_ID_PREFIX)
-        self._unique_id = slugify(id_prefix + "_" + block.type + "_" +
-                                  block.id + prefix)
-        self.entity_id = "." + self._unique_id
+        self._unique_id = slugify(f"{id_prefix}_{block.type}_{block.id}{prefix}")
+        self.entity_id = f".{self._unique_id}"
         entity_id = \
-            instance._get_specific_config(CONF_ENTITY_ID, None, block.id)
+                instance._get_specific_config(CONF_ENTITY_ID, None, block.id)
         if entity_id is not None:
-            self.entity_id = "." + slugify(id_prefix + "_" + entity_id + prefix)
-            self._unique_id += "_" + slugify(entity_id)
+            self.entity_id = f'.{slugify(f"{id_prefix}_{entity_id}{prefix}")}'
+            self._unique_id += f"_{slugify(entity_id)}"
         self._show_id_in_name = conf.get(CONF_SHOW_ID_IN_NAME)
         self._block = block
         self.hass = instance.hass
@@ -46,14 +45,11 @@ class ShellyBlock(RestoreEntity):
     @property
     def name(self):
         """Return the display name of this device."""
-        if self._name is None:
-            name = self._block.friendly_name()
-        else:
-            name = self._name
+        name = self._block.friendly_name() if self._name is None else self._name
         if self._name_ext:
-            name += ' - ' + self._name_ext
+            name += f' - {self._name_ext}'
         if self._show_id_in_name:
-            name += " [" + self._block.id + "]"
+            name += f" [{self._block.id}]"
         return name
 
     def _updated(self, _block):
@@ -72,8 +68,7 @@ class ShellyBlock(RestoreEntity):
                  'ip_address': self._block.ip_addr
                 }
 
-        room = self._block.room_name()
-        if room:
+        if room := self._block.room_name():
             attrs['room'] = room
 
         if self._master_unit:

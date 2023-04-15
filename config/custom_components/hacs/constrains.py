@@ -14,11 +14,7 @@ def check_constrains():
     """Check HACS constrains."""
     if not constrain_translations():
         return False
-    if not constrain_custom_updater():
-        return False
-    if not constrain_version():
-        return False
-    return True
+    return bool(constrain_version()) if constrain_custom_updater() else False
 
 
 def constrain_custom_updater():

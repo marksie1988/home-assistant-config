@@ -13,7 +13,5 @@ class RepositoryInformationFile(ActionValidationBase):
             pass
         elif "info" in filenames:
             pass
-        elif "info.md" in filenames:
-            pass
-        else:
+        elif "info.md" not in filenames:
             raise ValidationException("The repository has no information file")

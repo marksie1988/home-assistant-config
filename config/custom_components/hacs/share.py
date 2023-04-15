@@ -15,7 +15,7 @@ def get_hacs():
 
         _hacs = Hacs()
 
-        if not "PYTEST" in os.environ and "GITHUB_ACTION" in os.environ:
+        if "PYTEST" not in os.environ and "GITHUB_ACTION" in os.environ:
             _hacs.action = True
 
         SHARE["hacs"] = _hacs

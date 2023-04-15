@@ -11,14 +11,28 @@ from custom_components.hacs.share import get_hacs
 def info_file(repository):
     """get info filename."""
     if repository.data.render_readme:
-        for filename in ["readme", "readme.md", "README", "README.md", "README.MD"]:
-            if filename in repository.treefiles:
-                return filename
-        return ""
-    for filename in ["info", "info.md", "INFO", "INFO.md", "INFO.MD"]:
-        if filename in repository.treefiles:
-            return filename
-    return ""
+        return next(
+            (
+                filename
+                for filename in [
+                    "readme",
+                    "readme.md",
+                    "README",
+                    "README.md",
+                    "README.MD",
+                ]
+                if filename in repository.treefiles
+            ),
+            "",
+        )
+    return next(
+        (
+            filename
+            for filename in ["info", "info.md", "INFO", "INFO.md", "INFO.MD"]
+            if filename in repository.treefiles
+        ),
+        "",
+    )
 
 
 async def get_info_md_content(repository):
@@ -42,8 +56,7 @@ async def get_repository(session, token, repository_full_name):
     """Return a repository object or None."""
     try:
         github = GitHub(token, session)
-        repository = await github.get_repo(repository_full_name)
-        return repository
+        return await github.get_repo(repository_full_name)
     except (AIOGitHubAPIException, Exception) as exception:
         raise HacsException(exception)
 
@@ -51,8 +64,7 @@ async def get_repository(session, token, repository_full_name):
 async def get_tree(repository, ref):
     """Return the repository tree."""
     try:
-        tree = await repository.get_tree(ref)
-        return tree
+        return await repository.get_tree(ref)
     except AIOGitHubAPIException as exception:
         raise HacsException(exception)
 
@@ -60,8 +72,7 @@ async def get_tree(repository, ref):
 async def get_releases(repository, prerelease=False, returnlimit=5):
     """Return the repository releases."""
     try:
-        releases = await repository.get_releases(prerelease, returnlimit)
-        return releases
+        return await repository.get_releases(prerelease, returnlimit)
     except AIOGitHubAPIException as exception:
         raise HacsException(exception)
 
@@ -69,12 +80,14 @@ async def get_releases(repository, prerelease=False, returnlimit=5):
 def get_frontend_version():
     """get the frontend version from the manifest."""
     manifest = read_hacs_manifest()
-    frontend = 0
-    for requirement in manifest.get("requirements", []):
-        if requirement.startswith("hacs_frontend"):
-            frontend = requirement.split("==")[1]
-            break
-    return frontend
+    return next(
+        (
+            requirement.split("==")[1]
+            for requirement in manifest.get("requirements", [])
+            if requirement.startswith("hacs_frontend")
+        ),
+        0,
+    )
 
 
 def read_hacs_manifest():
@@ -94,14 +107,14 @@ async def get_integration_manifest(repository):
         manifest_path = "manifest.json"
     else:
         manifest_path = f"{repository.content.path.remote}/manifest.json"
-    if not manifest_path in [x.full_path for x in repository.tree]:
+    if manifest_path not in [x.full_path for x in repository.tree]:
         raise HacsException(f"No file found '{manifest_path}'")
     try:
         manifest = await repository.repository_object.get_contents(
             manifest_path, repository.ref
         )
         manifest = json.loads(manifest.content)
-    except (Exception, BaseException) as exception:  # pylint: disable=broad-except
+    except BaseException as exception:
         raise HacsException(f"Could not read manifest.json [{exception}]")
 
     try:
@@ -183,7 +196,7 @@ def get_file_name_plugin(repository):
 
         else:
             for filename in valid_filenames:
-                if f"{location+'/' if location else ''}{filename}" in [
+                if f"{f'{location}/' if location else ''}{filename}" in [
                     x.full_path for x in tree
                 ]:
                     repository.data.file_name = filename.split("/")[-1]

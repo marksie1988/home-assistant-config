@@ -66,8 +66,8 @@ class ShellySensor(ShellyDevice, Entity):
         """Initialize an ShellySensor."""
         self._sensor_cfg = SENSOR_TYPES_CFG[SENSOR_TYPE_DEFAULT]
         ShellyDevice.__init__(self, dev, instance)
-        self._unique_id += "_" + sensor_name
-        self.entity_id += "_" + sensor_name
+        self._unique_id += f"_{sensor_name}"
+        self.entity_id += f"_{sensor_name}"
         self._sensor_type = sensor_type
         self._sensor_name = sensor_name
         self._battery = None
@@ -124,8 +124,8 @@ class ShellyInfoSensor(ShellyBlock, Entity):
 
     def __init__(self, block, instance, sensor_type, sensor_name):
         self._sensor_cfg = SENSOR_TYPES_CFG[SENSOR_TYPE_DEFAULT]
-        ShellyBlock.__init__(self, block, instance, "_" + sensor_name)
-        self.entity_id = "sensor" + self.entity_id
+        ShellyBlock.__init__(self, block, instance, f"_{sensor_name}")
+        self.entity_id = f"sensor{self.entity_id}"
         self._sensor_name = sensor_name
         self._sensor_type = sensor_type
         if self._sensor_type in SENSOR_TYPES_CFG:
@@ -177,7 +177,7 @@ class ShellyVersion(Entity):
         id_prefix = slugify(conf.get(CONF_OBJECT_ID_PREFIX))
         self._version = version
         self._py_shelly_version = py_shelly_version
-        self.entity_id = "sensor." + id_prefix + "_version"
+        self.entity_id = f"sensor.{id_prefix}_version"
         self._name = "ShellyForHass"
         self._extra = extra
         #self.instance = instance
@@ -199,7 +199,7 @@ class ShellyVersion(Entity):
                 'pyShelly': self._py_shelly_version,
                 'developed_by': "StyraHem.se"}
         if self._extra:
-            attribs.update(self._extra)
+            attribs |= self._extra
         return attribs
 
     @property

@@ -46,14 +46,14 @@ class HACSSensor(HACSDevice):
         if hacs.system.status.background_task:
             return
 
-        self.repositories = []
-
-        for repository in hacs.repositories:
+        self.repositories = [
+            repository
+            for repository in hacs.repositories
             if (
                 repository.pending_upgrade
                 and repository.data.category in hacs.common.categories
-            ):
-                self.repositories.append(repository)
+            )
+        ]
         self._state = len(self.repositories)
 
     @property
@@ -86,14 +86,13 @@ class HACSSensor(HACSDevice):
     @property
     def device_state_attributes(self):
         """Return attributes for the sensor."""
-        repositories = []
-        for repository in self.repositories:
-            repositories.append(
-                {
-                    "name": repository.data.full_name,
-                    "display_name": repository.display_name,
-                    "installed_version": repository.display_installed_version,
-                    "available_version": repository.display_available_version,
-                }
-            )
+        repositories = [
+            {
+                "name": repository.data.full_name,
+                "display_name": repository.display_name,
+                "installed_version": repository.display_installed_version,
+                "available_version": repository.display_available_version,
+            }
+            for repository in self.repositories
+        ]
         return {"repositories": repositories}

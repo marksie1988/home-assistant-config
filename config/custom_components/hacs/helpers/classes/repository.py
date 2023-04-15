@@ -139,16 +139,15 @@ class HacsRepository(RepositoryHelpers):
     def display_status(self):
         """Return display_status."""
         if self.data.new:
-            status = "new"
+            return "new"
         elif self.pending_restart:
-            status = "pending-restart"
+            return "pending-restart"
         elif self.pending_upgrade:
-            status = "pending-upgrade"
+            return "pending-upgrade"
         elif self.data.installed:
-            status = "installed"
+            return "installed"
         else:
-            status = "default"
-        return status
+            return "default"
 
     @property
     def display_status_description(self):
@@ -166,34 +165,26 @@ class HacsRepository(RepositoryHelpers):
     def display_installed_version(self):
         """Return display_authors"""
         if self.data.installed_version is not None:
-            installed = self.data.installed_version
+            return self.data.installed_version
         else:
-            if self.data.installed_commit is not None:
-                installed = self.data.installed_commit
-            else:
-                installed = ""
-        return installed
+            return (
+                self.data.installed_commit
+                if self.data.installed_commit is not None
+                else ""
+            )
 
     @property
     def display_available_version(self):
         """Return display_authors"""
         if self.data.last_version is not None:
-            available = self.data.last_version
+            return self.data.last_version
         else:
-            if self.data.last_commit is not None:
-                available = self.data.last_commit
-            else:
-                available = ""
-        return available
+            return self.data.last_commit if self.data.last_commit is not None else ""
 
     @property
     def display_version_or_commit(self):
         """Does the repositoriy use releases or commits?"""
-        if self.data.releases:
-            version_or_commit = "version"
-        else:
-            version_or_commit = "commit"
-        return version_or_commit
+        return "version" if self.data.releases else "commit"
 
     @property
     def main_action(self):
@@ -229,9 +220,10 @@ class HacsRepository(RepositoryHelpers):
         # Set description
         self.data.description = self.data.description
 
-        if self.hacs.action:
-            if self.data.description is None or len(self.data.description) == 0:
-                raise HacsException("::error:: Missing repository description")
+        if self.hacs.action and (
+            self.data.description is None or len(self.data.description) == 0
+        ):
+            raise HacsException("::error:: Missing repository description")
 
     async def common_update(self, ignore_issues=False):
         """Common information update steps of the repository."""
@@ -271,8 +263,8 @@ class HacsRepository(RepositoryHelpers):
                 download_queue.add(self.async_download_zip_file(content, validate))
 
             await download_queue.execute()
-        except (Exception, BaseException):
-            validate.errors.append(f"Download was not completed")
+        except BaseException:
+            validate.errors.append("Download was not completed")
 
         return validate
 
@@ -297,8 +289,8 @@ class HacsRepository(RepositoryHelpers):
                 self.logger.info(f"Download of {content.name} completed")
                 return
             validate.errors.append(f"[{content.name}] was not downloaded")
-        except (Exception, BaseException):
-            validate.errors.append(f"Download was not completed")
+        except BaseException:
+            validate.errors.append("Download was not completed")
 
         return validate
 
@@ -311,7 +303,7 @@ class HacsRepository(RepositoryHelpers):
 
     async def get_repository_manifest_content(self):
         """Get the content of the hacs.json file."""
-        if not "hacs.json" in [x.filename for x in self.tree]:
+        if "hacs.json" not in [x.filename for x in self.tree]:
             if self.hacs.action:
                 raise HacsException(
                     "::error:: No hacs.json file in the root of the repository."
@@ -362,7 +354,7 @@ class HacsRepository(RepositoryHelpers):
                 await self.hacs.hass.services.async_call(
                     "frontend", "reload_themes", {}
                 )
-            except (Exception, BaseException):  # pylint: disable=broad-except
+            except BaseException:
                 pass
         if self.data.full_name in self.hacs.common.installed:
             self.hacs.common.installed.remove(self.data.full_name)
@@ -413,7 +405,7 @@ class HacsRepository(RepositoryHelpers):
                 while os.path.exists(local_path):
                     await sleep(1)
 
-        except (Exception, BaseException) as exception:
+        except BaseException as exception:
             self.logger.debug(f"Removing {local_path} failed with {exception}")
             return False
         return True

@@ -82,7 +82,7 @@ class ShellyFirmwareUpdate(ShellyBlock, SwitchDevice):
         block.firmware_switch = self
         self._updating = False
         ShellyBlock.__init__(self, block, instance, "_firmware_update")
-        self.entity_id = "switch" + self.entity_id
+        self.entity_id = f"switch{self.entity_id}"
         self._master_unit = False
 
     @property
@@ -92,7 +92,7 @@ class ShellyFirmwareUpdate(ShellyBlock, SwitchDevice):
 
     @property
     def name(self):
-        return "Upgrade firmware " + ShellyBlock.name.fget(self)
+        return f"Upgrade firmware {ShellyBlock.name.fget(self)}"
 
     @property
     def device_state_attributes(self):

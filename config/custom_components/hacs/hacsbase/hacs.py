@@ -104,7 +104,7 @@ class Hacs(HacsHelpers):
             for repository in self.repositories:
                 if str(repository.data.id) == str(repository_id):
                     return repository
-        except (Exception, BaseException):  # pylint: disable=broad-except
+        except BaseException:
             pass
         return None
 
@@ -115,7 +115,7 @@ class Hacs(HacsHelpers):
             for repository in self.repositories:
                 if repository.data.full_name_lower == repository_full_name_lower:
                     return repository
-        except (Exception, BaseException):  # pylint: disable=broad-except
+        except BaseException:
             pass
         return None
 
@@ -176,13 +176,10 @@ class Hacs(HacsHelpers):
 
     async def handle_critical_repositories_startup(self):
         """Handled critical repositories during startup."""
-        alert = False
         critical = await async_load_from_store(self.hass, "critical")
         if not critical:
             return
-        for repo in critical:
-            if not repo["acknowledged"]:
-                alert = True
+        alert = any(not repo["acknowledged"] for repo in critical)
         if alert:
             self.logger.critical("URGENT!: Check the HACS panel!")
             self.hass.components.persistent_notification.create(
@@ -193,7 +190,6 @@ class Hacs(HacsHelpers):
         """Handled critical repositories during runtime."""
         # Get critical repositories
         critical_queue = QueueManager()
-        instored = []
         critical = []
         was_installed = False
 
@@ -209,9 +205,7 @@ class Hacs(HacsHelpers):
 
         stored_critical = await async_load_from_store(self.hass, "critical")
 
-        for stored in stored_critical or []:
-            instored.append(stored["repository"])
-
+        instored = [stored["repository"] for stored in stored_critical or []]
         stored_critical = []
 
         for repository in critical:
@@ -225,16 +219,19 @@ class Hacs(HacsHelpers):
                 "link": repository["link"],
                 "acknowledged": True,
             }
-            if repository["repository"] not in instored:
-                if repo is not None and repo.installed:
-                    self.logger.critical(
-                        f"Removing repository {repository['repository']}, it is marked as critical"
-                    )
-                    was_installed = True
-                    stored["acknowledged"] = False
-                    # Remove from HACS
-                    critical_queue.add(repository.uninstall())
-                    repo.remove()
+            if (
+                repository["repository"] not in instored
+                and repo is not None
+                and repo.installed
+            ):
+                self.logger.critical(
+                    f"Removing repository {repository['repository']}, it is marked as critical"
+                )
+                was_installed = True
+                stored["acknowledged"] = False
+                # Remove from HACS
+                critical_queue.add(repository.uninstall())
+                repo.remove()
 
             stored_critical.append(stored)
             removed_repo.update_data(stored)

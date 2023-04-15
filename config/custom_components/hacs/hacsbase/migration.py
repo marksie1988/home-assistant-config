@@ -100,12 +100,11 @@ class FromVersion4(Migration):
                     version_type = "commit"
                     version_installed = repository["installed_commit"]
                     version_available = repository["last_commit"]
-                if repository["full_name"] != "custom-components/hacs" or repository["full_name"] != "hacs/integration":
-                    installed[repository["repository_name"]] = {
-                        "version_type": str(version_type),
-                        "version_installed": str(version_installed),
-                        "version_available": str(version_available),
-                    }
+                installed[repository["repository_name"]] = {
+                    "version_type": version_type,
+                    "version_installed": str(version_installed),
+                    "version_available": str(version_available),
+                }
 
         path = f"{self.system.config_path}/.storage/{STORES['hacs']}"
         save(self.logger, path, hacs)

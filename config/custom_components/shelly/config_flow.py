@@ -99,9 +99,11 @@ class ShellyOptionsFlowHandler(config_entries.OptionsFlow):
         system_options = {}
         if user_input["convert"]:
             system_options = self.instance.conf
-            data = {}
-            data[CONF_OBJECT_ID_PREFIX] = \
-                system_options.get(CONF_OBJECT_ID_PREFIX, "shelly")
+            data = {
+                CONF_OBJECT_ID_PREFIX: system_options.get(
+                    CONF_OBJECT_ID_PREFIX, "shelly"
+                )
+            }
             self.instance.hass.config_entries.async_update_entry(
                 self.config_entry, data=data
             )
@@ -154,7 +156,7 @@ class ShellyOptionsFlowHandler(config_entries.OptionsFlow):
                 default = attrib in self.instance.conf[CONF_ATTRIBUTES]
                 attribs[vol.Optional(attrib, default=default)] = bool
 
-            steps = "(" + str(self._step_cnt+1) +"/2)"
+            steps = f"({str(self._step_cnt + 1)}/2)"
             return self.async_show_form(
                 step_id="attributes",
                 data_schema=vol.Schema(attribs),
@@ -184,7 +186,7 @@ class ShellyOptionsFlowHandler(config_entries.OptionsFlow):
                 default = sensor in self.instance.conf[CONF_SENSORS]
                 sensors[vol.Optional(sensor, default=default)] = bool
 
-            steps = "(" + str(self._step_cnt+1) +"/2)"
+            steps = f"({str(self._step_cnt + 1)}/2)"
             return self.async_show_form(
                 step_id="sensors",
                 data_schema=vol.Schema(sensors),
@@ -197,11 +199,10 @@ class ShellyOptionsFlowHandler(config_entries.OptionsFlow):
 
         self._options["sensors"] = sensors
 
-        if self._step_cnt < 1:
-            self._step_cnt += 1
-            return await self.async_step_sensors()
-        else:
+        if self._step_cnt >= 1:
             return await self.async_step_final()
+        self._step_cnt += 1
+        return await self.async_step_sensors()
 
     async def async_step_final(self):
 

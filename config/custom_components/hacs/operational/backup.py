@@ -1,4 +1,5 @@
 """Backup."""
+
 from custom_components.hacs.helpers.functions.is_safe_to_remove import is_safe_to_remove
 import os
 import shutil
@@ -7,7 +8,7 @@ from time import sleep
 
 from custom_components.hacs.helpers.functions.logger import getLogger
 
-BACKUP_PATH = tempfile.gettempdir() + "/hacs_backup/"
+BACKUP_PATH = f"{tempfile.gettempdir()}/hacs_backup/"
 
 
 class Backup:
@@ -44,7 +45,7 @@ class Backup:
             self.logger.debug(
                 f"Backup for {self.local_path}, created in {self.backup_path_full}"
             )
-        except (Exception, BaseException):  # pylint: disable=broad-except
+        except BaseException:
             pass
 
     def restore(self):
@@ -82,9 +83,7 @@ class BackupNetDaemon:
         """Initialize."""
         self.repository = repository
         self.logger = getLogger("backup")
-        self.backup_path = (
-            tempfile.gettempdir() + "/hacs_persistent_netdaemon/" + repository.data.name
-        )
+        self.backup_path = f"{tempfile.gettempdir()}/hacs_persistent_netdaemon/{repository.data.name}"
 
     def create(self):
         """Create a backup in /tmp"""

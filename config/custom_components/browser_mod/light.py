@@ -26,9 +26,7 @@ class BrowserModLight(LightEntity, BrowserModEntity):
     def state(self):
         if not self.connection.connection:
             return STATE_UNAVAILABLE
-        if self.data.get('blackout', False):
-            return STATE_OFF
-        return STATE_ON
+        return STATE_OFF if self.data.get('blackout', False) else STATE_ON
 
     @property
     def is_on(self):
@@ -44,9 +42,7 @@ class BrowserModLight(LightEntity, BrowserModEntity):
 
     @property
     def supported_features(self):
-        if self.data.get('brightness', False):
-            return SUPPORT_BRIGHTNESS
-        return 0
+        return SUPPORT_BRIGHTNESS if self.data.get('brightness', False) else 0
 
     def turn_on(self, **kwargs):
         self.connection.send("no-blackout", **kwargs)

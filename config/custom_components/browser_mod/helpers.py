@@ -10,10 +10,14 @@ def get_devices(hass):
     return hass.data[DOMAIN][DATA_DEVICES]
 
 def get_alias(hass, deviceID):
-    for k,v in hass.data[DOMAIN][DATA_ALIASES].items():
-        if v == deviceID:
-            return k
-    return None
+    return next(
+        (
+            k
+            for k, v in hass.data[DOMAIN][DATA_ALIASES].items()
+            if v == deviceID
+        ),
+        None,
+    )
 
 def get_config(hass, deviceID):
     config = hass.data[DOMAIN][DATA_CONFIG].get(CONFIG_DEVICES, {})
@@ -28,8 +32,7 @@ def create_entity(hass, platform, deviceID, connection):
         or CONFIG_DISABLE_ALL in hass.data[DOMAIN][DATA_CONFIG].get(CONFIG_DISABLE, [])):
         return None
     adder = hass.data[DOMAIN][DATA_ADDERS][platform]
-    entity = adder(hass, deviceID, connection, get_alias(hass, deviceID))
-    return entity
+    return adder(hass, deviceID, connection, get_alias(hass, deviceID))
 
 def setup_platform(hass, config, async_add_devices, platform, cls):
     def adder(hass, deviceID, connection, alias=None):

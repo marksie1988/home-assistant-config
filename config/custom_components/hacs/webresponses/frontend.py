@@ -11,13 +11,10 @@ logger = getLogger("web.frontend")
 async def async_serve_frontend():
     hacs = get_hacs()
     servefile = None
-    dev = False
-
-    if hacs.configuration.frontend_repo_url:
-        dev = True
-    elif hacs.configuration.frontend_repo:
-        dev = True
-
+    dev = bool(
+        hacs.configuration.frontend_repo_url
+        or hacs.configuration.frontend_repo
+    )
     if hacs.configuration.debug:
         logger.debug("Serving DEBUG frontend")
         servefile = locate_debug_gz()
@@ -30,10 +27,8 @@ async def async_serve_frontend():
             )
             if request.status == 200:
                 result = await request.read()
-                response = web.Response(body=result)
-
-                return response
-        except (Exception, BaseException) as exception:
+                return web.Response(body=result)
+        except BaseException as exception:
             logger.error(exception)
 
     elif hacs.configuration.frontend_repo:

@@ -1,7 +1,8 @@
 """Constants for breaking_changes."""
+
 # Base component constants
 DOMAIN = "breaking_changes"
-DOMAIN_DATA = "{}_data".format(DOMAIN)
+DOMAIN_DATA = f"{DOMAIN}_data"
 VERSION = "0.3.6"
 PLATFORMS = ["sensor"]
 REQUIRED_FILES = ["const.py", "sensor.py"]

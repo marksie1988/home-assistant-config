@@ -54,7 +54,7 @@ class RadarrUpcomingMediaSensor(Entity):
         self.apikey = conf.get(CONF_API_KEY)
         self.urlbase = conf.get(CONF_URLBASE)
         if self.urlbase:
-            self.urlbase = "{}/".format(self.urlbase.strip('/'))
+            self.urlbase = f"{self.urlbase.strip('/')}/"
         self.days = int(conf.get(CONF_DAYS))
         self.theaters = conf.get(CONF_THEATERS)
         self.max_items = int(conf.get(CONF_MAX))
@@ -74,18 +74,17 @@ class RadarrUpcomingMediaSensor(Entity):
 
     @property
     def device_state_attributes(self):
-        attributes = {}
         if self.change_detected:
             """Return JSON for the sensor."""
-            self.card_json = []
-            default = {}
-            default['title_default'] = '$title'
-            default['line1_default'] = '$release'
-            default['line2_default'] = '$genres'
-            default['line3_default'] = '$rating - $runtime'
-            default['line4_default'] = '$studio'
-            default['icon'] = 'mdi:arrow-down-bold'
-            self.card_json.append(default)
+            default = {
+                'title_default': '$title',
+                'line1_default': '$release',
+                'line2_default': '$genres',
+                'line3_default': '$rating - $runtime',
+                'line4_default': '$studio',
+                'icon': 'mdi:arrow-down-bold',
+            }
+            self.card_json = [default]
             for movie in sorted(self.data, key=lambda i: i['path']):
                 card_item = {}
                 if ('inCinemas' in movie and
@@ -115,19 +114,18 @@ class RadarrUpcomingMediaSensor(Entity):
                                            str(movie['ratings']['value']))
                 else:
                     card_item['rating'] = ''
-                if 'images' in movie:
-                    if len(movie['images']):
-                        card_item['poster'] = movie['images'][0]
-                    if len(movie['images']) > 1 and '.jpg' in movie['images'][1]:
-                        card_item['fanart'] = movie['images'][1]
-                    else:
-                        card_item['fanart'] = ''
-                else:
+                if 'images' not in movie:
                     continue
+                if len(movie['images']):
+                    card_item['poster'] = movie['images'][0]
+                card_item['fanart'] = (
+                    movie['images'][1]
+                    if len(movie['images']) > 1 and '.jpg' in movie['images'][1]
+                    else ''
+                )
                 self.card_json.append(card_item)
                 self.change_detected = False
-        attributes['data'] = self.card_json
-        return attributes
+        return {'data': self.card_json}
 
     def update(self):
         import requests
@@ -142,7 +140,7 @@ class RadarrUpcomingMediaSensor(Entity):
                              headers={'X-Api-Key': self.apikey}, timeout=10)
         except OSError:
             _LOGGER.warning("Host %s is not available", self.host)
-            self._state = '%s cannot be reached' % self.host
+            self._state = f'{self.host} cannot be reached'
             return
 
         if api.status_code == 200:
@@ -165,10 +163,9 @@ class RadarrUpcomingMediaSensor(Entity):
                 for movie in self.data:
                     session = requests.Session()
                     try:
-                        tmdb_url = session.get('http://api.tmdb.org/3/movie/'
-                                               '{}?api_key=1f7708bb9a218ab891'
-                                               'a5d438b1b63992'.format(
-                                                str(movie['tmdbId'])))
+                        tmdb_url = session.get(
+                            f"http://api.tmdb.org/3/movie/{str(movie['tmdbId'])}?api_key=1f7708bb9a218ab891a5d438b1b63992"
+                        )
                         tmdb_json = tmdb_url.json()
                     except:
                         _LOGGER.warning('api.themoviedb.org is not responding')
@@ -197,7 +194,7 @@ class RadarrUpcomingMediaSensor(Entity):
                     except:
                         movie['genres'] = ''
         else:
-            self._state = '%s cannot be reached' % self.host
+            self._state = f'{self.host} cannot be reached'
 
 
 def get_date(zone, offset=0):
@@ -222,21 +219,15 @@ def media_ids(data):
     ids = []
     for media in data:
         if 'tmdbId' in media:
-            ids.append(str(media['tmdbId']))
-            ids.append(str(media['hasFile']))
+            ids.extend((str(media['tmdbId']), str(media['hasFile'])))
         else:
             continue
     return ids
 
 
 def view_count(data):
-    ids = []
-    for media in data:
-        if 'tmdbId' in media:
-            if 'hasFile' in media:
-                ids.append(str(media['hasFile']))
-            else:
-                continue
-        else:
-            continue
-    return ids
+    return [
+        str(media['hasFile'])
+        for media in data
+        if 'tmdbId' in media and 'hasFile' in media
+    ]

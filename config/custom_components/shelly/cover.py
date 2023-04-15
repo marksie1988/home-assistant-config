@@ -52,18 +52,12 @@ class ShellyCover(ShellyDevice, CoverDevice):
     @property
     def current_cover_position(self):
         """Return current position"""
-        if self._support_position:
-            return self._position
-
-        return None
+        return self._position if self._support_position else None
 
     @property
     def is_closed(self):
         """Return if the cover is closed or not."""
-        if self._support_position:
-            return self._position == 0
-
-        return None
+        return self._position == 0 if self._support_position else None
 
     @property
     def is_closing(self):

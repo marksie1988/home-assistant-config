@@ -26,7 +26,7 @@ async def async_get_list_from_default(default: str) -> List:
     except (AIOGitHubAPIException, HacsException) as exception:
         logger.error(exception)
 
-    except (Exception, BaseException) as exception:
+    except BaseException as exception:
         logger.error(exception)
 
     logger.debug(f"Got {len(repositories)} elements for {default}")

@@ -159,17 +159,15 @@ async def update_data(hass, throttle):
 async def check_files(hass):
     """Return bool that indicates if all files are present."""
     # Verify that the user downloaded all files.
-    base = "{}/custom_components/{}/".format(hass.config.path(), DOMAIN)
+    base = f"{hass.config.path()}/custom_components/{DOMAIN}/"
     missing = []
     for file in REQUIRED_FILES:
-        fullpath = "{}{}".format(base, file)
+        fullpath = f"{base}{file}"
         if not os.path.exists(fullpath):
             missing.append(file)
 
     if missing:
         _LOGGER.critical("The following files are missing: %s", str(missing))
-        returnvalue = False
+        return False
     else:
-        returnvalue = True
-
-    return returnvalue
+        return True

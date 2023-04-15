@@ -29,11 +29,12 @@ async def async_save_file(location, content):
             outfile.close()
 
         # Create gz for .js files
-        if os.path.isfile(location):
-            if location.endswith(".js") or location.endswith(".css"):
-                with open(location, "rb") as f_in:
-                    with gzip.open(location + ".gz", "wb") as f_out:
-                        shutil.copyfileobj(f_in, f_out)
+        if os.path.isfile(location) and (
+            location.endswith(".js") or location.endswith(".css")
+        ):
+            with open(location, "rb") as f_in:
+                with gzip.open(f"{location}.gz", "wb") as f_out:
+                    shutil.copyfileobj(f_in, f_out)
 
         # Remove with 2.0
         if "themes" in location and location.endswith(".yaml"):
@@ -44,7 +45,7 @@ async def async_save_file(location, content):
                 logger.info(f"Removing old theme file {combined}")
                 os.remove(combined)
 
-    except (Exception, BaseException) as error:  # pylint: disable=broad-except
+    except BaseException as error:
         msg = f"Could not write data to {location} - {error}"
         logger.error(msg)
         return False
