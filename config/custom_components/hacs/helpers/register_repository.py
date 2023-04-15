@@ -16,9 +16,8 @@ async def register_repository(full_name, category, check=True, ref=None, action=
         RERPOSITORY_CLASSES,
     )  # To hanle import error
 
-    if full_name in hacs.common.skip:
-        if full_name != "hacs/integration":
-            raise HacsExpectedException(f"Skipping {full_name}")
+    if full_name in hacs.common.skip and full_name != "hacs/integration":
+        raise HacsExpectedException(f"Skipping {full_name}")
 
     if category not in RERPOSITORY_CLASSES:
         raise HacsException(f"{category} is not a valid repository category.")
@@ -54,15 +53,14 @@ async def register_repository(full_name, category, check=True, ref=None, action=
         if exists[0] in hacs.repositories:
             hacs.repositories.remove(exists[0])
 
-    else:
-        if hacs.hass is not None:
-            hacs.hass.bus.async_fire(
-                "hacs/repository",
-                {
-                    "id": 1337,
-                    "action": "registration",
-                    "repository": repository.data.full_name,
-                    "repository_id": repository.data.id,
-                },
-            )
+    elif hacs.hass is not None:
+        hacs.hass.bus.async_fire(
+            "hacs/repository",
+            {
+                "id": 1337,
+                "action": "registration",
+                "repository": repository.data.full_name,
+                "repository_id": repository.data.id,
+            },
+        )
     hacs.repositories.append(repository)

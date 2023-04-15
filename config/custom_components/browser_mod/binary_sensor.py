@@ -26,9 +26,7 @@ class BrowserModSensor(BrowserModEntity):
     def state(self):
         if not self.connection.connection:
             return STATE_UNAVAILABLE
-        if self.data.get('motion', False):
-            return STATE_ON
-        return STATE_OFF
+        return STATE_ON if self.data.get('motion', False) else STATE_OFF
 
     @property
     def is_on(self):

@@ -22,7 +22,7 @@ class ModView(HomeAssistantView):
         self.config_dir = hass.config.path()
 
     async def get(self, request):
-        path = "{}/custom_components/browser_mod/browser_mod.js".format(self.config_dir)
+        path = f"{self.config_dir}/custom_components/browser_mod/browser_mod.js"
 
         filecontent = ""
 

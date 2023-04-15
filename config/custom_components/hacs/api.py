@@ -25,7 +25,7 @@ class HacsAPI(HacsWebResponse):
         self.logger = Logger("hacs.api")
         self.url = self.hacsapi + "/{endpoint}"
 
-    async def post(self, request, endpoint):  # pylint: disable=unused-argument
+    async def post(self, request, endpoint):    # pylint: disable=unused-argument
         """Handle HACS API requests."""
         if self.system.disabled:
             return web.Response(status=404)
@@ -42,7 +42,7 @@ class HacsAPI(HacsWebResponse):
                 response = APIRESPONSE[self.endpoint]
                 response = await response.response(self)
             except Exception as exception:
-                render = self.render(f"error", message=exception)
+                render = self.render("error", message=exception)
                 return web.Response(
                     body=render, content_type="text/html", charset="utf-8"
                 )
@@ -323,7 +323,7 @@ class RepositoryRegister(HacsAPI):
                 f"/hacsweb/{self.token}/settings?timestamp={time()}&message={message}"
             )
         if repository_type is None:
-            message = "Type is missing for '{}'.".format(repository_name)
+            message = f"Type is missing for '{repository_name}'."
             return web.HTTPFound(
                 f"/hacsweb/{self.token}/settings?timestamp={time()}&message={message}"
             )
@@ -348,8 +348,7 @@ class RepositoryRegister(HacsAPI):
                     f"/hacsweb/{self.token}/settings?timestamp={time()}&message={message}"
                 )
 
-            is_known_repository = self.is_known(repository_name)
-            if is_known_repository:
+            if is_known_repository := self.is_known(repository_name):
                 message = f"'{repository_name}' is already registered, look for it in the store."
                 return web.HTTPFound(
                     f"/hacsweb/{self.token}/settings?timestamp={time()}&message={message}"
@@ -396,9 +395,7 @@ class RepositorySelectTag(HacsAPI):
         except (AIOGitHubException, HacsRequirement):
             repository.status.selected_tag = repository.releases.last_release
             await repository.update_repository()
-            message = "The version {} is not valid for use with HACS.".format(
-                self.postdata["selected_tag"]
-            )
+            message = f'The version {self.postdata["selected_tag"]} is not valid for use with HACS.'
             return web.HTTPFound(
                 f"/hacsweb/{self.token}/repository/{repository.information.uid}?timestamp={time()}&message={message}"
             )

@@ -115,10 +115,8 @@ class ShellyDimmer(ShellyDevice, Light):
             brightness = int(kwargs[ATTR_BRIGHTNESS] / 2.55)
         if ATTR_COLOR_TEMP in kwargs:
             color_temp = int(mired_to_kelvin(kwargs[ATTR_COLOR_TEMP]))
-            if color_temp > self._color_temp_max:
-                color_temp = self._color_temp_max
-            if color_temp < self._color_temp_min:
-                color_temp = self._color_temp_min
+            color_temp = min(color_temp, self._color_temp_max)
+            color_temp = max(color_temp, self._color_temp_min)
         if color_temp:
             self._dev.turn_on(brightness, color_temp)
         else:
@@ -135,23 +133,17 @@ class ShellyDimmer(ShellyDevice, Light):
     @property
     def color_temp(self):
         """Return the CT color value in mireds."""
-        if not self._color_temp:
-            return None
-        return int(kelvin_to_mired(self._color_temp))
+        return int(kelvin_to_mired(self._color_temp)) if self._color_temp else None
 
     @property
     def min_mireds(self):
         """Return the coldest color_temp that this light supports."""
-        if not self._color_temp_max:
-            return None
-        return kelvin_to_mired(self._color_temp_max)
+        return kelvin_to_mired(self._color_temp_max) if self._color_temp_max else None
 
     @property
     def max_mireds(self):
         """Return the warmest color_temp that this light supports."""
-        if not self._color_temp_min:
-            return None
-        return kelvin_to_mired(self._color_temp_min)
+        return kelvin_to_mired(self._color_temp_min) if self._color_temp_min else None
 
     def update(self):
         """Fetch new state data for this light."""
@@ -226,17 +218,13 @@ class ShellyRGB(ShellyDevice, Light):
 
         if ATTR_HS_COLOR in kwargs:
             red, green, blue = \
-                color_util.color_hs_to_RGB(*kwargs[ATTR_HS_COLOR])
+                    color_util.color_hs_to_RGB(*kwargs[ATTR_HS_COLOR])
             rgb = [red, green, blue]
 
         if ATTR_COLOR_TEMP in kwargs:
             color_temp = int(mired_to_kelvin(kwargs[ATTR_COLOR_TEMP]))
-            if color_temp > 6500:
-                color_temp = 6500
-            if color_temp < 3000:
-                color_temp = 3000
-
-
+            color_temp = min(color_temp, 6500)
+            color_temp = max(color_temp, 3000)
         if ATTR_EFFECT in kwargs:
             affect_attr = kwargs.get(ATTR_EFFECT)
             effect = [e for e in self._dev.effects_list
@@ -273,9 +261,7 @@ class ShellyRGB(ShellyDevice, Light):
     @property
     def color_temp(self):
         """Return the CT color value in mireds."""
-        if not self._color_temp:
-            return None
-        return int(kelvin_to_mired(self._color_temp))
+        return int(kelvin_to_mired(self._color_temp)) if self._color_temp else None
 
     @property
     def min_mireds(self):
@@ -289,7 +275,11 @@ class ShellyRGB(ShellyDevice, Light):
 
     @property
     def effect(self):
-        for effect in self._dev.effects_list:
-            if effect['effect'] == self._effect:
-                return effect['name']
-        return None
+        return next(
+            (
+                effect['name']
+                for effect in self._dev.effects_list
+                if effect['effect'] == self._effect
+            ),
+            None,
+        )

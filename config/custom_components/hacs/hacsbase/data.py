@@ -54,7 +54,7 @@ class HacsData:
 
     async def async_store_repository_data(self, repository):
         repository_manifest = repository.repository_manifest.manifest
-        data = {
+        if data := {
             "authors": repository.data.authors,
             "category": repository.data.category,
             "description": repository.data.description,
@@ -75,8 +75,7 @@ class HacsData:
             "stars": repository.data.stargazers_count,
             "topics": repository.data.topics,
             "version_installed": repository.data.installed_version,
-        }
-        if data:
+        }:
             if repository.data.installed and (
                 repository.data.installed_commit or repository.data.installed_version
             ):
@@ -113,7 +112,7 @@ class HacsData:
             await self.queue.execute()
 
             self.logger.info("Restore done")
-        except (Exception, BaseException) as exception:  # pylint: disable=broad-except
+        except BaseException as exception:
             self.logger.critical(f"[{exception}] Restore Failed!")
             return False
         return True

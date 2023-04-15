@@ -14,18 +14,16 @@ def filter_content_return_one_of_type(
                     if not filetypefound:
                         contents.append(filename)
                         filetypefound = True
-                    continue
                 else:
                     contents.append(filename)
-        else:
-            if getattr(filename, attr).startswith(namestartswith):
-                if getattr(filename, attr).endswith(f".{filterfiltype}"):
-                    if not filetypefound:
-                        contents.append(filename)
-                        filetypefound = True
-                    continue
-                else:
+        elif getattr(filename, attr).startswith(namestartswith):
+            if getattr(filename, attr).endswith(f".{filterfiltype}"):
+                if not filetypefound:
                     contents.append(filename)
+                    filetypefound = True
+                continue
+            else:
+                contents.append(filename)
     return contents
 
 
@@ -37,19 +35,21 @@ def find_first_of_filetype(content, filterfiltype, attr="name"):
             if _filename.endswith(f".{filterfiltype}"):
                 filename = _filename
                 break
-        else:
-            if getattr(_filename, attr).endswith(f".{filterfiltype}"):
-                filename = getattr(_filename, attr)
-                break
+        elif getattr(_filename, attr).endswith(f".{filterfiltype}"):
+            filename = getattr(_filename, attr)
+            break
     return filename
 
 
 def get_first_directory_in_directory(content, dirname):
     """Return the first directory in dirname or None."""
-    directory = None
-    for path in content:
-        if path.full_path.startswith(dirname) and path.full_path != dirname:
-            if path.is_directory:
-                directory = path.filename
-                break
-    return directory
+    return next(
+        (
+            path.filename
+            for path in content
+            if path.full_path.startswith(dirname)
+            and path.full_path != dirname
+            and path.is_directory
+        ),
+        None,
+    )

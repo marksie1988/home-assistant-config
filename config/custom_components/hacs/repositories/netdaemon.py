@@ -30,9 +30,8 @@ class HacsNetdaemon(HacsRepository):
         await self.common_validate()
 
         # Custom step 1: Validate content.
-        if self.repository_manifest:
-            if self.data.content_in_root:
-                self.content.path.remote = ""
+        if self.repository_manifest and self.data.content_in_root:
+            self.content.path.remote = ""
 
         if self.content.path.remote == "apps":
             self.data.domain = get_first_directory_in_directory(
@@ -40,13 +39,11 @@ class HacsNetdaemon(HacsRepository):
             )
             self.content.path.remote = f"apps/{self.data.name}"
 
-        compliant = False
-        for treefile in self.treefiles:
-            if treefile.startswith(f"{self.content.path.remote}") and treefile.endswith(
-                ".cs"
-            ):
-                compliant = True
-                break
+        compliant = any(
+            treefile.startswith(f"{self.content.path.remote}")
+            and treefile.endswith(".cs")
+            for treefile in self.treefiles
+        )
         if not compliant:
             raise HacsException(
                 f"Repostitory structure for {self.ref.replace('tags/','')} is not compliant"
@@ -64,9 +61,8 @@ class HacsNetdaemon(HacsRepository):
         await self.common_update(ignore_issues)
 
         # Get appdaemon objects.
-        if self.repository_manifest:
-            if self.data.content_in_root:
-                self.content.path.remote = ""
+        if self.repository_manifest and self.data.content_in_root:
+            self.content.path.remote = ""
 
         if self.content.path.remote == "apps":
             self.data.domain = get_first_directory_in_directory(
@@ -83,5 +79,5 @@ class HacsNetdaemon(HacsRepository):
             await self.hacs.hass.services.async_call(
                 "hassio", "addon_restart", {"addon": "c6a2317c_netdaemon"}
             )
-        except (Exception, BaseException):  # pylint: disable=broad-except
+        except BaseException:
             pass

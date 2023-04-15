@@ -56,9 +56,8 @@ class HacsAppdaemon(HacsRepository):
         await self.common_update(ignore_issues)
 
         # Get appdaemon objects.
-        if self.repository_manifest:
-            if self.data.content_in_root:
-                self.content.path.remote = ""
+        if self.repository_manifest and self.data.content_in_root:
+            self.content.path.remote = ""
 
         if self.content.path.remote == "apps":
             addir = await self.repository_object.get_contents(

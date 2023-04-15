@@ -131,16 +131,15 @@ class HacsRepository(RepositoryHelpers):
     def display_status(self):
         """Return display_status."""
         if self.data.new:
-            status = "new"
+            return "new"
         elif self.pending_restart:
-            status = "pending-restart"
+            return "pending-restart"
         elif self.pending_upgrade:
-            status = "pending-upgrade"
+            return "pending-upgrade"
         elif self.data.installed:
-            status = "installed"
+            return "installed"
         else:
-            status = "default"
-        return status
+            return "default"
 
     @property
     def display_status_description(self):
@@ -158,34 +157,26 @@ class HacsRepository(RepositoryHelpers):
     def display_installed_version(self):
         """Return display_authors"""
         if self.data.installed_version is not None:
-            installed = self.data.installed_version
+            return self.data.installed_version
         else:
-            if self.data.installed_commit is not None:
-                installed = self.data.installed_commit
-            else:
-                installed = ""
-        return installed
+            return (
+                self.data.installed_commit
+                if self.data.installed_commit is not None
+                else ""
+            )
 
     @property
     def display_available_version(self):
         """Return display_authors"""
         if self.data.last_version is not None:
-            available = self.data.last_version
+            return self.data.last_version
         else:
-            if self.data.last_commit is not None:
-                available = self.data.last_commit
-            else:
-                available = ""
-        return available
+            return self.data.last_commit if self.data.last_commit is not None else ""
 
     @property
     def display_version_or_commit(self):
         """Does the repositoriy use releases or commits?"""
-        if self.data.releases:
-            version_or_commit = "version"
-        else:
-            version_or_commit = "commit"
-        return version_or_commit
+        return "version" if self.data.releases else "commit"
 
     @property
     def main_action(self):
@@ -221,9 +212,10 @@ class HacsRepository(RepositoryHelpers):
         # Set description
         self.data.description = self.data.description
 
-        if self.hacs.action:
-            if self.data.description is None or len(self.data.description) == 0:
-                raise HacsException("Missing repository description")
+        if self.hacs.action and (
+            self.data.description is None or len(self.data.description) == 0
+        ):
+            raise HacsException("Missing repository description")
 
     async def common_update(self, ignore_issues=False):
         """Common information update steps of the repository."""
@@ -278,7 +270,7 @@ class HacsRepository(RepositoryHelpers):
                     continue
                 validate.errors.append(f"[{content.name}] was not downloaded.")
         except Exception:
-            validate.errors.append(f"Download was not complete.")
+            validate.errors.append("Download was not complete.")
 
         return validate
 
@@ -291,7 +283,7 @@ class HacsRepository(RepositoryHelpers):
 
     async def get_repository_manifest_content(self):
         """Get the content of the hacs.json file."""
-        if not "hacs.json" in [x.filename for x in self.tree]:
+        if "hacs.json" not in [x.filename for x in self.tree]:
             if self.hacs.action:
                 raise HacsException("No hacs.json file in the root of the repository.")
             return
@@ -361,7 +353,7 @@ class HacsRepository(RepositoryHelpers):
 
         try:
             if self.data.category == "python_script":
-                local_path = "{}/{}.py".format(self.content.path.local, self.data.name)
+                local_path = f"{self.content.path.local}/{self.data.name}.py"
             elif self.data.category == "theme":
                 if os.path.exists(
                     f"{self.hacs.system.config_path}/{self.hacs.configuration.theme_path}/{self.data.name}.yaml"

@@ -74,7 +74,7 @@ async def async_install_repository(repository):
         ):
             persistent_directory = Backup(
                 f"{repository.content.path.local}/{repository.data.persistent_directory}",
-                tempfile.gettempdir() + "/hacs_persistent_directory/",
+                f"{tempfile.gettempdir()}/hacs_persistent_directory/",
             )
             persistent_directory.create()
 
@@ -101,9 +101,11 @@ async def async_install_repository(repository):
         persistent_directory.cleanup()
 
     if repository.validate.success:
-        if repository.data.full_name not in repository.hacs.common.installed:
-            if repository.data.full_name == "hacs/integration":
-                repository.hacs.common.installed.append(repository.data.full_name)
+        if (
+            repository.data.full_name not in repository.hacs.common.installed
+            and repository.data.full_name == "hacs/integration"
+        ):
+            repository.hacs.common.installed.append(repository.data.full_name)
         repository.data.installed = True
         repository.data.installed_commit = repository.data.last_commit
 

@@ -38,9 +38,7 @@ async def async_download_file(url):
             result = await request.read()
         else:
             raise HacsException(
-                "Got status code {} when trying to download {}".format(
-                    request.status, url
-                )
+                f"Got status code {request.status} when trying to download {url}"
             )
 
     return result
@@ -67,11 +65,12 @@ async def async_save_file(location, content):
             outfile.close()
 
         # Create gz for .js files
-        if os.path.isfile(location):
-            if location.endswith(".js") or location.endswith(".css"):
-                with open(location, "rb") as f_in:
-                    with gzip.open(location + ".gz", "wb") as f_out:
-                        shutil.copyfileobj(f_in, f_out)
+        if os.path.isfile(location) and (
+            location.endswith(".js") or location.endswith(".css")
+        ):
+            with open(location, "rb") as f_in:
+                with gzip.open(f"{location}.gz", "wb") as f_out:
+                    shutil.copyfileobj(f_in, f_out)
 
         # Remove with 2.0
         if "themes" in location and location.endswith(".yaml"):
@@ -83,7 +82,7 @@ async def async_save_file(location, content):
                 os.remove(combined)
 
     except Exception as error:  # pylint: disable=broad-except
-        msg = "Could not write data to {} - {}".format(location, error)
+        msg = f"Could not write data to {location} - {error}"
         logger.error(msg)
         return False
 

@@ -40,4 +40,4 @@ async def run_action_checks(repository):
     if issues:
         for issue in issues:
             repository.logger.error(issue)
-        raise HacsException(f"Found issues while validating the repository")
+        raise HacsException("Found issues while validating the repository")

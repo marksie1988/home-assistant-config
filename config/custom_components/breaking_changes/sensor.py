@@ -33,7 +33,7 @@ class BreakingChangesSensor(Entity):
 
         # Check the data and update the value.
         self._state = len(updated.get("potential", [])) - 1
-        self._state = 0 if self._state < 0 else self._state
+        self._state = max(self._state, 0)
 
         # Set/update attributes
         self.attr = updated.get("potential", [])

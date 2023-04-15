@@ -88,19 +88,19 @@ async def hacs_config(hass, connection, msg):
     hacs = get_hacs()
     config = hacs.configuration
 
-    content = {}
-    content["frontend_mode"] = config.frontend_mode
-    content["frontend_compact"] = config.frontend_compact
-    content["onboarding_done"] = config.onboarding_done
-    content["version"] = hacs.version
-    content["frontend_expected"] = hacs.frontend.version_expected
-    content["frontend_running"] = hacs.frontend.version_running
-    content["dev"] = config.dev
-    content["debug"] = config.debug
-    content["country"] = config.country
-    content["experimental"] = config.experimental
-    content["categories"] = hacs.common.categories
-
+    content = {
+        "frontend_mode": config.frontend_mode,
+        "frontend_compact": config.frontend_compact,
+        "onboarding_done": config.onboarding_done,
+        "version": hacs.version,
+        "frontend_expected": hacs.frontend.version_expected,
+        "frontend_running": hacs.frontend.version_running,
+        "dev": config.dev,
+        "debug": config.debug,
+        "country": config.country,
+        "experimental": config.experimental,
+        "categories": hacs.common.categories,
+    }
     connection.send_message(websocket_api.result_message(msg["id"], content))
 
 
@@ -125,9 +125,7 @@ async def hacs_status(hass, connection, msg):
 @websocket_api.websocket_command({vol.Required("type"): "hacs/removed"})
 async def hacs_removed(hass, connection, msg):
     """Get information about removed repositories."""
-    content = []
-    for repo in removed_repositories:
-        content.append(repo.to_json())
+    content = [repo.to_json() for repo in removed_repositories]
     connection.send_message(websocket_api.result_message(msg["id"], content))
 
 

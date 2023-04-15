@@ -18,13 +18,13 @@ class ShellyDevice(RestoreEntity):
     def __init__(self, dev, instance):
         conf = instance.conf
         id_prefix = conf.get(CONF_OBJECT_ID_PREFIX)
-        self._unique_id = id_prefix + "_" + dev.type + "_" + dev.id
-        self.entity_id = "." + slugify(self._unique_id)
+        self._unique_id = f"{id_prefix}_{dev.type}_{dev.id}"
+        self.entity_id = f".{slugify(self._unique_id)}"
         entity_id = instance._get_specific_config(CONF_ENTITY_ID,
                                          None, dev.id, dev.block.id)
         if entity_id is not None:
-            self.entity_id = "." + slugify(id_prefix + "_" + entity_id)
-            self._unique_id += "_" + slugify(entity_id)
+            self.entity_id = f'.{slugify(f"{id_prefix}_{entity_id}")}'
+            self._unique_id += f"_{slugify(entity_id)}"
         self._show_id_in_name = conf.get(CONF_SHOW_ID_IN_NAME)
         self._name_ext = None
         #self._name = dev.type_name()
@@ -55,15 +55,15 @@ class ShellyDevice(RestoreEntity):
         if self._dev.info_values is not None:
             device_sensors = self.instance.device_sensors
             for key, _value in self._dev.info_values.items():
-                ukey = self._dev.id + '-' + key
-                if not ukey in device_sensors:
+                ukey = f'{self._dev.id}-{key}'
+                if ukey not in device_sensors:
                     device_sensors.append(ukey)
                     for sensor in self._sensor_conf:
                         if ALL_SENSORS[sensor].get('attr') == key:
                             attr = {'sensor_type':key,
                                     'itm':self._dev}
                             if key in SENSOR_TYPES_CFG and \
-                                SENSOR_TYPES_CFG[key][4] == 'bool':
+                                    SENSOR_TYPES_CFG[key][4] == 'bool':
                                 self.instance.add_device("binary_sensor", attr)
                             else:
                                 self.instance.add_device("sensor", attr)
@@ -71,14 +71,11 @@ class ShellyDevice(RestoreEntity):
     @property
     def name(self):
         """Return the display name of this device."""
-        if self._name is None:
-            name = self._dev.friendly_name()
-        else:
-            name = self._name
+        name = self._dev.friendly_name() if self._name is None else self._name
         if self._name_ext:
-            name += ' - ' + self._name_ext
+            name += f' - {self._name_ext}'
         if self._show_id_in_name:
-            name += " [" + self._dev.id + "]"
+            name += f" [{self._dev.id}]"
         return name
 
     @property
@@ -88,8 +85,7 @@ class ShellyDevice(RestoreEntity):
                  'shelly_id': self._dev.id,
                  'ip_address': self._dev.ip_addr
                 }
-        room = self._dev.room_name()
-        if room:
+        if room := self._dev.room_name():
             attrs['room'] = room
 
         if self._master_unit:

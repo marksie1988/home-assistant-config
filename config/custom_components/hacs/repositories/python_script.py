@@ -35,13 +35,11 @@ class HacsPythonScript(HacsRepository):
         if self.data.content_in_root:
             self.content.path.remote = ""
 
-        compliant = False
-        for treefile in self.treefiles:
-            if treefile.startswith(f"{self.content.path.remote}") and treefile.endswith(
-                ".py"
-            ):
-                compliant = True
-                break
+        compliant = any(
+            treefile.startswith(f"{self.content.path.remote}")
+            and treefile.endswith(".py")
+            for treefile in self.treefiles
+        )
         if not compliant:
             raise HacsException(
                 f"Repository structure for {self.ref.replace('tags/','')} is not compliant"
@@ -67,13 +65,11 @@ class HacsPythonScript(HacsRepository):
         if self.data.content_in_root:
             self.content.path.remote = ""
 
-        compliant = False
-        for treefile in self.treefiles:
-            if treefile.startswith(f"{self.content.path.remote}") and treefile.endswith(
-                ".py"
-            ):
-                compliant = True
-                break
+        compliant = any(
+            treefile.startswith(f"{self.content.path.remote}")
+            and treefile.endswith(".py")
+            for treefile in self.treefiles
+        )
         if not compliant:
             raise HacsException(
                 f"Repository structure for {self.ref.replace('tags/','')} is not compliant"

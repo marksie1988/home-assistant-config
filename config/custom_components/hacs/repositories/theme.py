@@ -28,7 +28,7 @@ class HacsTheme(HacsRepository):
         """Run post installation steps."""
         try:
             await self.hacs.hass.services.async_call("frontend", "reload_themes", {})
-        except (Exception, BaseException):  # pylint: disable=broad-except
+        except BaseException:
             pass
 
     async def validate_repository(self):
@@ -36,12 +36,10 @@ class HacsTheme(HacsRepository):
         # Run common validation steps.
         await self.common_validate()
 
-        # Custom step 1: Validate content.
-        compliant = False
-        for treefile in self.treefiles:
-            if treefile.startswith("themes/") and treefile.endswith(".yaml"):
-                compliant = True
-                break
+        compliant = any(
+            treefile.startswith("themes/") and treefile.endswith(".yaml")
+            for treefile in self.treefiles
+        )
         if not compliant:
             raise HacsException(
                 f"Repostitory structure for {self.ref.replace('tags/','')} is not compliant"

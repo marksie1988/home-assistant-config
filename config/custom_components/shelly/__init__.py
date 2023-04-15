@@ -52,18 +52,17 @@ async def async_setup_entry(hass, config_entry):
     """Setup Shelly component"""
     _LOGGER.info("Starting shelly, %s", __version__)
 
-    if not DOMAIN in hass.data:
+    if DOMAIN not in hass.data:
         hass.data[DOMAIN] = {}
 
     if config_entry.source == "import":
         if config_entry.options: #config.yaml
             data = config_entry.options.copy()
+        elif "yaml_shelly" in hass.data:
+            data = hass.data["yaml_shelly"]
         else:
-            if "yaml_shelly" in hass.data:
-                data = hass.data["yaml_shelly"]
-            else:
-                data = {}
-                await hass.config_entries.async_remove(config_entry.entry_id)
+            data = {}
+            await hass.config_entries.async_remove(config_entry.entry_id)
     else:
         data = config_entry.data.copy()
         data.update(config_entry.options)
@@ -114,8 +113,8 @@ class ShellyInstance():
             self.conf_attributes.add(ATTRIBUTE_TOTAL_RETURNED)
         self.conf[CONF_ATTRIBUTES] = list(self.conf_attributes)
         if ATTRIBUTE_SWITCH in self.conf_attributes:
-            self.conf_attributes.add(ATTRIBUTE_SWITCH + "_1")
-            self.conf_attributes.add(ATTRIBUTE_SWITCH + "_2")
+            self.conf_attributes.add(f"{ATTRIBUTE_SWITCH}_1")
+            self.conf_attributes.add(f"{ATTRIBUTE_SWITCH}_2")
         sensors = self.conf.get(CONF_SENSORS, {})
         if SENSOR_ALL in sensors:
             self.conf[CONF_SENSORS] = [*ALL_SENSORS.keys()]
@@ -151,20 +150,15 @@ class ShellyInstance():
         pys.password = conf.get(CONF_PASSWORD)
         pys.cloud_auth_key = conf.get(CONF_CLOUD_AUTH_KEY)
         pys.cloud_server = conf.get(CONF_CLOUD_SERVER)
-        tmpl_name = conf.get(CONF_TMPL_NAME)
-        if tmpl_name:
+        if tmpl_name := conf.get(CONF_TMPL_NAME):
             pys.tmpl_name = tmpl_name
         if additional_info:
             pys.update_status_interval = timedelta(seconds=update_interval)
         pys.only_device_id = conf.get(CONF_ONLY_DEVICE_ID)
         pys.igmp_fix_enabled = conf.get(CONF_IGMPFIX)
         pys.mdns_enabled = conf.get(CONF_MDNS)
-        host_ip = conf.get(CONF_HOST_IP)
-        if host_ip:
-            if host_ip == 'ha':
-                pys.host_ip = get_local_ip()
-            else:
-                pys.host_ip = host_ip
+        if host_ip := conf.get(CONF_HOST_IP):
+            pys.host_ip = get_local_ip() if host_ip == 'ha' else host_ip
         pys.start()
         pys.discover()
 
@@ -179,7 +173,7 @@ class ShellyInstance():
 
         #Remove entities that have change type
         entity_reg = \
-            await self.hass.helpers.entity_registry.async_get_registry()
+                await self.hass.helpers.entity_registry.async_get_registry()
         entities_to_remove = []
         entities_to_fix_attr = []
         restore_expired = dt_util.as_utc(datetime.now()) - timedelta(hours=12)
@@ -188,31 +182,31 @@ class ShellyInstance():
                 entity_id = entity.entity_id
                 entity_id = re.sub("_[0-9]+$", "", entity_id)
                 if entity_id.startswith("sensor.") and \
-                  (entity_id.endswith("_switch") or \
-                     entity_id.endswith("_power") or \
-                     entity_id.endswith("_door_window") or \
-                     entity_id.endswith("_flood") or \
-                     entity_id.endswith("_mqtt_connected_attr") or \
-                     entity_id.endswith("_over_temp_attr") or \
-                     entity_id.endswith("_over_power_attr") \
-                  ):
+                      (entity_id.endswith("_switch") or \
+                         entity_id.endswith("_power") or \
+                         entity_id.endswith("_door_window") or \
+                         entity_id.endswith("_flood") or \
+                         entity_id.endswith("_mqtt_connected_attr") or \
+                         entity_id.endswith("_over_temp_attr") or \
+                         entity_id.endswith("_over_power_attr") \
+                      ):
                     entities_to_remove.append(entity.entity_id)
                 elif entity_id.startswith("sensor.") and \
-                    entity_id.endswith("_consumption") and \
-                    not entity_id.endswith("total_consumption") and \
-                    not entity_id.endswith("current_consumption"):
+                        entity_id.endswith("_consumption") and \
+                        not entity_id.endswith("total_consumption") and \
+                        not entity_id.endswith("current_consumption"):
                     entities_to_remove.append(entity.entity_id)
                 elif entity_id.startswith("binary_sensor.") and \
-                   entity_id.endswith("_cloud_status_attr"):
+                       entity_id.endswith("_cloud_status_attr"):
                     entities_to_remove.append(entity.entity_id)
                 elif entity_id.startswith("switch.") and \
-                   entity_id.endswith("_firmware_update"):
+                       entity_id.endswith("_firmware_update"):
                     entities_to_remove.append(entity.entity_id)
                 elif entity_id.endswith("_attr"):
                     entities_to_fix_attr.append(entity.entity_id)
                 if "_shdw_" in entity_id or \
-                   "_shwt_" in entity_id or \
-                   "_shht_" in entity_id:
+                       "_shwt_" in entity_id or \
+                       "_shht_" in entity_id:
                     #todo check last_seen
                     data = await RestoreStateData.async_get_instance(self.hass)
                     if entity.entity_id in data.last_states:
@@ -223,13 +217,13 @@ class ShellyInstance():
                             attr = dict(state.attributes)
                             attr[ATTR_RESTORED] = True
                             self.hass.states.async_set(entity.entity_id, \
-                                                        state.state, attr)
+                                                            state.state, attr)
 
         for entity_id in entities_to_remove:
             entity_reg.async_remove(entity_id)
 
         for entity_id in entities_to_fix_attr:
-            new_id = entity_id[0:-5]
+            new_id = entity_id[:-5]
             new_unique = new_id.split('.', 1)[1]
             entity_reg.async_update_entity(
                 entity_id,
@@ -247,11 +241,9 @@ class ShellyInstance():
         pass
 
     def format_value(self, settings, value, add_unit=False):
-        if settings is not None \
-            and (isinstance(value, int) or isinstance(value, float)):
+        if settings is not None and (isinstance(value, (int, float))):
             decimals = settings.get(CONF_DECIMALS, 0)
-            div = settings.get(CONF_DIV)
-            if div:
+            if div := settings.get(CONF_DIV):
                 value = value / div
             if decimals is not None:
                 if decimals > 0:
@@ -259,7 +251,7 @@ class ShellyInstance():
                 elif decimals == 0:
                     value = round(value)
             if add_unit and CONF_UNIT in settings:
-                value = str(value) + ' '  + settings[CONF_UNIT]
+                value = f'{str(value)} {settings[CONF_UNIT]}'
         return value
 
     def get_settings(self, *ids):
@@ -267,8 +259,7 @@ class ShellyInstance():
         conf_settings = self.conf.get(CONF_SETTINGS)
         settings.update(conf_settings)
         for device_id in ids:
-            device_cfg = self._find_device_config(device_id)
-            if device_cfg:
+            if device_cfg := self._find_device_config(device_id):
                 conf_settings = device_cfg.get(CONF_SETTINGS)
                 settings.update(conf_settings)
         return settings
@@ -281,19 +272,21 @@ class ShellyInstance():
 
     def _find_device_config(self, device_id):
         device_conf_list = self.conf.get(CONF_DEVICES)
-        for item in device_conf_list:
-            if item[CONF_ID].upper() == device_id:
-                return item
-        return None
+        return next(
+            (
+                item
+                for item in device_conf_list
+                if item[CONF_ID].upper() == device_id
+            ),
+            None,
+        )
 
     def _get_device_config(self, device_id, id_2=None):
         """Get config for device."""
         item = self._find_device_config(device_id)
         if item is None and id_2 is not None:
             item = self._find_device_config(id_2)
-        if item is None:
-            return {}
-        return item
+        return {} if item is None else item
 
     def _get_specific_config(self, key, default, *ids):
         for device_id in ids:
@@ -308,9 +301,7 @@ class ShellyInstance():
             sensors = self.conf.get(CONF_SENSORS)
         if sensors is None:
             return {}
-        if SENSOR_ALL in sensors:
-            return [*ALL_SENSORS.keys()]
-        return sensors
+        return [*ALL_SENSORS.keys()] if SENSOR_ALL in sensors else sensors
 
     def conf_attribute(self, key):
         return key in self.conf_attributes
@@ -326,8 +317,7 @@ class ShellyInstance():
             self.platforms[platform].set()
 
         await self.platforms[platform].wait()
-        async_dispatcher_send(self.hass, "shelly_new_" + platform \
-                                , dev, self)
+        async_dispatcher_send(self.hass, f"shelly_new_{platform}", dev, self)
 
     def _block_updated(self, block):
         self.hass.add_job(self._async_block_updated(block))
@@ -351,16 +341,16 @@ class ShellyInstance():
             #    await self.hass.helpers.entity_registry.async_get_registry()
             info_values = block.info_values.copy()
             for key, _value in info_values.items():
-                ukey = block.id + '-' + key
-                if not ukey in self.block_sensors:
+                ukey = f'{block.id}-{key}'
+                if ukey not in self.block_sensors:
                     self.block_sensors.append(ukey)
                     for sensor in hass_data['sensor_cfg']:
                         if sensor in ALL_SENSORS and \
-                            ALL_SENSORS[sensor].get('attr') == key:
+                                ALL_SENSORS[sensor].get('attr') == key:
                             attr = {'sensor_type':key,
                                     'itm': block}
                             if key in SENSOR_TYPES_CFG and \
-                                SENSOR_TYPES_CFG[key][4] == 'bool':
+                                    SENSOR_TYPES_CFG[key][4] == 'bool':
                                 self.add_device("binary_sensor", attr)
                             else:
                                 self.add_device("sensor", attr)

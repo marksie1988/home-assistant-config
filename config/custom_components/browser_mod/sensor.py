@@ -23,9 +23,11 @@ class BrowserModSensor(BrowserModEntity):
 
     @property
     def state(self):
-        if not self.connection.connection:
-            return STATE_UNAVAILABLE
-        return len(self.connection.connection)
+        return (
+            len(self.connection.connection)
+            if self.connection.connection
+            else STATE_UNAVAILABLE
+        )
 
     @property
     def device_state_attributes(self):

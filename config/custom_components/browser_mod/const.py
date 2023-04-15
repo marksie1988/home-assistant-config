@@ -15,9 +15,9 @@ CONFIG_DISABLE = "disable"
 CONFIG_DISABLE_ALL = "all"
 
 WS_ROOT = DOMAIN
-WS_CONNECT = "{}/connect".format(WS_ROOT)
-WS_UPDATE = "{}/update".format(WS_ROOT)
-WS_CAMERA = "{}/camera".format(WS_ROOT)
+WS_CONNECT = f"{WS_ROOT}/connect"
+WS_UPDATE = f"{WS_ROOT}/update"
+WS_CAMERA = f"{WS_ROOT}/camera"
 
 USER_COMMANDS = [
         "debug",

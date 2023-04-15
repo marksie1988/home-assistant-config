@@ -27,6 +27,6 @@ def render_template(content, context):
             version_installed=context.display_installed_version,
         )
         return render
-    except (Exception, BaseException) as exception:
+    except BaseException as exception:
         logger.debug(exception)
         return content

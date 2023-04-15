@@ -28,13 +28,10 @@ async def fetch(session, url, self, ssl, content):
     try:
         with async_timeout.timeout(8):
             async with session.get(
-                url, ssl=ssl, headers={
-                    "Accept": "application/json", "X-Plex-Token": self.token}
-            ) as response:
-                if content:
-                    return await response.content.read()
-                else:
-                    return await response.text()
+                            url, ssl=ssl, headers={
+                                "Accept": "application/json", "X-Plex-Token": self.token}
+                        ) as response:
+                return await response.content.read() if content else await response.text()
     except:
         pass
 
@@ -87,7 +84,7 @@ class PlexRecentlyAddedSensor(Entity):
     def __init__(self, hass, conf, name):
         from pytz import timezone
         self._name = name
-        self.conf_dir = str(hass.config.path()) + '/'
+        self.conf_dir = f'{str(hass.config.path())}/'
         self._dir = conf.get(CONF_IMG_CACHE)
         if self._name:
             self._dir = self._dir + self._name.replace(' ', '_') + '/'
@@ -136,18 +133,17 @@ class PlexRecentlyAddedSensor(Entity):
         if self.server_name:
             return
         import math
-        attributes = {}
         if self.change_detected:
-            self.card_json = []
-            defaults = {}
             """First object in JSON sets card defaults"""
-            defaults['title_default'] = '$title'
-            defaults['line1_default'] = '$episode'
-            defaults['line2_default'] = '$release'
-            defaults['line3_default'] = '$number - $rating - $runtime'
-            defaults['line4_default'] = '$genres'
+            defaults = {
+                'title_default': '$title',
+                'line1_default': '$episode',
+                'line2_default': '$release',
+                'line3_default': '$number - $rating - $runtime',
+                'line4_default': '$genres',
+            }
             defaults['icon'] = 'mdi:eye-off'
-            self.card_json.append(defaults)
+            self.card_json = [defaults]
             """Format Plex API values for card's JSON"""
             for media in self.data:
                 card_item = {}
@@ -168,10 +164,7 @@ class PlexRecentlyAddedSensor(Entity):
                     card_item['release'] = '$day, $date $time'
                 else:
                     card_item['release'] = '$day, $date $time'
-                if 'viewCount' in media:
-                    card_item['flag'] = False
-                else:
-                    card_item['flag'] = True
+                card_item['flag'] = 'viewCount' not in media
                 if media['type'] == 'movie':
                     card_item['title'] = media.get('title', '')
                     card_item['episode'] = ''
@@ -227,8 +220,7 @@ class PlexRecentlyAddedSensor(Entity):
                 if should_add:
                     self.card_json.append(card_item)
                 self.change_detected = False
-        attributes['data'] = self.card_json
-        return attributes
+        return {'data': self.card_json}
 
     async def async_update(self):
         import os

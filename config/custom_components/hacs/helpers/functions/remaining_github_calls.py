@@ -9,7 +9,7 @@ async def remaining(github):
     logger = getLogger("custom_components.hacs.remaining_github_calls")
     try:
         ratelimits = await github.get_rate_limit()
-    except (BaseException, Exception) as exception:  # pylint: disable=broad-except
+    except BaseException as exception:
         logger.error(exception)
         return None
     if ratelimits.get("remaining") is not None:
@@ -19,13 +19,15 @@ async def remaining(github):
 
 async def get_fetch_updates_for(github):
     """Helper to calculate the number of repositories we can fetch data for."""
-    margin = 100
     limit = await remaining(github)
-    pr_repo = 10
-
     if limit is None:
         return None
 
-    if limit - margin <= pr_repo:
-        return 0
-    return math.floor((limit - margin) / pr_repo)
+    margin = 100
+    pr_repo = 10
+
+    return (
+        0
+        if limit - margin <= pr_repo
+        else math.floor((limit - margin) / pr_repo)
+    )

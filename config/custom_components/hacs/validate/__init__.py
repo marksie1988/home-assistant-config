@@ -26,12 +26,11 @@ async def async_run_repository_checks(repository):
         await async_initialize_rules()
     if not hacs.system.running:
         return
-    checks = []
-    for check in SHARE["rules"].get("common", []):
-        checks.append(check(repository))
-    for check in SHARE["rules"].get(repository.data.category, []):
-        checks.append(check(repository))
-
+    checks = [check(repository) for check in SHARE["rules"].get("common", [])]
+    checks.extend(
+        check(repository)
+        for check in SHARE["rules"].get(repository.data.category, [])
+    )
     await asyncio.gather(
         *[
             check._async_run_check()

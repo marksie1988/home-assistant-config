@@ -47,9 +47,7 @@ async def async_download_file(url):
             result = await request.read()
         else:
             raise HacsException(
-                "Got status code {} when trying to download {}".format(
-                    request.status, url
-                )
+                f"Got status code {request.status} when trying to download {url}"
             )
 
     return result
@@ -57,17 +55,17 @@ async def async_download_file(url):
 
 def should_try_releases(repository):
     """Return a boolean indicating whether to download releases or not."""
-    if repository.data.zip_release:
-        if repository.data.filename.endswith(".zip"):
-            if repository.ref != repository.data.default_branch:
-                return True
+    if (
+        repository.data.zip_release
+        and repository.data.filename.endswith(".zip")
+        and repository.ref != repository.data.default_branch
+    ):
+        return True
     if repository.ref == repository.data.default_branch:
         return False
     if repository.data.category not in ["plugin", "theme"]:
         return False
-    if not repository.data.releases:
-        return False
-    return True
+    return bool(repository.data.releases)
 
 
 def gather_files_to_download(repository):
@@ -82,19 +80,18 @@ def gather_files_to_download(repository):
     if should_try_releases(repository):
         for release in releaseobjects or []:
             if ref == release.tag_name:
-                for asset in release.assets or []:
-                    files.append(asset)
+                files.extend(iter(release.assets or []))
         if files:
             return files
 
     if repository.content.single:
-        for treefile in tree:
-            if treefile.filename == repository.data.file_name:
-                files.append(
-                    FileInformation(
-                        treefile.download_url, treefile.full_path, treefile.filename
-                    )
-                )
+        files.extend(
+            FileInformation(
+                treefile.download_url, treefile.full_path, treefile.filename
+            )
+            for treefile in tree
+            if treefile.filename == repository.data.file_name
+        )
         return files
 
     if category == "plugin":
@@ -118,12 +115,14 @@ def gather_files_to_download(repository):
         if files:
             return files
 
-    if repository.data.content_in_root:
-        if not repository.data.filename:
-            if category == "theme":
-                tree = filter_content_return_one_of_type(
-                    repository.tree, "", "yaml", "full_path"
-                )
+    if (
+        repository.data.content_in_root
+        and not repository.data.filename
+        and category == "theme"
+    ):
+        tree = filter_content_return_one_of_type(
+            repository.tree, "", "yaml", "full_path"
+        )
 
     for path in tree:
         if path.is_directory:
@@ -154,7 +153,7 @@ async def download_zip_files(repository, validate):
             queue.add(async_download_zip_file(repository, content, validate))
 
         await queue.execute()
-    except (Exception, BaseException) as exception:  # pylint: disable=broad-except
+    except BaseException as exception:
         validate.errors.append(f"Download was not completed [{exception}]")
 
     return validate
@@ -183,7 +182,7 @@ async def async_download_zip_file(repository, content, validate):
             repository.logger.info(f"Download of {content.name} completed")
             return
         validate.errors.append(f"[{content.name}] was not downloaded.")
-    except (Exception, BaseException) as exception:  # pylint: disable=broad-except
+    except BaseException as exception:
         validate.errors.append(f"Download was not completed [{exception}]")
 
     return validate
@@ -198,9 +197,12 @@ async def download_content(repository):
         raise HacsException("No content to download")
 
     for content in contents:
-        if repository.data.content_in_root and repository.data.filename:
-            if content.name != repository.data.filename:
-                continue
+        if (
+            repository.data.content_in_root
+            and repository.data.filename
+            and content.name != repository.data.filename
+        ):
+            continue
         queue.add(dowload_repository_content(repository, content))
     await queue.execute()
     return repository.validate
